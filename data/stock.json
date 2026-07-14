@@ -1,0 +1,105 @@
+{
+  "updated_at": "2026-07-14T19:28:45+00:00",
+  "products": [
+    {
+      "id": "demo-pinguino",
+      "name": "De'Longhi Pinguino PAC EL92 (DEMO)",
+      "retailer": "Demo Store",
+      "price": "499 €",
+      "url": "https://example.com/pinguino",
+      "checker": "demo_json",
+      "checker_args": {
+        "simulate": "available"
+      },
+      "stores": [
+        {
+          "store": "Demo Store Milano Centrale",
+          "city": "Milano",
+          "lat": 45.4642,
+          "lon": 9.19,
+          "status": "available"
+        },
+        {
+          "store": "Demo Store Torino Lingotto",
+          "city": "Torino",
+          "lat": 45.0703,
+          "lon": 7.6869,
+          "status": "available"
+        },
+        {
+          "store": "Demo Store Roma Tiburtina",
+          "city": "Roma",
+          "lat": 41.9028,
+          "lon": 12.4964,
+          "status": "out_of_stock"
+        },
+        {
+          "store": "Demo Store Bologna Fiera",
+          "city": "Bologna",
+          "lat": 44.4949,
+          "lon": 11.3426,
+          "status": "available"
+        },
+        {
+          "store": "Demo Store Trento Nord",
+          "city": "Trento",
+          "lat": 46.0748,
+          "lon": 11.1217,
+          "status": "out_of_stock"
+        }
+      ],
+      "status": "available",
+      "checked_at": "2026-07-14T19:28:45+00:00"
+    },
+    {
+      "id": "demo-comfee",
+      "name": "Comfee CP12 Pro 12000 BTU (DEMO)",
+      "retailer": "Demo Store",
+      "price": "329 €",
+      "url": "https://example.com/comfee",
+      "checker": "demo_json",
+      "checker_args": {
+        "simulate": "out_of_stock"
+      },
+      "stores": [
+        {
+          "store": "Demo Store Napoli Centro",
+          "city": "Napoli",
+          "lat": 40.8518,
+          "lon": 14.2681,
+          "status": "out_of_stock"
+        },
+        {
+          "store": "Demo Store Firenze Novoli",
+          "city": "Firenze",
+          "lat": 43.7696,
+          "lon": 11.2558,
+          "status": "out_of_stock"
+        },
+        {
+          "store": "Demo Store Palermo Forum",
+          "city": "Palermo",
+          "lat": 38.1157,
+          "lon": 13.3615,
+          "status": "unknown"
+        },
+        {
+          "store": "Demo Store Bari Santa Caterina",
+          "city": "Bari",
+          "lat": 41.1171,
+          "lon": 16.8719,
+          "status": "out_of_stock"
+        },
+        {
+          "store": "Demo Store Verona Adigeo",
+          "city": "Verona",
+          "lat": 45.4384,
+          "lon": 10.9916,
+          "status": "available"
+        }
+      ],
+      "status": "out_of_stock",
+      "checked_at": "2026-07-14T19:28:45+00:00"
+    }
+  ]
+}

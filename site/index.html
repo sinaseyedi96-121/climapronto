@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ClimaPronto — Condizionatori disponibili in tempo reale</title>
+<meta name="description" content="Monitoriamo la disponibilità dei climatizzatori portatili nei negozi italiani ogni 10 minuti. Ricevi un'email appena tornano disponibili.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+  :root{
+    --ink:#10222E;
+    --bg:#F2F7F9;
+    --panel:#FFFFFF;
+    --glacial:#2E9DBB;
+    --glacial-deep:#19606F;
+    --ok:#1E9E6E;
+    --ok-bg:#E2F4EC;
+    --hot:#E4553F;
+    --hot-bg:#FBEAE6;
+    --unknown:#8CA0AB;
+    --unknown-bg:#EDF1F3;
+    --slate:#5E7480;
+    --line:#DCE6EA;
+    --radius:10px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+  /* ---------- header ---------- */
+  header{
+    border-bottom:1px solid var(--line);
+    background:var(--bg);
+  }
+  .header-in{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:18px 0;
+  }
+  .logo{
+    font-family:'Archivo',sans-serif;font-weight:800;font-size:1.25rem;
+    letter-spacing:-0.02em;text-decoration:none;color:var(--ink);
+  }
+  .logo span{color:var(--glacial)}
+  .header-cta{
+    font-size:.85rem;font-weight:600;text-decoration:none;
+    color:var(--glacial-deep);border:1.5px solid var(--glacial);
+    padding:8px 16px;border-radius:99px;transition:background .15s,color .15s;
+  }
+  .header-cta:hover{background:var(--glacial);color:#fff}
+  .header-cta:focus-visible{outline:3px solid var(--glacial);outline-offset:2px}
+
+  /* ---------- hero ---------- */
+  .hero{padding:56px 0 40px}
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace;font-size:.75rem;font-weight:600;
+    color:var(--glacial-deep);text-transform:uppercase;letter-spacing:.12em;
+    display:flex;align-items:center;gap:8px;margin-bottom:16px;
+  }
+  .live-dot{
+    width:8px;height:8px;border-radius:50%;background:var(--ok);
+    animation:pulse 2s infinite;
+  }
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(30,158,110,.5)}
+    70%{box-shadow:0 0 0 8px rgba(30,158,110,0)}
+    100%{box-shadow:0 0 0 0 rgba(30,158,110,0)}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .live-dot{animation:none}
+    html{scroll-behavior:auto}
+  }
+  h1{
+    font-family:'Archivo',sans-serif;font-weight:800;
+    font-size:clamp(2rem,5.5vw,3.2rem);line-height:1.08;letter-spacing:-0.03em;
+    max-width:640px;
+  }
+  h1 em{font-style:normal;color:var(--glacial)}
+  .hero p{
+    margin-top:18px;max-width:540px;color:var(--slate);font-size:1.05rem;
+  }
+  .hero-actions{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{
+    display:inline-block;font-weight:600;font-size:.95rem;text-decoration:none;
+    padding:13px 26px;border-radius:99px;transition:transform .12s,box-shadow .12s;
+    cursor:pointer;border:none;
+  }
+  .btn:focus-visible{outline:3px solid var(--glacial-deep);outline-offset:2px}
+  .btn-primary{background:var(--ink);color:#fff}
+  .btn-primary:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(16,34,46,.22)}
+  .btn-ghost{color:var(--glacial-deep);background:transparent;border:1.5px solid var(--line)}
+  .btn-ghost:hover{border-color:var(--glacial)}
+
+  /* ---------- map ---------- */
+  .map-section{padding:8px 0 32px}
+  .map-frame{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    overflow:hidden;box-shadow:0 2px 12px rgba(16,34,46,.05);
+  }
+  #map{height:440px;width:100%;z-index:0}
+  .map-legend{
+    display:flex;gap:18px;flex-wrap:wrap;align-items:center;
+    padding:12px 20px;border-top:1px solid var(--line);
+    font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--slate);
+  }
+  .legend-dot{
+    display:inline-block;width:10px;height:10px;border-radius:50%;
+    margin-right:6px;vertical-align:-1px;border:2px solid #fff;
+    box-shadow:0 0 0 1px rgba(16,34,46,.15);
+  }
+  .leaflet-popup-content{font-family:'Inter',sans-serif;font-size:.85rem;line-height:1.5;margin:14px 16px}
+  .leaflet-popup-content strong{font-size:.92rem}
+  .popup-status{
+    font-family:'JetBrains Mono',monospace;font-size:.68rem;font-weight:600;
+    padding:3px 9px;border-radius:99px;letter-spacing:.04em;display:inline-block;margin-top:4px;
+  }
+  @media (max-width:640px){#map{height:340px}}
+
+  /* ---------- the board (signature) ---------- */
+  .board-section{padding:8px 0 56px}
+  .board{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    overflow:hidden;box-shadow:0 2px 12px rgba(16,34,46,.05);
+  }
+  .board-head{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    padding:14px 20px;border-bottom:1px solid var(--line);
+    font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--slate);
+    flex-wrap:wrap;
+  }
+  .board-head strong{color:var(--ink);font-weight:600}
+  .board-rows{list-style:none}
+  .board-row{
+    display:grid;grid-template-columns:1fr auto;gap:6px 16px;align-items:center;
+    padding:16px 20px;border-bottom:1px solid var(--line);
+  }
+  .board-row:last-child{border-bottom:none}
+  .prod-name{font-weight:600;font-size:.95rem}
+  .prod-meta{
+    font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--slate);
+    margin-top:2px;
+  }
+  .prod-meta a{color:var(--glacial-deep);text-decoration:none}
+  .prod-meta a:hover{text-decoration:underline}
+  .status{
+    font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:600;
+    padding:6px 12px;border-radius:99px;white-space:nowrap;letter-spacing:.04em;
+  }
+  .status.available{background:var(--ok-bg);color:var(--ok)}
+  .status.out_of_stock{background:var(--hot-bg);color:var(--hot)}
+  .status.unknown{background:var(--unknown-bg);color:var(--unknown)}
+  .board-empty{
+    padding:36px 20px;text-align:center;color:var(--slate);font-size:.9rem;
+  }
+
+  /* ---------- how it works ---------- */
+  .how{padding:8px 0 56px}
+  h2{
+    font-family:'Archivo',sans-serif;font-weight:700;font-size:1.5rem;
+    letter-spacing:-0.02em;margin-bottom:24px;
+  }
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .step{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px;
+  }
+  .step-label{
+    font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:600;
+    color:var(--glacial-deep);text-transform:uppercase;letter-spacing:.1em;
+  }
+  .step h3{font-size:1rem;font-weight:600;margin:10px 0 6px}
+  .step p{font-size:.88rem;color:var(--slate)}
+
+  /* ---------- alert form ---------- */
+  .alert-section{padding:8px 0 72px}
+  .alert-card{
+    background:var(--ink);color:#fff;border-radius:var(--radius);
+    padding:36px 28px;
+  }
+  .alert-card h2{color:#fff;margin-bottom:6px}
+  .alert-card > p{color:#AFC4CE;font-size:.95rem;max-width:520px;margin-bottom:24px}
+  form{display:grid;gap:14px;max-width:520px}
+  label{font-size:.82rem;font-weight:600;color:#D6E4EA}
+  input[type=email],select{
+    width:100%;padding:12px 14px;border-radius:8px;border:1px solid #33505E;
+    background:#1A3341;color:#fff;font-family:inherit;font-size:.95rem;
+  }
+  input[type=email]:focus,select:focus{outline:2px solid var(--glacial);border-color:var(--glacial)}
+  input::placeholder{color:#7E97A3}
+  .form-note{font-size:.75rem;color:#7E97A3}
+  .hidden{display:none}
+
+  footer{
+    border-top:1px solid var(--line);padding:28px 0 40px;
+    font-size:.8rem;color:var(--slate);
+  }
+  footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+  @media (max-width:640px){
+    .steps{grid-template-columns:1fr}
+    .hero{padding:40px 0 28px}
+    .board-row{grid-template-columns:1fr;gap:10px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap header-in">
+    <a class="logo" href="#">Clima<span>Pronto</span></a>
+    <a class="header-cta" href="#avvisi">Attiva un avviso</a>
+  </div>
+</header>
+
+<section class="hero wrap">
+  <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> Monitoraggio attivo · aggiornato ogni 10 minuti</div>
+  <h1>Il condizionatore che cerchi è esaurito ovunque. <em>Noi sappiamo quando torna.</em></h1>
+  <p>Controlliamo la disponibilità dei climatizzatori portatili più richiesti nei negozi online italiani, giorno e notte. Appena un modello torna disponibile, ti arriva un'email. Niente app, niente registrazione.</p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="#avvisi">Avvisami quando torna</a>
+    <a class="btn btn-ghost" href="#mappa">Vedi la mappa dei negozi</a>
+  </div>
+</section>
+
+<section class="map-section wrap" id="mappa">
+  <div class="map-frame">
+    <div id="map" role="region" aria-label="Mappa dei negozi monitorati in Italia"></div>
+    <div class="map-legend">
+      <span><span class="legend-dot" style="background:#1E9E6E"></span>Disponibile</span>
+      <span><span class="legend-dot" style="background:#E4553F"></span>Esaurito</span>
+      <span><span class="legend-dot" style="background:#8CA0AB"></span>In verifica</span>
+      <span style="margin-left:auto">Dati dai siti dei rivenditori · verifica prima di recarti in negozio</span>
+    </div>
+  </div>
+</section>
+
+<section class="board-section wrap" id="board">
+  <div class="board" role="region" aria-label="Disponibilità in tempo reale">
+    <div class="board-head">
+      <span><strong>DISPONIBILITÀ LIVE</strong></span>
+      <span id="last-update">ultimo controllo: —</span>
+    </div>
+    <ul class="board-rows" id="board-rows">
+      <li class="board-empty">Caricamento dati…</li>
+    </ul>
+  </div>
+</section>
+
+<section class="how wrap">
+  <h2>Come funziona</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-label">Controllo</div>
+      <h3>Ogni 10 minuti</h3>
+      <p>Il nostro sistema verifica lo stock dei principali rivenditori italiani di elettrodomestici, in automatico.</p>
+    </div>
+    <div class="step">
+      <div class="step-label">Rilevamento</div>
+      <h3>Torna disponibile</h3>
+      <p>Quando un modello esaurito ricompare a magazzino, lo rileviamo entro pochi minuti dal ripristino.</p>
+    </div>
+    <div class="step">
+      <div class="step-label">Avviso</div>
+      <h3>Email immediata</h3>
+      <p>Ricevi un'email con il link diretto al prodotto, così puoi comprarlo prima che finisca di nuovo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alert-section wrap" id="avvisi">
+  <div class="alert-card">
+    <h2>Attiva il tuo avviso</h2>
+    <p>Un pagamento unico di 4,90 € per prodotto. Ti scriviamo solo quando torna disponibile — nessun abbonamento, nessun rinnovo automatico.</p>
+    <form id="avvisi-form">
+      <div>
+        <label for="prodotto">Quale prodotto ti interessa?</label>
+        <select id="prodotto" name="prodotto" required>
+          <option value="" disabled selected>Scegli un prodotto…</option>
+          <option value="qualsiasi">Qualsiasi climatizzatore portatile</option>
+          <!-- More options are filled automatically from the live data -->
+        </select>
+      </div>
+      <button class="btn btn-primary" type="submit" id="pay-btn">Attiva avviso — 4,90 €</button>
+      <p class="form-note" id="form-error" style="color:#F3A08F"></p>
+      <p class="form-note">Pagamento sicuro tramite Stripe. Ti chiederemo l'email al momento del pagamento.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 ClimaPronto</span>
+    <span>Non siamo affiliati ai rivenditori monitorati. I prezzi possono variare.</span>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   CONFIG — change this after creating your GitHub repo.
+   The crawler commits data/stock.json to the repo; the site
+   reads it from the raw URL so no redeploy is ever needed.
+   ============================================================ */
+const DATA_URL = "https://raw.githubusercontent.com/sinaseyedi96-121/climapronto/main/data/stock.json";
+
+const STATUS_LABEL = {
+  available:   "DISPONIBILE",
+  out_of_stock:"ESAURITO",
+  unknown:     "IN VERIFICA"
+};
+const STATUS_COLOR = {
+  available:   "#1E9E6E",
+  out_of_stock:"#E4553F",
+  unknown:     "#8CA0AB"
+};
+const STATUS_BG = {
+  available:   "#E2F4EC",
+  out_of_stock:"#FBEAE6",
+  unknown:     "#EDF1F3"
+};
+
+/* ---------- map (Leaflet + free CARTO/OSM tiles, no API key) ---------- */
+const map = L.map("map", {scrollWheelZoom: false}).setView([42.3, 12.4], 6);
+L.tileLayer("https://{s}.basemap.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  subdomains: "abcd",
+  minZoom: 5,
+  maxZoom: 18
+}).addTo(map);
+// scroll-wheel zoom only after the user clicks the map (prevents the page
+// scroll from getting "trapped" while scrolling past it)
+map.on("click", () => map.scrollWheelZoom.enable());
+const markersLayer = L.layerGroup().addTo(map);
+
+function renderMap(data){
+  markersLayer.clearLayers();
+  (data.products || []).forEach(p => {
+    (p.stores || []).forEach(s => {
+      if(typeof s.lat !== "number" || typeof s.lon !== "number") return;
+      const st = s.status || p.status || "unknown";
+      const marker = L.circleMarker([s.lat, s.lon], {
+        radius: 8,
+        color: "#fff",
+        weight: 2,
+        fillColor: STATUS_COLOR[st] || STATUS_COLOR.unknown,
+        fillOpacity: 0.95
+      });
+      marker.bindPopup(`
+        <strong>${s.store}</strong><br>
+        ${s.city} · ${p.retailer}<br>
+        ${p.name}<br>
+        <span class="popup-status" style="background:${STATUS_BG[st]};color:${STATUS_COLOR[st]}">${STATUS_LABEL[st] || st}</span>
+        ${p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">vai al prodotto ↗</a>` : ""}
+      `);
+      marker.addTo(markersLayer);
+    });
+  });
+}
+
+async function loadBoard(){
+  const rows = document.getElementById("board-rows");
+  const upd  = document.getElementById("last-update");
+  const sel  = document.getElementById("prodotto");
+  try{
+    const res  = await fetch(DATA_URL + "?t=" + Date.now()); // bust GitHub raw cache
+    if(!res.ok) throw new Error(res.status);
+    const data = await res.json();
+
+    renderMap(data);
+
+    if(data.updated_at){
+      const d = new Date(data.updated_at);
+      upd.textContent = "ultimo controllo: " + d.toLocaleString("it-IT",{dateStyle:"short",timeStyle:"short"});
+    }
+
+    if(!data.products || data.products.length === 0){
+      rows.innerHTML = '<li class="board-empty">Nessun prodotto monitorato al momento. Torna presto!</li>';
+      return;
+    }
+
+    rows.innerHTML = "";
+    data.products.forEach(p => {
+      const li = document.createElement("li");
+      li.className = "board-row";
+      const link = p.url ? `<a href="${p.url}" target="_blank" rel="noopener">vai al prodotto ↗</a>` : "";
+      li.innerHTML = `
+        <div>
+          <div class="prod-name">${p.name}</div>
+          <div class="prod-meta">${p.retailer}${p.price ? " · " + p.price : ""}${link ? " · " + link : ""}</div>
+        </div>
+        <span class="status ${p.status}">${STATUS_LABEL[p.status] || p.status}</span>`;
+      rows.appendChild(li);
+
+      // keep the form's product list in sync with monitored products
+      const opt = document.createElement("option");
+      opt.value = p.id;
+      opt.textContent = p.name + " (" + p.retailer + ")";
+      sel.appendChild(opt);
+    });
+  }catch(e){
+    // Live data unreachable (e.g. repo not created yet): show demo data
+    // so the page never looks broken. Remove FALLBACK_DATA once live.
+    renderMap(FALLBACK_DATA);
+    upd.textContent = "dati dimostrativi — monitoraggio in avvio";
+    rows.innerHTML = "";
+    FALLBACK_DATA.products.forEach(p => {
+      const li = document.createElement("li");
+      li.className = "board-row";
+      li.innerHTML = `
+        <div>
+          <div class="prod-name">${p.name}</div>
+          <div class="prod-meta">${p.retailer}${p.price ? " · " + p.price : ""}</div>
+        </div>
+        <span class="status ${p.status}">${STATUS_LABEL[p.status]}</span>`;
+      rows.appendChild(li);
+    });
+  }
+}
+
+const FALLBACK_DATA = {
+  products: [
+    {
+      id:"demo-pinguino", name:"De'Longhi Pinguino PAC EL92 (DEMO)",
+      retailer:"Demo Store", price:"499 €", status:"available",
+      stores:[
+        {store:"Demo Store Milano Centrale", city:"Milano", lat:45.4642, lon:9.1900, status:"available"},
+        {store:"Demo Store Torino Lingotto", city:"Torino", lat:45.0703, lon:7.6869, status:"available"},
+        {store:"Demo Store Roma Tiburtina",  city:"Roma",   lat:41.9028, lon:12.4964, status:"out_of_stock"},
+        {store:"Demo Store Bologna Fiera",   city:"Bologna",lat:44.4949, lon:11.3426, status:"available"},
+        {store:"Demo Store Trento Nord",     city:"Trento", lat:46.0748, lon:11.1217, status:"out_of_stock"}
+      ]
+    },
+    {
+      id:"demo-comfee", name:"Comfee CP12 Pro 12000 BTU (DEMO)",
+      retailer:"Demo Store", price:"329 €", status:"out_of_stock",
+      stores:[
+        {store:"Demo Store Napoli Centro",    city:"Napoli",  lat:40.8518, lon:14.2681, status:"out_of_stock"},
+        {store:"Demo Store Firenze Novoli",   city:"Firenze", lat:43.7696, lon:11.2558, status:"out_of_stock"},
+        {store:"Demo Store Palermo Forum",    city:"Palermo", lat:38.1157, lon:13.3615, status:"unknown"},
+        {store:"Demo Store Bari S. Caterina", city:"Bari",    lat:41.1171, lon:16.8719, status:"out_of_stock"},
+        {store:"Demo Store Verona Adigeo",    city:"Verona",  lat:45.4384, lon:10.9916, status:"available"}
+      ]
+    }
+  ]
+};
+loadBoard();
+setInterval(loadBoard, 5 * 60 * 1000); // refresh the page data every 5 minutes
+
+/* ---------- payment: create a Stripe Checkout session and redirect ---------- */
+document.getElementById("avvisi-form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const select = document.getElementById("prodotto");
+  const btn = document.getElementById("pay-btn");
+  const errorEl = document.getElementById("form-error");
+  const productId = select.value;
+  if (!productId) return;
+  const productName = select.options[select.selectedIndex]?.textContent || productId;
+
+  btn.disabled = true;
+  const originalLabel = btn.textContent;
+  btn.textContent = "Un attimo…";
+  errorEl.textContent = "";
+
+  try {
+    const res = await fetch("/api/create-checkout-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ productId, productName }),
+    });
+    const data = await res.json();
+    if (!res.ok || !data.url) throw new Error(data.error || "Errore sconosciuto");
+    window.location = data.url; // off to Stripe's hosted checkout page
+  } catch (err) {
+    errorEl.textContent = "Qualcosa è andato storto. Riprova tra qualche istante.";
+    btn.disabled = false;
+    btn.textContent = originalLabel;
+  }
+});
+</script>
+
+</body>
+</html>

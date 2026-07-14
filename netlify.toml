@@ -1,0 +1,14 @@
+# Netlify build settings.
+# Requires a GIT-CONNECTED deploy (Import from GitHub), not drag & drop —
+# functions only work when Netlify is building from the repo.
+
+[build]
+  publish = "site"
+  functions = "netlify/functions"
+
+# lets the frontend call /api/create-checkout-session instead of the
+# longer /.netlify/functions/create-checkout-session
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
