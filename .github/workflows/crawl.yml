@@ -1,0 +1,40 @@
+# TESTING-PHASE runner.
+# GitHub Actions cron is NOT reliable at 10-minute intervals (it drifts,
+# sometimes badly, under load). This runs every 30 min, which is fine for
+# validating the pipeline. For real 10-minute checks, move to the Oracle
+# VM cron job described in README.md and disable this workflow.
+
+name: Check stock
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run crawler
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python crawler.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "climapronto-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "stock update $(date -u +'%Y-%m-%d %H:%M')"
+          git push

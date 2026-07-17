@@ -140,6 +140,30 @@ retailer's product page, find the stock request, plug it into the
 `json_endpoint` checker in `retailers.py` (or send me the request as cURL
 and I'll write the checker).
 
+**Euronics is already wired up** as a real example (`euronics_stores` in
+`retailers.py`): one API call to their store locator returns every
+physical store nationwide (~244) with a genuinely independent in-stock
+flag per store for the given product — verified by checking the same
+product against multiple real stores and confirming the flag actually
+differs between them (some true, some false), not one number echoed
+everywhere.
+
+Unieuro was tried first and rejected: their API only exposes a single
+nationwide stock number per product, no per-store breakdown, which would
+have meant painting the same status on every store pin — technically
+real data, but not the "is it at the store near me" signal subscribers
+are actually paying for. MediaWorld also has a genuine per-store
+pickup-availability endpoint, but it's behind bot protection that blocks
+plain server-side requests (would need real headless-browser automation
+to use, not just `requests` calls) — skipped for now as not worth the
+added fragility.
+
+To add another retailer with genuine per-store data: write a function
+that returns `[{"store", "city", "lat", "lon", "status"}, ...]` with a
+REAL status per store (confirm it actually varies between stores before
+trusting it!), register it in `STORE_CHECKERS` in `retailers.py`, and
+set `"store_checker": "<name>"` on the product instead of `"checker"`.
+
 ## Testing the full loop end to end
 1. Run the crawler once (baseline — never emails on the first run).
 2. Pay for a demo product on your live site with the Stripe test card →

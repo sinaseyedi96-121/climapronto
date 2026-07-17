@@ -1,8 +1,19 @@
 """
 Retailer checkers
 =================
-One small function per retailer. Each returns one of:
-  "available" | "out_of_stock" | "unknown"
+Two kinds of checker, set via one of these keys on a PRODUCTS entry:
+  "checker"       -> function(product) -> "available" | "out_of_stock" | "unknown"
+                     One status for the whole product. Used for retailers
+                     that don't expose per-store stock.
+  "store_checker" -> function(product) -> list of
+                     {"store", "city", "lat", "lon", "status"} with a REAL,
+                     independently-verified status per physical store. Used
+                     for retailers whose stock API genuinely differs by
+                     store (confirmed, not assumed — see EURONICS section:
+                     Unieuro was tried first and rejected because it only
+                     has one nationwide number, not per-store data).
+                     crawler.py derives the product's overall status from
+                     this list (available if any store has it).
 
 HOW TO ADD A REAL RETAILER (the DevTools method):
   1. Open the product page (or the store-availability widget) in Chrome.
@@ -10,8 +21,10 @@ HOW TO ADD A REAL RETAILER (the DevTools method):
   3. Reload / type a postcode and watch which request returns the stock data.
   4. Right-click that request -> Copy -> Copy as cURL, and paste it to me:
      I'll convert it into a checker function here.
-Most retailers fall into one of the two templates below (JSON endpoint,
-or HTML page with a recognizable "add to cart" / "esaurito" marker).
+  5. If it looks like a per-store endpoint, verify it actually differs
+     between two real stores for the same product before trusting it as
+     a store_checker — some retailers echo one aggregate number under a
+     misleadingly named "per-store" field.
 
 PRODUCTS is the single list to edit when you add/remove monitored items.
 """
@@ -86,16 +99,44 @@ PRODUCTS = [
         ],
     },
 
+    # ---- REAL ENTRIES: Euronics storefront API (see EURONICS section below).
+    # Verified genuinely per-store: the same product's inventory.value came
+    # back true at some real stores and false at others in the same query
+    # (e.g. near Milano: true at Como/Tortona/Biella, false at 31 other
+    # stores including the Milano city store itself) — not one number
+    # copy-pasted everywhere. "store_checker": "euronics_stores" tells the
+    # crawler to fetch that real per-store list (244 stores nationwide,
+    # one API call, no auth) and derive the product's overall status from
+    # it, instead of using a separate "checker".
+    {
+        "id": "euronics-argo-elite-plus",
+        "name": "ARGO Condizionatore monoblocco Elite Plus Classe A",
+        "retailer": "Euronics",
+        "price": "424 €",
+        "url": "https://www.euronics.it/elettrodomestici/trattamento-aria/condizionatori-portatili/argo---condizionatore-monoblocco-elite-plus-classe-a-bianco/242018027.html",
+        "store_checker": "euronics_stores",
+        "checker_args": {"pid": "242018027"},
+    },
+    {
+        "id": "euronics-samsung-monosplit",
+        "name": "SAMSUNG Kit F-AR 09M Climatizzatore monosplit",
+        "retailer": "Euronics",
+        "price": "299,99 €",
+        "url": "https://www.euronics.it/elettrodomestici/trattamento-aria/condizionatori-fissi/samsung---kit-f-ar-09m-climatizzatore-monosplit/202002436.html",
+        "store_checker": "euronics_stores",
+        "checker_args": {"pid": "202002436"},
+    },
+
     # ---- REAL ENTRY TEMPLATE (uncomment and fill after the DevTools check):
     # {
-    #     "id": "unieuro-pinguino-el92",
-    #     "name": "De'Longhi Pinguino PAC EL92 Silent",
-    #     "retailer": "Unieuro",
+    #     "id": "retailer-product-slug",
+    #     "name": "Product name",
+    #     "retailer": "Retailer name",
     #     "price": "549 €",
-    #     "url": "https://www.unieuro.it/online/...product-page...",
+    #     "url": "https://...product-page...",
     #     "checker": "json_endpoint",
     #     "checker_args": {
-    #         "endpoint": "https://www.unieuro.it/...the-XHR-url-you-found...",
+    #         "endpoint": "https://...the-XHR-url-you-found...",
     #         # path into the JSON where availability lives, e.g. ["stock", "status"]
     #         "json_path": ["available"],
     #         # value(s) that mean "in stock"
@@ -155,15 +196,73 @@ def html_marker(product: dict) -> str:
     return "unknown"
 
 
+# ----------------------------------------------------------------------
+# EURONICS — real storefront API (the same one euronics.it's own frontend
+# calls for its store locator). No auth needed. Genuinely per-store: the
+# same "pid" query against this endpoint returns inventory.value=true for
+# some stores and false for others (verified against two different real
+# products, each with its own distinct pattern of which stores have it).
+# ----------------------------------------------------------------------
+EURONICS_STORES_URL = "https://www.euronics.it/on/demandware.store/Sites-euronics-Site/it_IT/Stores-Inventory"
+
+# A center point + radius wide enough to cover all of Italy in one call
+# (store count is stable from radius=500 through radius=5000 — i.e. this
+# already returns every store nationwide, ~244 of them, not a partial
+# radius-limited slice).
+EURONICS_CENTER_LAT = 42.5
+EURONICS_CENTER_LON = 12.5
+EURONICS_RADIUS_KM = 1500
+
+
+def euronics_stores(product: dict) -> list:
+    """Real per-store checker for Euronics.it. One API call returns every
+    physical store nationwide with a genuine in-stock boolean for this
+    exact product — not an aggregate applied to every location."""
+    args = product["checker_args"]
+    resp = requests.get(
+        EURONICS_STORES_URL,
+        params={
+            "lat": EURONICS_CENTER_LAT,
+            "long": EURONICS_CENTER_LON,
+            "radius": EURONICS_RADIUS_KM,
+            "pid": args["pid"],
+        },
+        headers=HEADERS,
+        timeout=REQUEST_TIMEOUT,
+    )
+    resp.raise_for_status()
+    stores = []
+    for s in resp.json().get("stores", []):
+        lat, lon = s.get("lat"), s.get("long")
+        if not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)):
+            continue
+        in_stock = (s.get("inventory") or {}).get("value")
+        stores.append({
+            "store": s.get("name") or "Euronics",
+            "city": s.get("city") or "",
+            "lat": lat,
+            "lon": lon,
+            "status": "available" if in_stock else "out_of_stock",
+        })
+    return stores
+
+
 CHECKERS = {
     "demo_json": demo_json,
     "json_endpoint": json_endpoint,
     "html_marker": html_marker,
 }
 
+STORE_CHECKERS = {
+    "euronics_stores": euronics_stores,
+}
+
 
 def check_product(product: dict) -> str:
-    """Dispatch a product to its checker."""
+    """Dispatch a product to its (single-status) checker. Products with a
+    "store_checker" instead are handled directly in crawler.py, since
+    their status is derived from the real per-store list, not a separate
+    call."""
     checker = CHECKERS.get(product["checker"])
     if checker is None:
         raise ValueError(f"Unknown checker '{product['checker']}' for {product['id']}")

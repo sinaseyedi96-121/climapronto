@@ -330,7 +330,7 @@ const STATUS_BG = {
 
 /* ---------- map (Leaflet + free CARTO/OSM tiles, no API key) ---------- */
 const map = L.map("map", {scrollWheelZoom: false}).setView([42.3, 12.4], 6);
-L.tileLayer("https://{s}.basemap.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
   subdomains: "abcd",
   minZoom: 5,
@@ -343,26 +343,40 @@ const markersLayer = L.layerGroup().addTo(map);
 
 function renderMap(data){
   markersLayer.clearLayers();
+  // Group by real location: several monitored products can share the same
+  // physical store, and stacking a separate marker per product would hide
+  // all but the topmost one.
+  const byLocation = new Map();
   (data.products || []).forEach(p => {
     (p.stores || []).forEach(s => {
       if(typeof s.lat !== "number" || typeof s.lon !== "number") return;
-      const st = s.status || p.status || "unknown";
-      const marker = L.circleMarker([s.lat, s.lon], {
-        radius: 8,
-        color: "#fff",
-        weight: 2,
-        fillColor: STATUS_COLOR[st] || STATUS_COLOR.unknown,
-        fillOpacity: 0.95
-      });
-      marker.bindPopup(`
-        <strong>${s.store}</strong><br>
-        ${s.city} · ${p.retailer}<br>
-        ${p.name}<br>
-        <span class="popup-status" style="background:${STATUS_BG[st]};color:${STATUS_COLOR[st]}">${STATUS_LABEL[st] || st}</span>
-        ${p.url ? `<br><a href="${p.url}" target="_blank" rel="noopener">vai al prodotto ↗</a>` : ""}
-      `);
-      marker.addTo(markersLayer);
+      const key = s.lat.toFixed(4) + "," + s.lon.toFixed(4);
+      if(!byLocation.has(key)){
+        byLocation.set(key, {lat: s.lat, lon: s.lon, store: s.store, city: s.city, entries: []});
+      }
+      byLocation.get(key).entries.push({product: p, status: s.status || p.status || "unknown"});
     });
+  });
+
+  byLocation.forEach(loc => {
+    const statuses = loc.entries.map(e => e.status);
+    const st = statuses.includes("available") ? "available"
+      : statuses.includes("out_of_stock") ? "out_of_stock" : "unknown";
+    const marker = L.circleMarker([loc.lat, loc.lon], {
+      radius: 8,
+      color: "#fff",
+      weight: 2,
+      fillColor: STATUS_COLOR[st] || STATUS_COLOR.unknown,
+      fillOpacity: 0.95
+    });
+    const rows = loc.entries.map(e => `
+      <div style="margin-top:8px">
+        ${e.product.name}<br>
+        <span class="popup-status" style="background:${STATUS_BG[e.status]};color:${STATUS_COLOR[e.status]}">${STATUS_LABEL[e.status] || e.status}</span>
+        ${e.product.url ? ` · <a href="${e.product.url}" target="_blank" rel="noopener">vai al prodotto ↗</a>` : ""}
+      </div>`).join("");
+    marker.bindPopup(`<strong>${loc.store}</strong><br>${loc.city}${rows}`);
+    marker.addTo(markersLayer);
   });
 }
 

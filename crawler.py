@@ -19,7 +19,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from retailers import check_product, PRODUCTS
+from retailers import check_product, STORE_CHECKERS, PRODUCTS
 from emailer import send_restock_email
 from subscribers import get_subscribers
 
@@ -65,14 +65,33 @@ def main() -> int:
     # ------------------------------------------------------------------
     # 1. Check every product
     # ------------------------------------------------------------------
+    # Products with a "store_checker" get a REAL per-store list back
+    # (each store independently checked, statuses genuinely differ) —
+    # the product's overall status is derived from that list. Everything
+    # else uses the simpler single-status "checker".
     results = []
     for product in PRODUCTS:
-        try:
-            status = check_product(product)
-        except Exception as e:  # one retailer failing must not kill the run
-            print(f"[warn] check failed for {product['id']}: {e}")
-            status = "unknown"
-        results.append({**product, "status": status, "checked_at": now_iso()})
+        store_checker_name = product.get("store_checker")
+        if store_checker_name:
+            try:
+                stores = STORE_CHECKERS[store_checker_name](product)
+            except Exception as e:  # one retailer failing must not kill the run
+                print(f"[warn] store check failed for {product['id']}: {e}")
+                stores = []
+            if stores:
+                status = "available" if any(s["status"] == "available" for s in stores) else "out_of_stock"
+            else:
+                status = "unknown"
+            result = {**product, "status": status, "stores": stores, "checked_at": now_iso()}
+        else:
+            try:
+                status = check_product(product)
+            except Exception as e:
+                print(f"[warn] check failed for {product['id']}: {e}")
+                status = "unknown"
+            result = {**product, "status": status, "checked_at": now_iso()}
+
+        results.append(result)
         print(f"[info] {product['id']}: {status}")
 
     # ------------------------------------------------------------------

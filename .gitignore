@@ -1,0 +1,4 @@
+.env
+__pycache__/
+cron.log
+.DS_Store
