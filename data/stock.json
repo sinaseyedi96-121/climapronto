@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T16:43:07+00:00",
+  "updated_at": "2026-07-17T20:16:39+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -49,7 +49,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-17T16:43:02+00:00"
+      "checked_at": "2026-07-17T20:16:34+00:00"
     },
     {
       "id": "demo-comfee",
@@ -99,7 +99,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-17T16:43:02+00:00"
+      "checked_at": "2026-07-17T20:16:34+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1168,7 +1168,7 @@
           "city": "Tortona",
           "lat": 44.907338,
           "lon": 8.881523,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO UDINE",
@@ -1364,7 +1364,7 @@
           "city": "Como",
           "lat": 45.78524799953944,
           "lon": 9.069483403193184,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS TRADATE",
@@ -1455,7 +1455,7 @@
           "city": "Settimo Torinese",
           "lat": 45.14039960794534,
           "lon": 7.732837822789321,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS GOZZANO",
@@ -1822,7 +1822,7 @@
           "status": "available"
         }
       ],
-      "checked_at": "2026-07-17T16:43:05+00:00"
+      "checked_at": "2026-07-17T20:16:36+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2135,7 +2135,7 @@
           "city": "Arezzo",
           "lat": 43.454465,
           "lon": 11.881026,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS GROSSETO C.C. MAREMA'",
@@ -3545,7 +3545,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-17T16:43:07+00:00"
+      "checked_at": "2026-07-17T20:16:39+00:00"
     }
   ]
 }
