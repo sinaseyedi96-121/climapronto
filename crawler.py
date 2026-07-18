@@ -58,6 +58,16 @@ def hours_since(iso_ts: str) -> float:
     return (datetime.now(timezone.utc) - then).total_seconds() / 3600
 
 
+def is_expired(sub: dict) -> bool:
+    """Subscribers from before time-boxed plans existed have no
+    "expires_at" — treat those as still active rather than cutting off
+    people who already paid under the old one-time model."""
+    expires_at = sub.get("expires_at")
+    if not expires_at:
+        return False
+    return datetime.fromisoformat(expires_at) < datetime.now(timezone.utc)
+
+
 def main() -> int:
     previous = load_json(STOCK_FILE, {"updated_at": None, "products": []})
     prev_status = {p["id"]: p.get("status", "unknown") for p in previous.get("products", [])}
@@ -119,7 +129,7 @@ def main() -> int:
         for product in restocked:
             for sub in subscribers:
                 wants_it = sub["prodotto"] in ("qualsiasi", product["id"])
-                if not wants_it:
+                if not wants_it or is_expired(sub):
                     continue
                 log_key = f'{sub["email"]}::{product["id"]}'
                 last = notify_log.get(log_key)

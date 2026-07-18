@@ -42,6 +42,8 @@ exports.handler = async (event) => {
   const session = stripeEvent.data.object;
   const email = session.customer_details?.email || session.customer_email;
   const productId = session.metadata?.product_id;
+  const plan = session.metadata?.plan;
+  const days = parseInt(session.metadata?.days, 10) || 30;
 
   if (!email || !productId) {
     console.error('Completed session missing email or product_id:', session.id);
@@ -49,7 +51,7 @@ exports.handler = async (event) => {
   }
 
   try {
-    await addSubscriber(email, productId);
+    await addSubscriber(email, productId, plan, days);
     return { statusCode: 200, body: 'ok' };
   } catch (err) {
     console.error('Failed to record subscriber:', err);
@@ -58,7 +60,7 @@ exports.handler = async (event) => {
   }
 };
 
-async function addSubscriber(email, productId) {
+async function addSubscriber(email, productId, plan, days) {
   const apiUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/${SUBSCRIBERS_PATH}`;
   const headers = {
     Authorization: `Bearer ${GITHUB_TOKEN}`,
@@ -77,10 +79,14 @@ async function addSubscriber(email, productId) {
     throw new Error(`GitHub GET failed: ${getRes.status}`);
   }
 
+  const paidAt = new Date();
+  const expiresAt = new Date(paidAt.getTime() + days * 24 * 60 * 60 * 1000);
   subscribers.push({
     email: email.toLowerCase().trim(),
     prodotto: productId,
-    paid_at: new Date().toISOString(),
+    plan: plan || null,
+    paid_at: paidAt.toISOString(),
+    expires_at: expiresAt.toISOString(),
   });
 
   // 2. Write it back (create or update)
