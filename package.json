@@ -1,0 +1,10 @@
+{
+  "name": "climapronto",
+  "private": true,
+  "devDependencies": {
+    "designlang": "^12.21.0"
+  },
+  "scripts": {
+    "design:extract": "designlang"
+  }
+}
