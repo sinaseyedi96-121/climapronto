@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T11:19:00+00:00",
+  "updated_at": "2026-07-18T14:42:04+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-18T11:18:56+00:00"
+      "checked_at": "2026-07-18T14:42:01+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-18T11:18:56+00:00"
+      "checked_at": "2026-07-18T14:42:01+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1297,7 +1297,7 @@
           "address": "Via Martiri delle Foibe,1 - Loc. S.ta Caterina, 70100 Bari",
           "lat": 41.0969130564396,
           "lon": 16.836432447386603,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "BRUNO PIEVE FISSIRAGA",
@@ -1345,7 +1345,7 @@
           "address": "Via del Piano (Parco Comm.Taggia), 18018 Arma di Taggia",
           "lat": 43.84605,
           "lon": 7.856532,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - PLANET",
@@ -2076,7 +2076,7 @@
           "status": "available"
         }
       ],
-      "checked_at": "2026-07-18T11:18:58+00:00"
+      "checked_at": "2026-07-18T14:42:03+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-18T11:19:00+00:00"
+      "checked_at": "2026-07-18T14:42:04+00:00"
     }
   ]
 }
