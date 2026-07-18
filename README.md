@@ -1,8 +1,9 @@
 # ClimaPronto
 
 Monitors AC availability at Italian retailers every 10 minutes, shows it on a
-live website with a map, sells restock alerts for 4,90 € via Stripe, and
-emails buyers when their product comes back in stock.
+live website with a map, sells time-boxed restock alerts via Stripe (1 week
+2,90 €, 1 month 5,90 €, 2 months 8,90 €), and emails buyers when their
+product comes back in stock.
 
 ```
 Oracle VM (or GitHub Actions)          GitHub repo                Netlify (site + functions)
@@ -18,14 +19,15 @@ Oracle VM (or GitHub Actions)          GitHub repo                Netlify (site 
                                                               └──────────┬──────────────┘
                                                                          │
                                                                     Stripe Checkout
-                                                                 (buyer pays 4,90 €)
+                                                          (buyer picks a plan and pays)
 ```
 
 ## Files
 
 | File | What it does |
 |---|---|
-| `site/index.html` | The website: map, live board, payment form |
+| `site/index.html` | The website: map, live board, link to the alert page |
+| `site/avvisi.html` | Alert signup: pick a product + plan, starts Stripe Checkout |
 | `site/grazie.html` | Thank-you page Stripe redirects to after payment |
 | `netlify/functions/create-checkout-session.js` | Starts a Stripe Checkout session (called by the form) |
 | `netlify/functions/stripe-webhook.js` | Confirms payment, writes the subscriber to GitHub |

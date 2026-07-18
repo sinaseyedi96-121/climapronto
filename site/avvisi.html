@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Attiva un avviso — ClimaPronto</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' rx='8' fill='%232E9DBB'/%3E%3Cg stroke='%23fff' stroke-width='1.6' stroke-linecap='round'%3E%3Cline x1='14' y1='6' x2='14' y2='22'/%3E%3Cline x1='6' y1='14' x2='22' y2='14'/%3E%3Cline x1='8.5' y1='8.5' x2='19.5' y2='19.5'/%3E%3Cline x1='19.5' y1='8.5' x2='8.5' y2='19.5'/%3E%3C/g%3E%3Ccircle cx='14' cy='14' r='3' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#10222E; --bg:#F2F7F9; --panel:#FFFFFF;
+    --glacial:#2E9DBB; --glacial-deep:#19606F;
+    --ok:#106B49; --ok-bg:#E2F4EC;
+    --slate:#5E7480; --line:#DCE6EA;
+    --radius:12px; --radius-lg:20px;
+    --shadow-sm:0 2px 8px rgba(16,34,46,.05);
+    --shadow-md:0 4px 24px rgba(16,34,46,.07),0 1px 2px rgba(16,34,46,.04);
+    --ease-out:cubic-bezier(.16,1,.3,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);
+    line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:560px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line)}
+  .header-in{display:flex;align-items:center;padding:18px 0}
+  .logo{
+    display:flex;align-items:center;gap:9px;
+    font-family:'Archivo',sans-serif;font-weight:800;font-size:1.25rem;
+    letter-spacing:-0.02em;text-decoration:none;color:var(--ink);
+  }
+  .logo span{color:var(--glacial)}
+
+  main{padding:48px 0 64px}
+  h1{
+    font-family:'Archivo',sans-serif;font-weight:800;font-size:1.7rem;
+    letter-spacing:-0.02em;margin-bottom:8px;
+  }
+  h2{
+    font-family:'Archivo',sans-serif;font-weight:700;font-size:1.15rem;
+    letter-spacing:-0.01em;margin-bottom:16px;
+  }
+  .subtitle{color:var(--slate);font-size:.98rem;margin-bottom:28px}
+
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-md);padding:32px 28px;
+  }
+  @keyframes rise-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+  .step{animation:rise-in .5s var(--ease-out) both}
+  @media (prefers-reduced-motion:reduce){.step{animation:none}}
+
+  label.field{display:block;font-size:.85rem;font-weight:600;margin-bottom:20px}
+  label.field span{display:block;margin-bottom:7px}
+  select.input,input.input{
+    width:100%;font:inherit;font-size:.95rem;color:var(--ink);
+    border:1.5px solid var(--line);border-radius:8px;padding:11px 14px;
+    background:var(--panel);
+  }
+  select.input:focus,input.input:focus{outline:none;border-color:var(--glacial)}
+
+  .btn{
+    display:inline-block;width:100%;font-weight:600;font-size:.95rem;text-decoration:none;
+    text-align:center;padding:14px 26px;border-radius:99px;border:none;cursor:pointer;
+    transition:transform .12s var(--ease-out),box-shadow .12s var(--ease-out),opacity .12s;
+  }
+  .btn-primary{background:var(--ink);color:#fff}
+  .btn-primary:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 6px 18px rgba(16,34,46,.22)}
+  .btn-primary:disabled{opacity:.45;cursor:not-allowed}
+  .btn:focus-visible{outline:3px solid var(--glacial-deep);outline-offset:2px}
+
+  .back-link{
+    display:inline-flex;align-items:center;gap:4px;background:none;border:none;cursor:pointer;
+    font:inherit;font-size:.85rem;font-weight:600;color:var(--slate);padding:0;margin-bottom:18px;
+  }
+  .back-link:hover{color:var(--glacial-deep)}
+
+  .recap{
+    font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--slate);
+    background:var(--bg);border-radius:8px;padding:10px 14px;margin-bottom:22px;
+  }
+  .recap strong{color:var(--ink);font-weight:600}
+
+  .plans{display:grid;gap:12px;margin-bottom:22px}
+  .plan-card{
+    position:relative;display:flex;align-items:baseline;gap:10px;
+    border:1.5px solid var(--line);border-radius:var(--radius);padding:14px 16px;
+    cursor:pointer;transition:border-color .12s var(--ease-out),background .12s var(--ease-out);
+  }
+  .plan-card:has(input:checked){border-color:var(--glacial);background:#F3FAFC}
+  .plan-card input{accent-color:var(--glacial-deep);width:16px;height:16px;flex-shrink:0}
+  .plan-price{font-family:'Archivo',sans-serif;font-weight:800;font-size:1.15rem}
+  .plan-duration{color:var(--slate);font-size:.88rem}
+  .plan-sub{margin-left:auto;color:var(--slate);font-size:.75rem;font-family:'JetBrains Mono',monospace;white-space:nowrap}
+  .best-badge{
+    position:absolute;top:-11px;left:14px;background:var(--ink);color:#fff;
+    font-size:.65rem;font-weight:600;letter-spacing:.03em;padding:3px 10px;border-radius:99px;
+  }
+
+  .consent{
+    display:flex;gap:10px;align-items:flex-start;font-size:.82rem;color:var(--slate);
+    margin-bottom:20px;cursor:pointer;
+  }
+  .consent input{margin-top:3px;accent-color:var(--glacial-deep);flex-shrink:0}
+
+  .error{
+    background:#FBEAE6;color:#A8391F;font-size:.85rem;border-radius:8px;
+    padding:10px 14px;margin-bottom:16px;
+  }
+  .fineprint{color:var(--slate);font-size:.78rem;text-align:center;margin-top:16px}
+  .fineprint.top{margin-top:0;margin-bottom:20px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap header-in">
+    <a class="logo" href="/">
+      <svg width="26" height="26" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="28" height="28" rx="8" fill="#2E9DBB"/>
+        <g stroke="#fff" stroke-width="1.6" stroke-linecap="round">
+          <line x1="14" y1="6" x2="14" y2="22"/>
+          <line x1="6" y1="14" x2="22" y2="14"/>
+          <line x1="8.5" y1="8.5" x2="19.5" y2="19.5"/>
+          <line x1="19.5" y1="8.5" x2="8.5" y2="19.5"/>
+        </g>
+        <circle cx="14" cy="14" r="3" fill="#fff"/>
+      </svg>
+      Clima<span>Pronto</span>
+    </a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="step-email" class="step">
+    <h1>Attiva il tuo avviso</h1>
+    <p class="subtitle">Ti scriviamo via email non appena il prodotto scelto torna disponibile in un negozio — con nome e indirizzo.</p>
+    <div class="card">
+      <label class="field">
+        <span>Cosa vuoi monitorare?</span>
+        <select class="input" id="product-select">
+          <option value="qualsiasi">Qualsiasi prodotto · ricevi tutti gli avvisi</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>La tua email</span>
+        <input class="input" id="email-input" type="email" placeholder="nome@email.com" autocomplete="email">
+      </label>
+      <p id="email-error" class="error" hidden>Inserisci un indirizzo email valido.</p>
+      <button class="btn btn-primary" id="continue-btn">Vedi i piani →</button>
+      <p class="fineprint">Nessun addebito in questo passaggio.</p>
+    </div>
+  </section>
+
+  <section id="step-plan" class="step" hidden>
+    <button class="back-link" id="back-btn">‹ Modifica</button>
+    <p class="recap">Avviso per <strong id="recap-email"></strong> · <span id="recap-product"></span></p>
+    <div class="card">
+      <h2>Scegli la durata</h2>
+      <div class="plans" id="plans" role="radiogroup" aria-label="Durata dell'avviso">
+        <label class="plan-card" data-plan="week">
+          <input type="radio" name="plan" value="week">
+          <span class="plan-price">2,90 €</span>
+          <span class="plan-duration">1 settimana</span>
+        </label>
+        <label class="plan-card" data-plan="month">
+          <input type="radio" name="plan" value="month">
+          <span class="plan-price">5,90 €</span>
+          <span class="plan-duration">1 mese</span>
+        </label>
+        <label class="plan-card" data-plan="twomonths">
+          <span class="best-badge">Migliore rapporto</span>
+          <input type="radio" name="plan" value="twomonths" checked>
+          <span class="plan-price">8,90 €</span>
+          <span class="plan-duration">2 mesi</span>
+          <span class="plan-sub">4,45 €/mese</span>
+        </label>
+      </div>
+
+      <label class="consent">
+        <input type="checkbox" id="consent-check">
+        Confermo: pagamento singolo, nessun rinnovo automatico. Il monitoraggio inizia subito dopo il pagamento e ClimaPronto segue la disponibilità online, senza garantire lo stock fisico in negozio.
+      </label>
+
+      <p id="pay-error" class="error" hidden></p>
+      <button class="btn btn-primary" id="pay-btn" disabled>Attiva l'avviso · 8,90 €</button>
+      <p class="fineprint">🔒 Pagamento sicuro con Stripe · nessun dato di pagamento salvato da ClimaPronto</p>
+    </div>
+  </section>
+
+</main>
+
+<script>
+const DATA_URL = "https://raw.githubusercontent.com/sinaseyedi96-121/climapronto/main/data/stock.json";
+const PLAN_PRICES = { week: "2,90 €", month: "5,90 €", twomonths: "8,90 €" };
+
+const stepEmail = document.getElementById("step-email");
+const stepPlan  = document.getElementById("step-plan");
+const productSelect = document.getElementById("product-select");
+const emailInput = document.getElementById("email-input");
+const emailError = document.getElementById("email-error");
+const continueBtn = document.getElementById("continue-btn");
+const backBtn = document.getElementById("back-btn");
+const recapEmail = document.getElementById("recap-email");
+const recapProduct = document.getElementById("recap-product");
+const consentCheck = document.getElementById("consent-check");
+const payBtn = document.getElementById("pay-btn");
+const payError = document.getElementById("pay-error");
+
+const params = new URLSearchParams(location.search);
+const preselectId = params.get("product");
+
+fetch(DATA_URL + "?t=" + Date.now())
+  .then(res => res.ok ? res.json() : Promise.reject())
+  .then(data => {
+    (data.products || []).forEach(p => {
+      const opt = document.createElement("option");
+      opt.value = p.id;
+      opt.textContent = p.name;
+      productSelect.appendChild(opt);
+    });
+    if (preselectId && [...productSelect.options].some(o => o.value === preselectId)) {
+      productSelect.value = preselectId;
+    }
+  })
+  .catch(() => {}); // "qualsiasi" still works if the product list can't load
+
+function isValidEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+
+continueBtn.addEventListener("click", () => {
+  const email = emailInput.value.trim();
+  if (!isValidEmail(email)) {
+    emailError.hidden = false;
+    emailInput.focus();
+    return;
+  }
+  emailError.hidden = true;
+  recapEmail.textContent = email;
+  recapProduct.textContent = productSelect.selectedOptions[0].textContent;
+  stepEmail.hidden = true;
+  stepPlan.hidden = false;
+});
+
+backBtn.addEventListener("click", () => {
+  stepPlan.hidden = true;
+  stepEmail.hidden = false;
+});
+
+document.getElementById("plans").addEventListener("change", (e) => {
+  if (e.target.name !== "plan") return;
+  payBtn.textContent = `Attiva l'avviso · ${PLAN_PRICES[e.target.value]}`;
+});
+
+consentCheck.addEventListener("change", () => {
+  payBtn.disabled = !consentCheck.checked;
+});
+
+payBtn.addEventListener("click", async () => {
+  payError.hidden = true;
+  payBtn.disabled = true;
+  payBtn.textContent = "Attendere…";
+  try {
+    const res = await fetch("/api/create-checkout-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        productId: productSelect.value,
+        productName: productSelect.selectedOptions[0].textContent,
+        plan: document.querySelector('input[name="plan"]:checked').value,
+        email: emailInput.value.trim()
+      })
+    });
+    const data = await res.json().catch(() => null);
+    if (!res.ok || !data || !data.url) throw new Error((data && data.error) || "Errore durante l'attivazione. Riprova tra poco.");
+    location.href = data.url;
+  } catch (err) {
+    payError.textContent = err.message || "Qualcosa è andato storto. Riprova.";
+    payError.hidden = false;
+    payBtn.disabled = false;
+    payBtn.textContent = `Attiva l'avviso · ${PLAN_PRICES[document.querySelector('input[name="plan"]:checked').value]}`;
+  }
+});
+</script>
+
+</body>
+</html>
