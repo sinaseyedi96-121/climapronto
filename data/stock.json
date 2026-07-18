@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T07:11:21+00:00",
+  "updated_at": "2026-07-18T11:19:00+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -15,6 +15,7 @@
         {
           "store": "Demo Store Milano Centrale",
           "city": "Milano",
+          "address": "Via Demo 1, 20100 Milano",
           "lat": 45.4642,
           "lon": 9.19,
           "status": "available"
@@ -22,6 +23,7 @@
         {
           "store": "Demo Store Torino Lingotto",
           "city": "Torino",
+          "address": "Via Demo 2, 10100 Torino",
           "lat": 45.0703,
           "lon": 7.6869,
           "status": "available"
@@ -29,6 +31,7 @@
         {
           "store": "Demo Store Roma Tiburtina",
           "city": "Roma",
+          "address": "Via Demo 3, 00100 Roma",
           "lat": 41.9028,
           "lon": 12.4964,
           "status": "out_of_stock"
@@ -36,6 +39,7 @@
         {
           "store": "Demo Store Bologna Fiera",
           "city": "Bologna",
+          "address": "Via Demo 4, 40100 Bologna",
           "lat": 44.4949,
           "lon": 11.3426,
           "status": "available"
@@ -43,13 +47,14 @@
         {
           "store": "Demo Store Trento Nord",
           "city": "Trento",
+          "address": "Via Demo 5, 38100 Trento",
           "lat": 46.0748,
           "lon": 11.1217,
           "status": "out_of_stock"
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-18T07:11:16+00:00"
+      "checked_at": "2026-07-18T11:18:56+00:00"
     },
     {
       "id": "demo-comfee",
@@ -65,6 +70,7 @@
         {
           "store": "Demo Store Napoli Centro",
           "city": "Napoli",
+          "address": "Via Demo 6, 80100 Napoli",
           "lat": 40.8518,
           "lon": 14.2681,
           "status": "out_of_stock"
@@ -72,6 +78,7 @@
         {
           "store": "Demo Store Firenze Novoli",
           "city": "Firenze",
+          "address": "Via Demo 7, 50100 Firenze",
           "lat": 43.7696,
           "lon": 11.2558,
           "status": "out_of_stock"
@@ -79,6 +86,7 @@
         {
           "store": "Demo Store Palermo Forum",
           "city": "Palermo",
+          "address": "Via Demo 8, 90100 Palermo",
           "lat": 38.1157,
           "lon": 13.3615,
           "status": "unknown"
@@ -86,6 +94,7 @@
         {
           "store": "Demo Store Bari Santa Caterina",
           "city": "Bari",
+          "address": "Via Demo 9, 70100 Bari",
           "lat": 41.1171,
           "lon": 16.8719,
           "status": "out_of_stock"
@@ -93,13 +102,14 @@
         {
           "store": "Demo Store Verona Adigeo",
           "city": "Verona",
+          "address": "Via Demo 10, 37100 Verona",
           "lat": 45.4384,
           "lon": 10.9916,
           "status": "available"
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-18T07:11:16+00:00"
+      "checked_at": "2026-07-18T11:18:56+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -116,6 +126,7 @@
         {
           "store": "EURONICS TERNI",
           "city": "Terni",
+          "address": "Via Montefiorino, 48 (Centro Comm.\"COSPEA Village\"), 05100 Terni",
           "lat": 42.551213,
           "lon": 12.635972,
           "status": "out_of_stock"
@@ -123,6 +134,7 @@
         {
           "store": "EURONICS RIETI",
           "city": "Rieti",
+          "address": "Via Fundania 2- Centro Comm. Perseo, 02100 Rieti",
           "lat": 42.403301,
           "lon": 12.851636,
           "status": "out_of_stock"
@@ -130,6 +142,7 @@
         {
           "store": "Tufano Store Srl",
           "city": "Viterbo",
+          "address": "Via Amedeo Cerasa, 01100 Viterbo",
           "lat": 42.426848,
           "lon": 12.095881,
           "status": "out_of_stock"
@@ -137,6 +150,7 @@
         {
           "store": "EURONICS ORVIETO SCALO",
           "city": "Orvieto Scalo",
+          "address": "Via A. Costanzi, 59/a (Centro Comm Porta d'Orvieto), 05018 Orvieto Scalo",
           "lat": 42.71611,
           "lon": 12.14323,
           "status": "out_of_stock"
@@ -144,6 +158,7 @@
         {
           "store": "EURONICS MARSCIANO",
           "city": "Marsciano",
+          "address": "Via. Flli Briziarelli,11 (Parco Comm.Cross Conad), 06055 Marsciano",
           "lat": 42.905217247528476,
           "lon": 12.346751086269865,
           "status": "out_of_stock"
@@ -151,6 +166,7 @@
         {
           "store": "EURONICS TREVI CENTRO COMM.LE PIAZZAUMBRA",
           "city": "Trevi",
+          "address": "S.S.Flaminia Km147 (Centro Comm. Piazzaumbra), 06039 Trevi",
           "lat": 42.89112,
           "lon": 12.73083,
           "status": "out_of_stock"
@@ -158,6 +174,7 @@
         {
           "store": "EURONICS LE RUGHE",
           "city": "FORMELLO",
+          "address": "Via Casal dei Pini 33b - loc.tà Le Rughe, 00060 FORMELLO",
           "lat": 42.067322,
           "lon": 12.372919,
           "status": "out_of_stock"
@@ -165,6 +182,7 @@
         {
           "store": "EURONICS MONTEROTONDO",
           "city": "Monterotondo",
+          "address": "V.le Bruno Buozzi 35/37 (Centro Comm. Monterotondo), 00015 Monterotondo",
           "lat": 42.049771,
           "lon": 12.623838,
           "status": "out_of_stock"
@@ -172,6 +190,7 @@
         {
           "store": "EURONICS CAPENA",
           "city": "Capena",
+          "address": "Via Tiberina, Km. 16,400 (Centro Comm. L'Arca), 00060 Capena",
           "lat": 42.02975,
           "lon": 12.48241,
           "status": "out_of_stock"
@@ -179,6 +198,7 @@
         {
           "store": "EURONICS BRACCIANO",
           "city": "Bracciano",
+          "address": "Via delle Palme (Centro Comm. Bracciano), 00062 Bracciano",
           "lat": 42.09983,
           "lon": 12.154261,
           "status": "out_of_stock"
@@ -186,6 +206,7 @@
         {
           "store": "EURONICS ACQUAPENDENTE",
           "city": "Acquapendente",
+          "address": "Via Cassia, 47, 01021 Acquapendente",
           "lat": 42.743943,
           "lon": 11.863058,
           "status": "out_of_stock"
@@ -193,6 +214,7 @@
         {
           "store": "EURONICS OJETTI",
           "city": "Roma",
+          "address": "Via Ugo Ojetti,508, 00137 Roma",
           "lat": 41.94912,
           "lon": 12.556402,
           "status": "out_of_stock"
@@ -200,6 +222,7 @@
         {
           "store": "EURONICS SALARIA",
           "city": "Roma",
+          "address": "Via Salaria, 665, 00138 Roma",
           "lat": 41.942117,
           "lon": 12.507446,
           "status": "out_of_stock"
@@ -207,6 +230,7 @@
         {
           "store": "EURONICS PONTE MILVIO",
           "city": "Roma",
+          "address": "Via Riano, 15, 00191 Roma",
           "lat": 41.938477,
           "lon": 12.469466,
           "status": "out_of_stock"
@@ -214,6 +238,7 @@
         {
           "store": "EURONICS GUIDONIA",
           "city": "Guidonia",
+          "address": "Via Tiburtina km 20,500 - (Centro Comm. Tiburtino), 00012 Guidonia",
           "lat": 41.954285,
           "lon": 12.695523,
           "status": "out_of_stock"
@@ -221,6 +246,7 @@
         {
           "store": "EURONICS CASAL DEL MARMO",
           "city": "Roma",
+          "address": "Via Arola, 29 - Altezza G.R.A (Casal del Marmo), 00166 Roma",
           "lat": 41.93008,
           "lon": 12.38143,
           "status": "out_of_stock"
@@ -228,6 +254,7 @@
         {
           "store": "EURONICS ROSSINI",
           "city": "Roma",
+          "address": "V.le Rossini, 11/13, 00198 Roma",
           "lat": 41.920624,
           "lon": 12.491611,
           "status": "out_of_stock"
@@ -235,6 +262,7 @@
         {
           "store": "EURONICS PONTE SAN GIOVANNI",
           "city": "Ponte San Giovanni",
+          "address": "Via della Valtiera, 5, 06135 Ponte San Giovanni",
           "lat": 43.08556,
           "lon": 12.44661,
           "status": "out_of_stock"
@@ -242,6 +270,7 @@
         {
           "store": "EURONICS FLAMINIO",
           "city": "Roma",
+          "address": "Via Luisa di Savoia, 12, 00196 Roma",
           "lat": 41.911219,
           "lon": 12.473782,
           "status": "out_of_stock"
@@ -249,6 +278,7 @@
         {
           "store": "EURONICS PERUGIA",
           "city": "Perugia",
+          "address": "Via Settevalli,333/f, 06132 Perugia",
           "lat": 43.08141,
           "lon": 12.36363,
           "status": "out_of_stock"
@@ -256,6 +286,7 @@
         {
           "store": "EURONICS IPPOCRATE",
           "city": "Roma",
+          "address": "V.le Ippocrate, 23/43, 00161 Roma",
           "lat": 41.908866,
           "lon": 12.520452,
           "status": "out_of_stock"
@@ -263,6 +294,7 @@
         {
           "store": "EURONICS TERMINI",
           "city": "Roma",
+          "address": "Piazza dei Cinquecento, 00185 Roma",
           "lat": 41.90146,
           "lon": 12.49909,
           "status": "out_of_stock"
@@ -270,6 +302,7 @@
         {
           "store": "EURONICS VALLE AURELIA",
           "city": "Roma",
+          "address": "Via di Valle Aurelia, 30 (Centro Comm. Aura), 00167 Roma",
           "lat": 41.902444,
           "lon": 12.438611,
           "status": "out_of_stock"
@@ -277,6 +310,7 @@
         {
           "store": "EURONICS CORCIANO CENTRO COMM.LE QUASAR",
           "city": "Corciano",
+          "address": "Via Aldo capitini (Centro Comm. Quasar), 06073 Corciano",
           "lat": 43.100509,
           "lon": 12.309404,
           "status": "out_of_stock"
@@ -284,6 +318,7 @@
         {
           "store": "EURONICS HAPPIO",
           "city": "ROMA",
+          "address": "Via Appia Nuova 448 (Centro Comm. Happio), 00179 ROMA",
           "lat": 41.87457,
           "lon": 12.522513,
           "status": "out_of_stock"
@@ -291,6 +326,7 @@
         {
           "store": "Tufano Roma Srl",
           "city": "Roma",
+          "address": "Via Casilina, 1011 (Centro Comm. Casilino), 00169 Roma",
           "lat": 41.869096,
           "lon": 12.585278,
           "status": "out_of_stock"
@@ -298,6 +334,7 @@
         {
           "store": "EURONICS PORTUENSE",
           "city": "Roma",
+          "address": "Via Portuense, 320, 00153 Roma",
           "lat": 41.863832,
           "lon": 12.455434,
           "status": "out_of_stock"
@@ -305,6 +342,7 @@
         {
           "store": "EURONICS TORRE SPACCATA",
           "city": "Roma",
+          "address": "Via di Torre Spaccata, 110, 00173 Roma",
           "lat": 41.85761,
           "lon": 12.58606,
           "status": "out_of_stock"
@@ -312,13 +350,15 @@
         {
           "store": "EURONICS L'AQUILA",
           "city": "L'Aquila",
+          "address": "Via Saragat, 56 (Centro Comm. Globo Center), 67100 L'Aquila",
           "lat": 42.349591,
           "lon": 13.357209,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS FINOCCHIO",
           "city": "Roma",
+          "address": "Via Casilina, 2075/2077, 00132 Roma",
           "lat": 41.86404,
           "lon": 12.692749,
           "status": "out_of_stock"
@@ -326,6 +366,7 @@
         {
           "store": "Tufano Italia Srl",
           "city": "Civitavecchia",
+          "address": "Via Aurelia Nord, Km. 76 (C.C.La Scaglia), 00053 Civitavecchia",
           "lat": 42.124981,
           "lon": 11.770866,
           "status": "out_of_stock"
@@ -333,6 +374,7 @@
         {
           "store": "EURONICS ANAGNINA",
           "city": "Roma",
+          "address": "Via Torre di Mezzavia n. 61 (Centro Comm. Anagnina), 00173 Roma",
           "lat": 41.834525,
           "lon": 12.592906,
           "status": "out_of_stock"
@@ -340,6 +382,7 @@
         {
           "store": "ROMA LAURENTINA",
           "city": "ROMA",
+          "address": "Via Laurentina, 865 (Centro Comm. Maximo), 00143 ROMA",
           "lat": 41.809048,
           "lon": 12.4851,
           "status": "out_of_stock"
@@ -347,6 +390,7 @@
         {
           "store": "EURONICS OSTIA",
           "city": "Ostia",
+          "address": "V.le Paolo Orlando,9, 00122 Ostia",
           "lat": 41.73161,
           "lon": 12.28417,
           "status": "out_of_stock"
@@ -354,6 +398,7 @@
         {
           "store": "EURONICS CITY CASTEL DEL PIANO",
           "city": "Castel del Piano",
+          "address": "Via del Gallaccino, 21/A, 58033 Castel del Piano",
           "lat": 42.893546,
           "lon": 11.526693,
           "status": "out_of_stock"
@@ -361,6 +406,7 @@
         {
           "store": "EURONICS POMEZIA",
           "city": "Pomezia",
+          "address": "Via Naro, 2/4, 00071 Pomezia",
           "lat": 41.682993,
           "lon": 12.506062,
           "status": "out_of_stock"
@@ -368,6 +414,7 @@
         {
           "store": "EURONICS SINALUNGA",
           "city": "Sinalunga",
+          "address": "Via di Casal Piano (Centro Comm. I Gelsi), 53048 Sinalunga",
           "lat": 43.215998,
           "lon": 11.756315,
           "status": "out_of_stock"
@@ -375,6 +422,7 @@
         {
           "store": "TUFANO APRILIA SRL",
           "city": "Aprilia",
+          "address": "Via Zuara, 13, 04011 Aprilia",
           "lat": 41.580457,
           "lon": 12.648169,
           "status": "out_of_stock"
@@ -382,6 +430,7 @@
         {
           "store": "EURONICS ORBETELLO",
           "city": "Orbetello",
+          "address": "Via Aurelia, Km. 145, 58015 Orbetello",
           "lat": 42.464269,
           "lon": 11.241881,
           "status": "out_of_stock"
@@ -389,6 +438,7 @@
         {
           "store": "EURONICS CITTA' DI CASTELLO",
           "city": "Citta' di Castello",
+          "address": "Via P. Della Francesca, 17 (Centro Comm. Cross), 06012 Citta' di Castello",
           "lat": 43.470336,
           "lon": 12.231844,
           "status": "out_of_stock"
@@ -396,6 +446,7 @@
         {
           "store": "EURONICS AREZZO SAN ZENO",
           "city": "Arezzo",
+          "address": "Strada D, N.1 - San Zeno, 52100 Arezzo",
           "lat": 43.425606,
           "lon": 11.82894,
           "status": "out_of_stock"
@@ -403,6 +454,7 @@
         {
           "store": "EURONICS - FROSINONE",
           "city": "Frosinone",
+          "address": "Via Armando Vona, 20 (Centro Comm. Le Sorgenti), 03100 Frosinone",
           "lat": 41.621134,
           "lon": 13.284531,
           "status": "out_of_stock"
@@ -410,6 +462,7 @@
         {
           "store": "EURONICS AREZZO VIALE MECENATE",
           "city": "Arezzo",
+          "address": "Viale Mecenate, 2, 52100 Arezzo",
           "lat": 43.454465,
           "lon": 11.881026,
           "status": "out_of_stock"
@@ -417,6 +470,7 @@
         {
           "store": "EURONICS GROSSETO C.C. MAREMA'",
           "city": "Grosseto",
+          "address": "Via Cile Loc.tà Commendone (Centro Comm. Maremà), 58100 Grosseto",
           "lat": 42.790111,
           "lon": 11.115764,
           "status": "out_of_stock"
@@ -424,6 +478,7 @@
         {
           "store": "EURONICS AREZZO CENTRO COMM.LE SETTEPONTI",
           "city": "Arezzo",
+          "address": "Viale Amendola (Centro Comm. Setteponti), 52100 Arezzo",
           "lat": 43.47486,
           "lon": 11.86153,
           "status": "out_of_stock"
@@ -431,6 +486,7 @@
         {
           "store": "Tufano Latina Srl",
           "city": "Latina",
+          "address": "Via del Lido Centro Comm. Morbella, 04100 Latina",
           "lat": 41.451882,
           "lon": 12.888994,
           "status": "out_of_stock"
@@ -438,6 +494,7 @@
         {
           "store": "EURONICS SANSEPOLCRO",
           "city": "Sansepolcro",
+          "address": "Strada Senese Aretina, 201, 52037 Sansepolcro",
           "lat": 43.560311,
           "lon": 12.115359,
           "status": "out_of_stock"
@@ -445,6 +502,7 @@
         {
           "store": "EURONICS SIENA",
           "city": "Siena",
+          "address": "Via Massetana Romana,62, 53100 Siena",
           "lat": 43.29935,
           "lon": 11.32961,
           "status": "out_of_stock"
@@ -452,20 +510,23 @@
         {
           "store": "EURONICS MONTESILVANO",
           "city": "Montesilvano",
+          "address": "Via Vestina, 257/F, 65015 Montesilvano",
           "lat": 42.500131,
           "lon": 14.132551,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS SAN GIOVANNI TEATINO",
           "city": "San Giovanni Teatino",
+          "address": "Via Po, 1 ang. Via Caravaggio, 66020 San Giovanni Teatino",
           "lat": 42.419398,
           "lon": 14.174384,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MONTEVARCHI",
           "city": "Montevarchi",
+          "address": "V.le Cadorna,42, 52025 Montevarchi",
           "lat": 43.53366,
           "lon": 11.56127,
           "status": "out_of_stock"
@@ -473,6 +534,7 @@
         {
           "store": "EURONICS OSIMO",
           "city": "Osimo",
+          "address": "Via della Sbrozzola, 28 (Centro Comm. Cargopier), 60027 Osimo",
           "lat": 43.512418,
           "lon": 13.527957,
           "status": "out_of_stock"
@@ -480,6 +542,7 @@
         {
           "store": "EURONICS BIBBIENA",
           "city": "Bibbiena",
+          "address": "Località Palazzetto (Centro Comm. Il Casentino), 52011 Bibbiena",
           "lat": 43.70204,
           "lon": 11.806912,
           "status": "out_of_stock"
@@ -487,6 +550,7 @@
         {
           "store": "EURONICS COLLE VAL D'ELSA",
           "city": "Colle Val d'Elsa",
+          "address": "Loc.tà Belvedere, 106, 53034 Colle Val d'Elsa",
           "lat": 43.405962,
           "lon": 11.165734,
           "status": "out_of_stock"
@@ -494,6 +558,7 @@
         {
           "store": "EURONICS FOLLONICA",
           "city": "Follonica",
+          "address": "Strada Provinciale,152, 58022 Follonica",
           "lat": 42.935635,
           "lon": 10.779571,
           "status": "out_of_stock"
@@ -501,6 +566,7 @@
         {
           "store": "EURONICS POGGIBONSI",
           "city": "Poggibonsi",
+          "address": "Via Pisana, 151, 53036 Poggibonsi",
           "lat": 43.476037,
           "lon": 11.136399,
           "status": "out_of_stock"
@@ -508,6 +574,7 @@
         {
           "store": "Tufano Consumer Srl",
           "city": "Cassino",
+          "address": "Via Casilina sud km 141,376 (C.C.Panorama), 03043 Cassino",
           "lat": 41.48529,
           "lon": 13.85664,
           "status": "out_of_stock"
@@ -515,6 +582,7 @@
         {
           "store": "EURONICS LANCIANO",
           "city": "Treglio",
+          "address": "Contrada Severini, 66030 Treglio",
           "lat": 42.24642,
           "lon": 14.4175,
           "status": "available"
@@ -522,6 +590,7 @@
         {
           "store": "EURONICS PIOMBINO",
           "city": "Piombino",
+          "address": "Via Gori ang. Via Costa,1, 57025 Piombino",
           "lat": 42.924558,
           "lon": 10.529146,
           "status": "out_of_stock"
@@ -529,6 +598,7 @@
         {
           "store": "EURONICS FIRENZE CENTRO COMM.LE GAVINANA",
           "city": "Firenze",
+          "address": "V.le Giannotti (Centro Comm. Coop Gavinana), 50126 Firenze",
           "lat": 43.7567718,
           "lon": 11.2896088,
           "status": "out_of_stock"
@@ -536,6 +606,7 @@
         {
           "store": "EURONICS FIRENZE V.LE DEI MILLE",
           "city": "Firenze",
+          "address": "V.le dei Mille, 140, 50131 Firenze",
           "lat": 43.785278,
           "lon": 11.270775,
           "status": "out_of_stock"
@@ -543,6 +614,7 @@
         {
           "store": "EURONICS FIRENZE VIA DI NOVOLI",
           "city": "Firenze",
+          "address": "Via di Novoli, 22, 50127 Firenze",
           "lat": 43.792388,
           "lon": 11.222727,
           "status": "out_of_stock"
@@ -550,6 +622,7 @@
         {
           "store": "EURONICS LASTRA A SIGNA",
           "city": "Lastra a Signa",
+          "address": "Via Santa Maria del Castagnolo (Centro Coop.fi), 50055 Lastra a Signa",
           "lat": 43.768045,
           "lon": 11.120004,
           "status": "out_of_stock"
@@ -557,6 +630,7 @@
         {
           "store": "EURONICS SESTO FIORENTINO",
           "city": "Sesto Fiorentino",
+          "address": "Via Petrosa, 19 (Centro Sesto), 50019 Sesto Fiorentino",
           "lat": 43.822785,
           "lon": 11.207173,
           "status": "out_of_stock"
@@ -564,6 +638,7 @@
         {
           "store": "EURONICS CAMPI BISENZIO",
           "city": "Campi Bisenzio",
+          "address": "Via del Campo, 4, 50013 Campi Bisenzio",
           "lat": 43.81093,
           "lon": 11.14354,
           "status": "out_of_stock"
@@ -571,6 +646,7 @@
         {
           "store": "EURONICS PORTOFERRAIO",
           "city": "Portoferraio",
+          "address": "Via degli Alti Forni,45, 57037 Portoferraio",
           "lat": 42.79623,
           "lon": 10.27921,
           "status": "out_of_stock"
@@ -578,6 +654,7 @@
         {
           "store": "EURONICS CECINA CENTRO COMM.LE CORTE ACQUERTA",
           "city": "Cecina",
+          "address": "P.co Comm.le Corte Acquerta S.Pietro in Palazzi, 57023 Cecina",
           "lat": 43.329646,
           "lon": 10.522978,
           "status": "out_of_stock"
@@ -585,6 +662,7 @@
         {
           "store": "EURONICS PRATO",
           "city": "Prato",
+          "address": "Via delle Pleiadi,87 (c/o Parco Prato Coop), 59100 Prato",
           "lat": 43.87677,
           "lon": 11.0663,
           "status": "out_of_stock"
@@ -592,6 +670,7 @@
         {
           "store": "EURONICS FORLI'",
           "city": "Forlì",
+          "address": "Via Argentina Altobelli, 22, 47122 Forlì",
           "lat": 44.2476897790415,
           "lon": 12.088547868277999,
           "status": "out_of_stock"
@@ -599,6 +678,7 @@
         {
           "store": "EURONICS PONTEDERA",
           "city": "Pontedera",
+          "address": "Via Tosco Romagnola,21, 56025 Pontedera",
           "lat": 43.66668,
           "lon": 10.61256,
           "status": "out_of_stock"
@@ -606,6 +686,7 @@
         {
           "store": "EURONICS MONTECATINI TERME",
           "city": "Massa e Cozzile",
+          "address": "Via Biscolla, 48 (Centro Comm. Montecatini), 51010 Massa e Cozzile",
           "lat": 43.861535,
           "lon": 10.764193,
           "status": "out_of_stock"
@@ -613,13 +694,15 @@
         {
           "store": "EURONICS CAMPOBASSO",
           "city": "Campobasso",
+          "address": "Via Colle delle Api, 44 (C.C.Centro del Molise), 86100 Campobasso",
           "lat": 41.560254,
           "lon": 14.676651,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "Tufano Telecomunicazioni Srl",
           "city": "Vitulazio",
+          "address": "Via Appia Km 194,400 (Centro Comm. Il Decumano), 81041 Vitulazio",
           "lat": 41.12049,
           "lon": 14.20044,
           "status": "out_of_stock"
@@ -627,6 +710,7 @@
         {
           "store": "EURONICS NAVACCHIO",
           "city": "Navacchio",
+          "address": "Via Fosso Vecchio,457 (Centro Comm. I Borghi) - Cascina, 56023 Navacchio",
           "lat": 43.674,
           "lon": 10.47359,
           "status": "out_of_stock"
@@ -634,6 +718,7 @@
         {
           "store": "EURONICS LIVORNO PARCO LEVANTE",
           "city": "Livorno",
+          "address": "Via Giovanni Gelati int. 10 (Parco Comm. Levante), 57128 Livorno",
           "lat": 43.529526,
           "lon": 10.331347,
           "status": "out_of_stock"
@@ -641,6 +726,7 @@
         {
           "store": "EURONICS LIVORNO C.C. FONTI DEL CORALLO",
           "city": "Livorno",
+          "address": "Via Gino Graziani, 6 (C.Comm. Fonti del Corallo), 57121 Livorno",
           "lat": 43.550723,
           "lon": 10.339782,
           "status": "out_of_stock"
@@ -648,6 +734,7 @@
         {
           "store": "EURONICS TERMOLI",
           "city": "Termoli",
+          "address": "Via dei Pini, 3, 86039 Termoli",
           "lat": 41.982449,
           "lon": 15.003988,
           "status": "available"
@@ -655,6 +742,7 @@
         {
           "store": "Tufano Net Srl",
           "city": "Casapulla",
+          "address": "Via Nazionale Appia,5(Centro Comm.Apollo), 81020 Casapulla",
           "lat": 41.07398,
           "lon": 14.29092,
           "status": "out_of_stock"
@@ -662,6 +750,7 @@
         {
           "store": "EURONICS LUCCA",
           "city": "Lucca",
+          "address": "Via Carlo del Prete, 8, 55100 Lucca",
           "lat": 43.848333,
           "lon": 10.50461,
           "status": "out_of_stock"
@@ -669,6 +758,7 @@
         {
           "store": "EURONICS PISA",
           "city": "San Giuliano Terme",
+          "address": "S.S. Aurelia Km 338 - Loc.tà Madonna dell'Acqua, 56017 San Giuliano Terme",
           "lat": 43.741028,
           "lon": 10.372,
           "status": "out_of_stock"
@@ -676,6 +766,7 @@
         {
           "store": "TUFANO MULTIMEDIA S.R.L.",
           "city": "Marcianise",
+          "address": "S.S. Sannitica 87 Loc.tà Aurno (Parco Comm. Campania), 81025 Marcianise",
           "lat": 41.03326,
           "lon": 14.30196,
           "status": "out_of_stock"
@@ -683,6 +774,7 @@
         {
           "store": "Tufano World Srl",
           "city": "Giugliano",
+          "address": "Via S. Francesco a Patria (Centro Comm. Auchan), 80014 Giugliano",
           "lat": 40.9289,
           "lon": 14.15543,
           "status": "out_of_stock"
@@ -690,6 +782,7 @@
         {
           "store": "Tufano Quarto Srl",
           "city": "Quarto",
+          "address": "Via Masullo (centro Comm.Quarto Nuovo), 80010 Quarto",
           "lat": 40.8776,
           "lon": 14.11129,
           "status": "out_of_stock"
@@ -697,6 +790,7 @@
         {
           "store": "Tufano Mugnano Srl",
           "city": "Mugnano",
+          "address": "Via Pietro Nenni (Galleria Auchan), 80018 Mugnano",
           "lat": 40.910717,
           "lon": 14.222474,
           "status": "out_of_stock"
@@ -704,6 +798,7 @@
         {
           "store": "Tufano Teresa Srl",
           "city": "Casoria",
+          "address": "S.S. Sannitica 87, Km. 7 (Centro Comm. Tufano), 80026 Casoria",
           "lat": 40.91034,
           "lon": 14.286888,
           "status": "out_of_stock"
@@ -711,6 +806,7 @@
         {
           "store": "Tufano Fuorigrotta Srl",
           "city": "Napoli",
+          "address": "Via Cinthia ang. Via Marco Aurelio, 80126 Napoli",
           "lat": 40.836191,
           "lon": 14.190405,
           "status": "out_of_stock"
@@ -718,6 +814,7 @@
         {
           "store": "Tufano Group Srl",
           "city": "Afragola",
+          "address": "Via Marziasepe, 1 (C.C.Le Porte di Napoli), 80021 Afragola",
           "lat": 40.934265,
           "lon": 14.353101,
           "status": "out_of_stock"
@@ -725,6 +822,7 @@
         {
           "store": "Tecno World Srl",
           "city": "Casoria",
+          "address": "Via S. Salvatore (Centro Comm. Casoria Park ), 80026 Casoria",
           "lat": 40.898623,
           "lon": 14.311439,
           "status": "out_of_stock"
@@ -732,6 +830,7 @@
         {
           "store": "Tufano Entertainment",
           "city": "Napoli",
+          "address": "Galleria Umberto I, 53, 80132 Napoli",
           "lat": 40.838402,
           "lon": 14.249275,
           "status": "out_of_stock"
@@ -739,6 +838,7 @@
         {
           "store": "EURONICS VIAREGGIO",
           "city": "Viareggio",
+          "address": "Via Pisana (P.co Comm. Burlamacca), 55049 Viareggio",
           "lat": 43.865787,
           "lon": 10.258756,
           "status": "out_of_stock"
@@ -746,6 +846,7 @@
         {
           "store": "Mdl Srl",
           "city": "Volla",
+          "address": "Via Famiglietti (Galleria Comm. SediciCasa), 80040 Volla",
           "lat": 40.874863,
           "lon": 14.346592,
           "status": "out_of_stock"
@@ -753,6 +854,7 @@
         {
           "store": "Tufano Tema Srl",
           "city": "Napoli",
+          "address": "V.le Argine,380 (Centro Comm. Auchan), 80147 Napoli",
           "lat": 40.85544,
           "lon": 14.32197,
           "status": "out_of_stock"
@@ -760,6 +862,7 @@
         {
           "store": "Tufano Vulcano Srl",
           "city": "Nola",
+          "address": "Loc.tà Boscofangone (Centro Comm. Vulcano Buono), 80035 Nola",
           "lat": 40.951348,
           "lon": 14.48656,
           "status": "out_of_stock"
@@ -767,6 +870,7 @@
         {
           "store": "EURONICS BOLOGNA CENTRO COMM. VIALARGA",
           "city": "Bologna",
+          "address": "Via Larga, 10 (Centro Comm. Via Larga), 40138 Bologna",
           "lat": 44.497483,
           "lon": 11.393342,
           "status": "out_of_stock"
@@ -774,6 +878,7 @@
         {
           "store": "Tufano Technologies Srl",
           "city": "Portici",
+          "address": "C.so Garibaldi,247, 80055 Portici",
           "lat": 40.821554,
           "lon": 14.325281,
           "status": "out_of_stock"
@@ -781,6 +886,7 @@
         {
           "store": "TUFANO BENEVENTO SRL",
           "city": "Benevento",
+          "address": "Via dei Longobardi, 24 (Centro Comm. I Sanniti), 82100 Benevento",
           "lat": 41.141683,
           "lon": 14.780568,
           "status": "out_of_stock"
@@ -788,6 +894,7 @@
         {
           "store": "EURONICS CITY - ELETTRODREAMS",
           "city": "Pavullo nel Frignano",
+          "address": "Via Bellei, 22, 41026 Pavullo nel Frignano",
           "lat": 44.34098,
           "lon": 10.83183,
           "status": "out_of_stock"
@@ -795,6 +902,7 @@
         {
           "store": "EURONICS PIEVE FOSCIANA",
           "city": "Pieve Fosciana",
+          "address": "Via Nazionale,26, 55036 Pieve Fosciana",
           "lat": 44.127101,
           "lon": 10.410847,
           "status": "out_of_stock"
@@ -802,6 +910,7 @@
         {
           "store": "Tufano Napoli Srl",
           "city": "Torre Annunziata",
+          "address": "Via comunale Traversa Andolfi snc, 80058 Torre Annunziata",
           "lat": 40.755209,
           "lon": 14.470018,
           "status": "out_of_stock"
@@ -809,13 +918,15 @@
         {
           "store": "EURONICS SAN SEVERO",
           "city": "San Severo",
+          "address": "Via del Soccorso, 372/374, 71016 San Severo",
           "lat": 41.673306,
           "lon": 15.395449,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MASSA",
           "city": "Massa",
+          "address": "Via Marina Vecchia, 222, 54100 Massa",
           "lat": 44.027441,
           "lon": 10.127698,
           "status": "out_of_stock"
@@ -823,6 +934,7 @@
         {
           "store": "Tufano Electronics Srl",
           "city": "Mercogliano",
+          "address": "Via Nazionale Torrette, 185, 83013 Mercogliano",
           "lat": 40.907274,
           "lon": 14.755618,
           "status": "out_of_stock"
@@ -830,13 +942,15 @@
         {
           "store": "EURONICS LUCERA",
           "city": "Lucera",
+          "address": "S.S. per Troia (Centro Comm. Eurospar), 71036 Lucera",
           "lat": 41.50542,
           "lon": 15.33397,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "Tufano Nocera Srl",
           "city": "Nocera Inferiore",
+          "address": "Via Napoli, 126, 84014 Nocera Inferiore",
           "lat": 40.74698,
           "lon": 14.631413,
           "status": "out_of_stock"
@@ -844,6 +958,7 @@
         {
           "store": "EURONICS MODENA",
           "city": "Modena",
+          "address": "Strada Morane, 500 (Centro Comm. La Rotonda), 41126 Modena",
           "lat": 44.621028,
           "lon": 10.92755,
           "status": "out_of_stock"
@@ -851,6 +966,7 @@
         {
           "store": "EURONICS SARZANA",
           "city": "Sarzana",
+          "address": "Via Variante Cisa, 57, 19038 Sarzana",
           "lat": 44.117294,
           "lon": 9.945098,
           "status": "out_of_stock"
@@ -858,6 +974,7 @@
         {
           "store": "EURONICS POINT - SCOLARI",
           "city": "Casina",
+          "address": "Via Camatta, 14, 42034 Casina",
           "lat": 44.508604,
           "lon": 10.497504,
           "status": "out_of_stock"
@@ -865,13 +982,15 @@
         {
           "store": "EURONICS FOGGIA VILLAGGIO ARTIGIANI",
           "city": "Foggia",
+          "address": "V.le degli Artigiani, 20/22, 71121 Foggia",
           "lat": 41.47061,
           "lon": 15.55556,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS FOGGIA CENTRO COMM.LE MONGOLFIERA",
           "city": "Foggia",
+          "address": "V.le degli Aviatori (C.C. Mongolfiera), 71122 Foggia",
           "lat": 41.4403,
           "lon": 15.54497,
           "status": "available"
@@ -879,6 +998,7 @@
         {
           "store": "TUFANO SALERNO 2 SRL",
           "city": "Salerno",
+          "address": "Via Roberto Wenner, 27, 84127 Salerno",
           "lat": 40.636665,
           "lon": 14.83796,
           "status": "out_of_stock"
@@ -886,6 +1006,7 @@
         {
           "store": "EURONICS REGGIO EMILIA",
           "city": "Reggio Emilia",
+          "address": "Via Regina Elena,15/E, 42124 Reggio Emilia",
           "lat": 44.70587693604892,
           "lon": 10.627270000569162,
           "status": "out_of_stock"
@@ -893,6 +1014,7 @@
         {
           "store": "Tufano Salerno Srl",
           "city": "Pontecagnano",
+          "address": "Via Pacinotti snc (Centro Comm.Maximall), 84098 Pontecagnano",
           "lat": 40.6352,
           "lon": 14.908608,
           "status": "out_of_stock"
@@ -900,13 +1022,15 @@
         {
           "store": "EURONICS MONTE SANT'ANGELO",
           "city": "Monte Sant' Angelo",
+          "address": "C.da Pace Zona Macchia (Centro Comm. Del Gargano, 71037 Monte Sant' Angelo",
           "lat": 41.73494,
           "lon": 15.96133,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MANFREDONIA",
           "city": "Manfredonia",
+          "address": "Via Cala del Fico, 71043 Manfredonia",
           "lat": 41.63732,
           "lon": 15.92853,
           "status": "out_of_stock"
@@ -914,6 +1038,7 @@
         {
           "store": "EURONICS OLBIA",
           "city": "Olbia",
+          "address": "Via Degli Astronauti (rotonda fronte aeroporto), 07026 Olbia",
           "lat": 40.90814636455469,
           "lon": 9.51656144043038,
           "status": "out_of_stock"
@@ -921,13 +1046,15 @@
         {
           "store": "EURONICS CERIGNOLA",
           "city": "Cerignola",
+          "address": "Via USA,81/83, 71042 Cerignola",
           "lat": 41.27092,
           "lon": 15.87847,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS PARMA",
           "city": "Parma",
+          "address": "Via Napoleone Colajanni snc, 43126 Parma",
           "lat": 44.81091,
           "lon": 10.293462,
           "status": "out_of_stock"
@@ -935,6 +1062,7 @@
         {
           "store": "EURONICS SAN SALVATORE COGORNO",
           "city": "San Salvatore di Cogorno",
+          "address": "Via Umberto Vittorio Podestà, 1, 16030 San Salvatore di Cogorno",
           "lat": 44.332536,
           "lon": 9.351378,
           "status": "out_of_stock"
@@ -942,6 +1070,7 @@
         {
           "store": "EURONICS - BRUNO MIRA",
           "city": "Gambarare di Mira",
+          "address": "S.S. Romea km 66, 30034 Gambarare di Mira",
           "lat": 45.421888,
           "lon": 12.171139,
           "status": "out_of_stock"
@@ -949,6 +1078,7 @@
         {
           "store": "EURONICS - BRUNO PADOVA",
           "city": "Padova",
+          "address": "Via San Marco ang. Via Quintino Sella, 35129 Padova",
           "lat": 45.417621,
           "lon": 11.925549,
           "status": "out_of_stock"
@@ -956,6 +1086,7 @@
         {
           "store": "EURONICS - BRUNO MANTOVA",
           "city": "Mantova",
+          "address": "Via Verona, 83, 46100 Mantova",
           "lat": 45.18001928802242,
           "lon": 10.788239967062928,
           "status": "out_of_stock"
@@ -963,6 +1094,7 @@
         {
           "store": "EURONICS POINT - MAS",
           "city": "Ca' Savio",
+          "address": "Via Treportina, 32/A c/o Centro Comm. Punta Gialla, 30010 Ca' Savio",
           "lat": 45.454448,
           "lon": 12.457394,
           "status": "out_of_stock"
@@ -970,6 +1102,7 @@
         {
           "store": "EURONICS POINT - MEGGIORINI",
           "city": "Isola della Scala",
+          "address": "Via Roma,13, 37063 Isola della Scala",
           "lat": 45.270585,
           "lon": 11.007337,
           "status": "out_of_stock"
@@ -977,13 +1110,15 @@
         {
           "store": "EURONICS BARLETTA",
           "city": "Barletta",
+          "address": "Via Trani, 61, 76121 Barletta",
           "lat": 41.30892,
           "lon": 16.31221,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO VERONA",
           "city": "San Martino Buon Albergo",
+          "address": "Via Fenil Novo, 25, 37036 San Martino Buon Albergo",
           "lat": 45.415658,
           "lon": 11.088054,
           "status": "out_of_stock"
@@ -991,6 +1126,7 @@
         {
           "store": "EURONICS - BRUNO VICENZA",
           "city": "Vicenza",
+          "address": "V.le Serenissima (adiacente Centro Comm. Palladio), 36100 Vicenza",
           "lat": 45.52886,
           "lon": 11.592911,
           "status": "out_of_stock"
@@ -998,20 +1134,23 @@
         {
           "store": "EURONICS POTENZA",
           "city": "Potenza",
+          "address": "Via della Tecnica,8, 85100 Potenza",
           "lat": 40.62501,
           "lon": 15.79746,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS TRANI",
           "city": "Trani",
+          "address": "Via Austria snc, 75125 Trani",
           "lat": 41.273029,
           "lon": 16.4035,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CITY - CAMPAGNARO",
           "city": "Resana",
+          "address": "Via Castellana, 32, 31023 Resana",
           "lat": 45.63578,
           "lon": 11.95497,
           "status": "out_of_stock"
@@ -1019,6 +1158,7 @@
         {
           "store": "EURONICS - BRUNO Treviso",
           "city": "Treviso",
+          "address": "Via Noalese, 72, 31100 Treviso",
           "lat": 45.65597752772545,
           "lon": 12.206954169107089,
           "status": "out_of_stock"
@@ -1026,13 +1166,15 @@
         {
           "store": "EURONICS CORATO",
           "city": "Corato",
+          "address": "Strada provinciale 231, Km 35.2, 70033 Corato",
           "lat": 41.157602,
           "lon": 16.397367,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - ZURLO",
           "city": "Cittadella",
+          "address": "Via del Commercio,2, 35013 Cittadella",
           "lat": 45.66253,
           "lon": 11.80496,
           "status": "out_of_stock"
@@ -1040,6 +1182,7 @@
         {
           "store": "EURONICS GENOVA",
           "city": "Genova",
+          "address": "Via Romairone, 10 (Centro Comm. L'Aquilone), 16163 Genova",
           "lat": 44.471306,
           "lon": 8.9005136,
           "status": "out_of_stock"
@@ -1047,6 +1190,7 @@
         {
           "store": "EURONICS CITY - GE.CO.",
           "city": "San Michele al Tagliamento",
+          "address": "Via Attilio Venudo, 10, 30028 San Michele al Tagliamento",
           "lat": 45.769126,
           "lon": 12.994338,
           "status": "out_of_stock"
@@ -1054,6 +1198,7 @@
         {
           "store": "EURONICS MOLFETTA",
           "city": "Molfetta",
+          "address": "Via delle Oliere e Saponiere Meridionali, 5, 70056 Molfetta",
           "lat": 41.169351,
           "lon": 16.597595,
           "status": "available"
@@ -1061,6 +1206,7 @@
         {
           "store": "EURONICS GAVARDO",
           "city": "Gavardo",
+          "address": "Via Gianbattista Bruni Conter, 2, 25085 Gavardo",
           "lat": 45.576686,
           "lon": 10.444375,
           "status": "out_of_stock"
@@ -1068,6 +1214,7 @@
         {
           "store": "EURONICS SAVONA",
           "city": "Savona",
+          "address": "Via Stalingrado (Centro Polif.le Le Officine), 17100 Savona",
           "lat": 44.30014,
           "lon": 8.4621,
           "status": "out_of_stock"
@@ -1075,6 +1222,7 @@
         {
           "store": "EURONICS SASSARI",
           "city": "Sassari",
+          "address": "V.le Porto Torres (Centro Comm. Porte di Sassari), 07100 Sassari",
           "lat": 40.739053,
           "lon": 8.535788,
           "status": "out_of_stock"
@@ -1082,6 +1230,7 @@
         {
           "store": "EURONICS ALTAMURA",
           "city": "Altamura",
+          "address": "Piazza Stazione,8, 70022 Altamura",
           "lat": 40.8375,
           "lon": 16.55154,
           "status": "available"
@@ -1089,6 +1238,7 @@
         {
           "store": "EURONICS POINT - HI-FI CESARI",
           "city": "San Colombano al Lambro",
+          "address": "Via Steffenini, 44, 20078 San Colombano al Lambro",
           "lat": 45.18367,
           "lon": 9.48259,
           "status": "out_of_stock"
@@ -1096,6 +1246,7 @@
         {
           "store": "EURONICS RONCADELLE",
           "city": "Roncadelle",
+          "address": "presso  Centro Comm.le ELNÒS SHOPPING - Via Luigi Einaudi, 25030 Roncadelle",
           "lat": 45.533387,
           "lon": 10.166618,
           "status": "out_of_stock"
@@ -1103,6 +1254,7 @@
         {
           "store": "EURONICS POINT - CELESIA",
           "city": "Loano",
+          "address": "Via Garibaldi, 144/146 I, 17025 Loano",
           "lat": 44.125349,
           "lon": 8.257849,
           "status": "out_of_stock"
@@ -1110,6 +1262,7 @@
         {
           "store": "EURONICS CITY - SILCA",
           "city": "Comezzano-Cizzago",
+          "address": "Via Giuseppe Zanardelli, 16, 25030 Comezzano-Cizzago",
           "lat": 45.470793,
           "lon": 9.951343,
           "status": "out_of_stock"
@@ -1117,6 +1270,7 @@
         {
           "store": "EURONICS CONCESIO",
           "city": "Concesio",
+          "address": "Via delle Camerate (Parco Comm. Auchan), 25062 Concesio",
           "lat": 45.58872,
           "lon": 10.227438,
           "status": "out_of_stock"
@@ -1124,13 +1278,15 @@
         {
           "store": "EURONICS BARI PARCO MAX",
           "city": "Bari",
+          "address": "Tang.Bari uscita n.6 (Bari Max Shopping Village), 70123 Bari",
           "lat": 41.11502,
           "lon": 16.80876,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CREMA",
           "city": "Crema",
+          "address": "Via G. La Pira,12 (Centro Comm. Gran Rondò), 26013 Crema",
           "lat": 45.359280935156384,
           "lon": 9.667159958629268,
           "status": "out_of_stock"
@@ -1138,6 +1294,7 @@
         {
           "store": "EURONICS BARI SANTA CATERINA",
           "city": "Bari",
+          "address": "Via Martiri delle Foibe,1 - Loc. S.ta Caterina, 70100 Bari",
           "lat": 41.0969130564396,
           "lon": 16.836432447386603,
           "status": "available"
@@ -1145,6 +1302,7 @@
         {
           "store": "BRUNO PIEVE FISSIRAGA",
           "city": "Pieve Fissiraga",
+          "address": "Via delle Nazioni Unite 1 (Centro Comm. Gallerie Bennet Pieve), 26854 Pieve Fissiraga",
           "lat": 45.275789,
           "lon": 9.455478,
           "status": "out_of_stock"
@@ -1152,6 +1310,7 @@
         {
           "store": "EURONICS CITY - ELETTROCASA",
           "city": "Basaluzzo",
+          "address": "Via Novi, 70/A, 15060 Basaluzzo",
           "lat": 44.769696,
           "lon": 8.726615,
           "status": "out_of_stock"
@@ -1159,13 +1318,15 @@
         {
           "store": "EURONICS MATERA",
           "city": "Matera",
+          "address": "Via delle Arti, 24, 75100 Matera",
           "lat": 40.672642,
           "lon": 16.573276,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS TORTONA",
           "city": "Tortona",
+          "address": "Strada Provinciale per Viguzzolo, 2 (Citta' Comm. Oasi), 15057 Tortona",
           "lat": 44.907338,
           "lon": 8.881523,
           "status": "out_of_stock"
@@ -1173,6 +1334,7 @@
         {
           "store": "EURONICS - BRUNO UDINE",
           "city": "Udine",
+          "address": "Via Tricesimo, 149 (Parco Comm. Terminal Nord), 33100 Udine",
           "lat": 46.093022,
           "lon": 13.234963,
           "status": "out_of_stock"
@@ -1180,6 +1342,7 @@
         {
           "store": "EURONICS ARMA DI TAGGIA",
           "city": "Arma di Taggia",
+          "address": "Via del Piano (Parco Comm.Taggia), 18018 Arma di Taggia",
           "lat": 43.84605,
           "lon": 7.856532,
           "status": "out_of_stock"
@@ -1187,6 +1350,7 @@
         {
           "store": "EURONICS POINT - PLANET",
           "city": "MARTINENGO",
+          "address": "Via Trieste, 9, 24057 MARTINENGO",
           "lat": 45.569453,
           "lon": 9.76208,
           "status": "out_of_stock"
@@ -1194,6 +1358,7 @@
         {
           "store": "EURONICS POINT - CAPELLI",
           "city": "Borgo Chiese",
+          "address": "Via Roma, 51, 38083 Borgo Chiese",
           "lat": 45.889362,
           "lon": 10.600279,
           "status": "out_of_stock"
@@ -1201,6 +1366,7 @@
         {
           "store": "EURONICS ALESSANDRIA",
           "city": "Alessandria",
+          "address": "Via Marengo, 64, 15121 Alessandria",
           "lat": 44.911025,
           "lon": 8.627038,
           "status": "out_of_stock"
@@ -1208,6 +1374,7 @@
         {
           "store": "EURONICS DALMINE",
           "city": "Dalmine",
+          "address": "Via Roggia Serio Grande, 14, 24044 Dalmine",
           "lat": 45.653892,
           "lon": 9.620445,
           "status": "out_of_stock"
@@ -1215,6 +1382,7 @@
         {
           "store": "EURONICS POINT - LOCATELLI",
           "city": "BERGAMO",
+          "address": "Via P.Ruggeri da Stabello, 17, 24125 BERGAMO",
           "lat": 45.71492,
           "lon": 9.665969,
           "status": "out_of_stock"
@@ -1222,6 +1390,7 @@
         {
           "store": "EURONICS CITY - MISTRI",
           "city": "Fiorano al Serio",
+          "address": "Via Roma, 1, 24020 Fiorano al Serio",
           "lat": 45.79756,
           "lon": 9.839414,
           "status": "out_of_stock"
@@ -1229,6 +1398,7 @@
         {
           "store": "EURONICS DIMO VIGEVANO",
           "city": "Vigevano",
+          "address": "V.le Industria, 27029 Vigevano",
           "lat": 45.30837817853088,
           "lon": 8.878363279767415,
           "status": "out_of_stock"
@@ -1236,13 +1406,15 @@
         {
           "store": "EURONICS CASTELLANA",
           "city": "Castellana Grotte",
+          "address": "Via per Putignano,92 (C.C. Grotte), 70013 Castellana Grotte",
           "lat": 40.87737,
           "lon": 17.15893,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS POINT - ELETTROSOC GILMOZZI",
           "city": "Tesero",
+          "address": "Via Socce, 2, 38038 Tesero",
           "lat": 46.288821,
           "lon": 11.507002,
           "status": "out_of_stock"
@@ -1250,6 +1422,7 @@
         {
           "store": "EURONICS - BRUNO MILANO",
           "city": "Milano",
+          "address": "Merlata Bloom - Via Gottlieb Wilhelm Daimler, 20156 Milano",
           "lat": 45.5138124773076,
           "lon": 9.1058395807155,
           "status": "out_of_stock"
@@ -1257,6 +1430,7 @@
         {
           "store": "EURONICS MONDOVI'",
           "city": "Mondovi'",
+          "address": "P.zza Mondovicino, 42 (Centro Comm. Mondovicino), 12084 Mondovi'",
           "lat": 44.42029,
           "lon": 7.855151,
           "status": "out_of_stock"
@@ -1264,6 +1438,7 @@
         {
           "store": "EURONICS MONOPOLI",
           "city": "Monopoli",
+          "address": "Viale Aldo Moro,53, 70043 Monopoli",
           "lat": 40.96379,
           "lon": 17.27681,
           "status": "available"
@@ -1271,6 +1446,7 @@
         {
           "store": "EURONICS OSNAGO",
           "city": "Osnago",
+          "address": "Via Statale, 20/b, 23875 Osnago",
           "lat": 45.682055213276236,
           "lon": 9.399235150347337,
           "status": "out_of_stock"
@@ -1278,6 +1454,7 @@
         {
           "store": "EURONICS ASTI",
           "city": "Asti",
+          "address": "C.so Alessandria, 272, 14100 Asti",
           "lat": 44.906325713941506,
           "lon": 8.228184896259531,
           "status": "out_of_stock"
@@ -1285,6 +1462,7 @@
         {
           "store": "EURONICS ALBA",
           "city": "Alba",
+          "address": "C.so Asti, 24 (Centro Comm. Alba Center), 12051 Alba",
           "lat": 44.71733693577373,
           "lon": 8.035181595466296,
           "status": "out_of_stock"
@@ -1292,6 +1470,7 @@
         {
           "store": "EURONICS CASALE MONFERRATO",
           "city": "Casale Monferrato",
+          "address": "V.le Cavalli D'Olivola, 6, 15033 Casale Monferrato",
           "lat": 45.132625,
           "lon": 8.45095,
           "status": "out_of_stock"
@@ -1299,6 +1478,7 @@
         {
           "store": "EURONICS CITY - PUNTO LUCE",
           "city": "Cles",
+          "address": "Via Trento, 89/2/3, 38023 Cles",
           "lat": 46.35713,
           "lon": 11.03739,
           "status": "out_of_stock"
@@ -1306,6 +1486,7 @@
         {
           "store": "EURONICS - BRUNO LECCO",
           "city": "Lecco",
+          "address": "L.go Caleotto, 10 (Centro Comm. Meridiana), 23900 Lecco",
           "lat": 45.854304,
           "lon": 9.397864,
           "status": "out_of_stock"
@@ -1313,13 +1494,15 @@
         {
           "store": "EURONICS MARTINA FRANCA",
           "city": "Martina Franca",
+          "address": "Via Guglielmi, 9/Bis, 74015 Martina Franca",
           "lat": 40.7012,
           "lon": 17.329946,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CUNEO PARCO COMM.LE AUCHAN",
           "city": "Cuneo - Borgo San Giuseppe",
+          "address": "Parco Comm. Auchan - Via Margarita, 8, 12100 Cuneo - Borgo San Giuseppe",
           "lat": 44.391505,
           "lon": 7.58214,
           "status": "out_of_stock"
@@ -1327,6 +1510,7 @@
         {
           "store": "EURONICS NOVARA",
           "city": "Novara",
+          "address": "Via Gnifetti, 70, 28100 Novara",
           "lat": 45.449285,
           "lon": 8.609786,
           "status": "out_of_stock"
@@ -1334,6 +1518,7 @@
         {
           "store": "EURONICS CUNEO VIA CASCINA COLOMBARO",
           "city": "Cuneo",
+          "address": "Via Cascina Colombaro,26, 12100 Cuneo",
           "lat": 44.374814,
           "lon": 7.520619,
           "status": "out_of_stock"
@@ -1341,6 +1526,7 @@
         {
           "store": "EURONICS VERCELLI",
           "city": "Vercelli",
+          "address": "Tang.Ovest Camp. Sud (Parco Comm. Carrefour), 13100 Vercelli",
           "lat": 45.322872,
           "lon": 8.391572,
           "status": "out_of_stock"
@@ -1348,6 +1534,7 @@
         {
           "store": "EURONICS POINT - FEVAL",
           "city": "Piateda",
+          "address": "Via Roma, 71, 23020 Piateda",
           "lat": 46.159812,
           "lon": 9.94076,
           "status": "out_of_stock"
@@ -1355,6 +1542,7 @@
         {
           "store": "EURONICS TARANTO",
           "city": "Taranto",
+          "address": "Via per Montemesola Km 10 (Centro Com. Ipercoop), 74100 Taranto",
           "lat": 40.52218,
           "lon": 17.3017,
           "status": "available"
@@ -1362,6 +1550,7 @@
         {
           "store": "EURONICS COMO VIA CECILIO",
           "city": "Como",
+          "address": "Via Cecilio, 4, 22100 Como",
           "lat": 45.78524799953944,
           "lon": 9.069483403193184,
           "status": "out_of_stock"
@@ -1369,6 +1558,7 @@
         {
           "store": "EURONICS TRADATE",
           "city": "Tradate",
+          "address": "Centradate Retail Park, 21049 Tradate",
           "lat": 45.698939070738014,
           "lon": 8.910659940596211,
           "status": "out_of_stock"
@@ -1376,6 +1566,7 @@
         {
           "store": "EURONICS POINT - ALVA",
           "city": "Tradate",
+          "address": "Via Montegrappa, 66, 21040 Tradate",
           "lat": 45.72162,
           "lon": 8.89436,
           "status": "out_of_stock"
@@ -1383,13 +1574,15 @@
         {
           "store": "EURONICS TARANTO 2",
           "city": "Taranto",
+          "address": "Via S.Giorgio Jonico c/o Centro Comm. Auchan, 74121 Taranto",
           "lat": 40.460407,
           "lon": 17.300198,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CAGLIARI",
           "city": "Elmas",
+          "address": "Via San Giorgio, 3, 09067 Elmas",
           "lat": 39.27364547668269,
           "lon": 9.054160969918273,
           "status": "out_of_stock"
@@ -1397,6 +1590,7 @@
         {
           "store": "EURONICS CITY - ELETTROCENTRO OLEGGIO",
           "city": "Oleggio",
+          "address": "S.S. 32 ang. Via Carmine, 33/A, 28047 Oleggio",
           "lat": 45.598256,
           "lon": 8.644737,
           "status": "out_of_stock"
@@ -1404,6 +1598,7 @@
         {
           "store": "EURONICS POINT - MEDIACITY",
           "city": "Crescentino",
+          "address": "C.so Roma, 26, 13044 Crescentino",
           "lat": 45.19319,
           "lon": 8.103205,
           "status": "out_of_stock"
@@ -1411,6 +1606,7 @@
         {
           "store": "EURONICS CARMAGNOLA",
           "city": "Carmagnola",
+          "address": "Via Sommariva, 19/1 (Parco Comm. Il Conte di Carmagnola), 10022 Carmagnola",
           "lat": 44.84601354713774,
           "lon": 7.732179477479434,
           "status": "out_of_stock"
@@ -1418,6 +1614,7 @@
         {
           "store": "EURONICS POINT - FEVAL LENNO",
           "city": "Tremezzina",
+          "address": "Via Statale 1749, 22016 Tremezzina",
           "lat": 45.969578,
           "lon": 9.191888,
           "status": "out_of_stock"
@@ -1425,6 +1622,7 @@
         {
           "store": "EURONICS FRANCAVILLA FONTANA",
           "city": "Francavilla Fontana",
+          "address": "Via per Grottaglie km 0,800, 72021 Francavilla Fontana",
           "lat": 40.532085,
           "lon": 17.562281,
           "status": "available"
@@ -1432,6 +1630,7 @@
         {
           "store": "EURONICS TORINO VIA NIZZA",
           "city": "Torino",
+          "address": "Via Nizza, 30/E, 10125 Torino",
           "lat": 45.054938,
           "lon": 7.676036,
           "status": "out_of_stock"
@@ -1439,6 +1638,7 @@
         {
           "store": "EURONICS NICHELINO",
           "city": "Nichelino",
+          "address": "Via dei Cacciatori (Shopping Park I VIALI), 10042 Nichelino",
           "lat": 45.00555177196781,
           "lon": 7.6225086863798515,
           "status": "out_of_stock"
@@ -1446,6 +1646,7 @@
         {
           "store": "EURONICS TORINO",
           "city": "Torino",
+          "address": "Corso Romania, 460 (Centro Comm. Porte di Torino), 10156 Torino",
           "lat": 45.117865,
           "lon": 7.712193,
           "status": "out_of_stock"
@@ -1453,13 +1654,15 @@
         {
           "store": "EURONICS SETTIMO Cielo retali Park",
           "city": "Settimo Torinese",
+          "address": "Via P. Mascagni (Settimo Cielo Retail Park, 10036 Settimo Torinese",
           "lat": 45.14039960794534,
           "lon": 7.732837822789321,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS GOZZANO",
           "city": "Gozzano",
+          "address": "Via Don Minzoni, 5, 28024 Gozzano",
           "lat": 45.735669,
           "lon": 8.439187,
           "status": "out_of_stock"
@@ -1467,6 +1670,7 @@
         {
           "store": "EURONICS RIVALTA DI TORINO",
           "city": "Rivalta di Torino",
+          "address": "Via Torino,22/O (Centro Comm. Rivalta) Fraz. Pasta, 10040 Rivalta di Torino",
           "lat": 45.00879140579794,
           "lon": 7.5522922696642425,
           "status": "out_of_stock"
@@ -1474,6 +1678,7 @@
         {
           "store": "EURONICS TORINO Area 12 Shopping Center",
           "city": "Torino",
+          "address": "Strada Altessano,141 stadio Juventus Area 12 Shopping Center, 10151 Torino",
           "lat": 45.1089,
           "lon": 7.6444,
           "status": "out_of_stock"
@@ -1481,6 +1686,7 @@
         {
           "store": "EURONICS - BRUNO CARINI",
           "city": "Carini",
+          "address": "Strada Statale 113, al Km. 281.2 (Centro Comm. ArcipelaGo), 90044 Carini",
           "lat": 38.164257126551455,
           "lon": 13.212650096720592,
           "status": "available"
@@ -1488,6 +1694,7 @@
         {
           "store": "EURONICS VENARIA REALE",
           "city": "Venaria Reale",
+          "address": "C.so Garibaldi, 235 (Centro Comm. Venaria), 10078 Venaria Reale",
           "lat": 45.114438,
           "lon": 7.646131,
           "status": "out_of_stock"
@@ -1495,6 +1702,7 @@
         {
           "store": "EURONICS - BRUNO PALERMO",
           "city": "Palermo",
+          "address": "Via Pietro Nenni, 6127 - Via Ugo La Malfa, 90146 Palermo",
           "lat": 38.15551,
           "lon": 13.31914,
           "status": "available"
@@ -1502,6 +1710,7 @@
         {
           "store": "EURONICS BIELLA",
           "city": "Biella",
+          "address": "V.le L. Tenco 3a (Centro Comm. Gli Orsi), 13900 Biella",
           "lat": 45.54727,
           "lon": 8.07667,
           "status": "available"
@@ -1509,6 +1718,7 @@
         {
           "store": "EURONICS LUINO",
           "city": "Luino",
+          "address": "Via delle Dogane, 21016 Luino",
           "lat": 45.996179,
           "lon": 8.743212,
           "status": "out_of_stock"
@@ -1516,6 +1726,7 @@
         {
           "store": "EURONICS POINT - BOLONGARO",
           "city": "Stresa",
+          "address": "Via Molinari 1 ang.via Roma,3, 28838 Stresa",
           "lat": 45.88245,
           "lon": 8.53764,
           "status": "out_of_stock"
@@ -1523,6 +1734,7 @@
         {
           "store": "EURONICS MESAGNE",
           "city": "Mesagne",
+          "address": "S.S.7 Km. 10 (Centro Comm. Conad), 72023 Mesagne",
           "lat": 40.561481,
           "lon": 17.809138,
           "status": "available"
@@ -1530,6 +1742,7 @@
         {
           "store": "EURONICS POINT - OTTONELLO",
           "city": "Pinerolo",
+          "address": "Via Moirano, 2, 10064 Pinerolo",
           "lat": 44.882968,
           "lon": 7.336007,
           "status": "out_of_stock"
@@ -1537,6 +1750,7 @@
         {
           "store": "EURONICS CITY - MAROTTA",
           "city": "Rivoli",
+          "address": "Corso Susa, 305/307 (c/o Spazio Conad), 10098 Rivoli",
           "lat": 45.08245,
           "lon": 7.49953,
           "status": "out_of_stock"
@@ -1544,6 +1758,7 @@
         {
           "store": "EURONICS VERBANIA",
           "city": "Verbania",
+          "address": "V.le Azari, 94, 28922 Verbania",
           "lat": 45.929296,
           "lon": 8.5547232,
           "status": "out_of_stock"
@@ -1551,6 +1766,7 @@
         {
           "store": "EURONICS IVREA",
           "city": "Banchette",
+          "address": "Via Uscello 3 int A (Parco Comm. del Canavese), 10010 Banchette",
           "lat": 45.446601061305515,
           "lon": 7.853697260291098,
           "status": "out_of_stock"
@@ -1558,6 +1774,7 @@
         {
           "store": "EURONICS - BRUNO VILLABATE",
           "city": "Villabate",
+          "address": "Via Alcide De Gasperi (Centro Comm. Picasso), 90039 Villabate",
           "lat": 38.084091,
           "lon": 13.449958,
           "status": "out_of_stock"
@@ -1565,6 +1782,7 @@
         {
           "store": "EURONICS - BRUNO TRAPANI",
           "city": "Trapani",
+          "address": "Via Libica (accanto a Conad e Pittarello), 91100 Trapani",
           "lat": 38.001228785935545,
           "lon": 12.535530330668202,
           "status": "out_of_stock"
@@ -1572,6 +1790,7 @@
         {
           "store": "Tufano Elettrodomestici Srl",
           "city": "Maida",
+          "address": "Loc.tà Comuni Condomini (Centro Comm. Due Mari), 88025 Maida",
           "lat": 38.90088,
           "lon": 16.35075,
           "status": "out_of_stock"
@@ -1579,6 +1798,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA CAPO D'ORLANDO",
           "city": "Capo D'Orlando",
+          "address": "C.da Malvicino,2, 98071 Capo D'Orlando",
           "lat": 38.1216,
           "lon": 14.7213,
           "status": "out_of_stock"
@@ -1586,6 +1806,7 @@
         {
           "store": "EURONICS - BRUNO VIBO VALENTIA",
           "city": "Vibo Valentia",
+          "address": "S.S. 18 Zona Aeroporto (Centro Comm.Vibo Center), 89900 Vibo Valentia",
           "lat": 38.64704,
           "lon": 16.05234,
           "status": "out_of_stock"
@@ -1593,6 +1814,7 @@
         {
           "store": "EURONICS CITY - CODIMA",
           "city": "Domodossola",
+          "address": "Via Cavaliere di V.Veneto, 29, 28845 Domodossola",
           "lat": 46.11925,
           "lon": 8.29582,
           "status": "out_of_stock"
@@ -1600,13 +1822,15 @@
         {
           "store": "EURONICS LECCE",
           "city": "Lecce",
+          "address": "Viale Grassi ang. Via San Pietro in Lama snc, 73100 Lecce",
           "lat": 40.34385,
           "lon": 18.15585,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - LA VIA LATTEA BARCELLONA P.G. 2",
           "city": "Barcellona Pozzo di Gotto",
+          "address": "Via Filicudi, 3, 98051 Barcellona Pozzo di Gotto",
           "lat": 38.150597,
           "lon": 15.189535,
           "status": "out_of_stock"
@@ -1614,6 +1838,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA BARCELLONA P.G.",
           "city": "Barcellona Pozzo di Gotto",
+          "address": "Via Kennedy, 304, 98051 Barcellona Pozzo di Gotto",
           "lat": 38.152928,
           "lon": 15.227844,
           "status": "out_of_stock"
@@ -1621,6 +1846,7 @@
         {
           "store": "EURONICS - BRUNO CASTELVETRANO",
           "city": "Castelvetrano",
+          "address": "Via Caduti di Nassiriya C.Strasatto(C.C.BeliCitta'), 91022 Castelvetrano",
           "lat": 37.670226,
           "lon": 12.817074,
           "status": "out_of_stock"
@@ -1628,6 +1854,7 @@
         {
           "store": "EURONICS - BRUNO GIOIA TAURO",
           "city": "Gioia Tauro",
+          "address": "Via Nazionale, 111 (Parco Comm. Annunziata), 89013 Gioia Tauro",
           "lat": 38.40889,
           "lon": 15.91674,
           "status": "out_of_stock"
@@ -1635,6 +1862,7 @@
         {
           "store": "EURONICS LA VIA LATTEA MESSINA N. FABRIZI",
           "city": "Messina",
+          "address": "Via Nicola Fabrizi, 41, 98123 Messina",
           "lat": 38.185189,
           "lon": 15.557043,
           "status": "out_of_stock"
@@ -1642,6 +1870,7 @@
         {
           "store": "EURONICS -  LA VIA LATTEA VILLA SAN GIOVANNI",
           "city": "Villa San Giovanni",
+          "address": "Via Zanotti Bianco (Centro Comm. Perla dello Stretto), 89018 Villa San Giovanni",
           "lat": 38.213652,
           "lon": 15.636926,
           "status": "out_of_stock"
@@ -1649,6 +1878,7 @@
         {
           "store": "EURONICS AOSTA",
           "city": "Saint Christophe",
+          "address": "Loc.tà Les Iles, 22, 11020 Saint Christophe",
           "lat": 45.739662,
           "lon": 7.362184,
           "status": "out_of_stock"
@@ -1656,6 +1886,7 @@
         {
           "store": "EURONICS MATINO",
           "city": "Matino",
+          "address": "S.P. Casarano-Parabita (Centro Polif.Le Vele), 73046 Matino",
           "lat": 40.036715,
           "lon": 18.155199,
           "status": "available"
@@ -1663,6 +1894,7 @@
         {
           "store": "EURONICS MESSINA CENTRO COMM.LE LA VIA LATTEA",
           "city": "Messina",
+          "address": "Via Adolfo Celi, 117 (Centro Comm. La Via Lattea), 98125 Messina",
           "lat": 38.15421,
           "lon": 15.53116,
           "status": "out_of_stock"
@@ -1670,6 +1902,7 @@
         {
           "store": "EURONICS - BRUNO MESSINA",
           "city": "Messina",
+          "address": "S.S. 114, Km. 6,2 - (Centro Comm. Tremestieri), 98128 Messina",
           "lat": 38.13689,
           "lon": 15.52246,
           "status": "available"
@@ -1677,13 +1910,15 @@
         {
           "store": "EURONICS MAGLIE",
           "city": "Maglie",
+          "address": "Via F.lli Piccinno,14, 73024 Maglie",
           "lat": 40.129595,
           "lon": 18.295172,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - LA VIA LATTEA REGGIO CALABRIA",
           "city": "Reggio Calabria",
+          "address": "Viale Calabria, 310 (Parco Comm.le Le Ninfee), 89132 Reggio Calabria",
           "lat": 38.089065,
           "lon": 15.641246,
           "status": "out_of_stock"
@@ -1691,13 +1926,15 @@
         {
           "store": "Electro Leader Srl",
           "city": "Presicce",
+          "address": "Via degli Angeli c/o Centro Comm. Gli Angeli, 73054 Presicce",
           "lat": 39.891147,
           "lon": 18.2671,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "Electroleader S.R.L.",
           "city": "Tricase",
+          "address": "Via Aldo Moro, 1, 73039 Tricase",
           "lat": 39.92649,
           "lon": 18.35878,
           "status": "available"
@@ -1705,6 +1942,7 @@
         {
           "store": "EURONICS - BRUNO SIDERNO",
           "city": "Siderno",
+          "address": "s.s.106 Km 106,400 (Centro Comm.Le Gru), 89048 Siderno",
           "lat": 38.2881,
           "lon": 16.3151,
           "status": "available"
@@ -1712,6 +1950,7 @@
         {
           "store": "EURONICS - BRUNO ENNA",
           "city": "Enna Bassa",
+          "address": "V.le Unita' d'Italia - C.da S. Lucia, 94100 Enna Bassa",
           "lat": 37.56033,
           "lon": 14.29377,
           "status": "out_of_stock"
@@ -1719,6 +1958,7 @@
         {
           "store": "EURONICS - BRUNO CALTANISSETTA",
           "city": "Caltanissetta",
+          "address": "Via Due Fontane - (Centro Comm. Due Fontane), 93100 Caltanissetta",
           "lat": 37.48209,
           "lon": 14.02457,
           "status": "available"
@@ -1726,6 +1966,7 @@
         {
           "store": "EURONICS - BRUNO AGRIGENTO CITTÀ DEL TEMPLI",
           "city": "Agrigento",
+          "address": "Via Fosse Ardeatine - Fraz. Villaseta, 92100 Agrigento",
           "lat": 37.297544,
           "lon": 13.552988,
           "status": "out_of_stock"
@@ -1733,6 +1974,7 @@
         {
           "store": "EURONICS - BRUNO AGRIGENTO",
           "city": "Agrigento",
+          "address": "Via Cannatello - Villaggio Mosè, 92100 Agrigento",
           "lat": 37.267306,
           "lon": 13.620597,
           "status": "available"
@@ -1740,6 +1982,7 @@
         {
           "store": "EURONICS - BRUNO LE ZAGARE",
           "city": "San Giovanni La Punta",
+          "address": "Via Montello,1 C.da Bottazzi (P.co Com.Le Zagare), 95037 San Giovanni La Punta",
           "lat": 37.57956,
           "lon": 15.09592,
           "status": "out_of_stock"
@@ -1747,6 +1990,7 @@
         {
           "store": "EURONICS - BRUNO KATANÈ",
           "city": "Gravina",
+          "address": "Via Salvatore Quasimodo (Centro Comm.Katane'), 95030 Gravina",
           "lat": 37.55071,
           "lon": 15.06403,
           "status": "available"
@@ -1754,6 +1998,7 @@
         {
           "store": "EURONICS - BRUNO MISTERBIANCO",
           "city": "Misterbianco",
+          "address": "V.le del Commercio - C.da Mezzocampo, 95045 Misterbianco",
           "lat": 37.50998263729814,
           "lon": 15.023175725541348,
           "status": "available"
@@ -1761,6 +2006,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA CATANIA CENTRO ULISSE",
           "city": "Catania",
+          "address": "Viale Ulisse, 10 (Centro Ulisse), 95126 Catania",
           "lat": 37.531721,
           "lon": 15.105787,
           "status": "out_of_stock"
@@ -1768,6 +2014,7 @@
         {
           "store": "EURONICS - BRUNO CATANIA CENTRO",
           "city": "Catania",
+          "address": "Via Luigi Rizzo, 32, 95131 Catania",
           "lat": 37.50872,
           "lon": 15.089903,
           "status": "out_of_stock"
@@ -1775,6 +2022,7 @@
         {
           "store": "EURONICS - BRUNO CENTRO SICILIA",
           "city": "Misterbianco",
+          "address": "C.da Cubba-Tenutella (Centro Sicilia), 95045 Misterbianco",
           "lat": 37.480174,
           "lon": 15.011314,
           "status": "available"
@@ -1782,6 +2030,7 @@
         {
           "store": "EURONICS - BRUNO LICATA",
           "city": "Licata",
+          "address": "Via Campobello, 159 (Centro Comm. San Giorgio), 92027 Licata",
           "lat": 37.112197,
           "lon": 13.92989,
           "status": "out_of_stock"
@@ -1789,6 +2038,7 @@
         {
           "store": "EURONICS - BRUNO CALTAGIRONE",
           "city": "Caltagirone",
+          "address": "V.le Europa, 6-6/A, 95041 Caltagirone",
           "lat": 37.21693,
           "lon": 14.51936,
           "status": "available"
@@ -1796,6 +2046,7 @@
         {
           "store": "EURONICS - BRUNO MELILLI",
           "city": "Melilli",
+          "address": "V.le Garrone, C.da Spalla (Parco Comm. Belvedere), 96010 Melilli",
           "lat": 37.11167,
           "lon": 15.22731,
           "status": "out_of_stock"
@@ -1803,6 +2054,7 @@
         {
           "store": "EURONICS - BRUNO RAGUSA",
           "city": "Ragusa",
+          "address": "Viale delle Americhe (Centro Comm. Ibleo), 97100 Ragusa",
           "lat": 36.93142,
           "lon": 14.68651,
           "status": "out_of_stock"
@@ -1810,6 +2062,7 @@
         {
           "store": "EURONICS - BRUNO MODICA",
           "city": "Modica",
+          "address": "P.le Bruno Domenico  - Polo Comm., 97015 Modica",
           "lat": 36.83839665263969,
           "lon": 14.779667184638104,
           "status": "out_of_stock"
@@ -1817,12 +2070,13 @@
         {
           "store": "EURONICS - BRUNO AVOLA",
           "city": "Avola",
+          "address": "Contrada Risicone Circonv.Avola Noto, 96012 Avola",
           "lat": 36.9021,
           "lon": 15.1186,
           "status": "available"
         }
       ],
-      "checked_at": "2026-07-18T07:11:18+00:00"
+      "checked_at": "2026-07-18T11:18:58+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -1839,6 +2093,7 @@
         {
           "store": "EURONICS TERNI",
           "city": "Terni",
+          "address": "Via Montefiorino, 48 (Centro Comm.\"COSPEA Village\"), 05100 Terni",
           "lat": 42.551213,
           "lon": 12.635972,
           "status": "out_of_stock"
@@ -1846,6 +2101,7 @@
         {
           "store": "EURONICS RIETI",
           "city": "Rieti",
+          "address": "Via Fundania 2- Centro Comm. Perseo, 02100 Rieti",
           "lat": 42.403301,
           "lon": 12.851636,
           "status": "out_of_stock"
@@ -1853,6 +2109,7 @@
         {
           "store": "Tufano Store Srl",
           "city": "Viterbo",
+          "address": "Via Amedeo Cerasa, 01100 Viterbo",
           "lat": 42.426848,
           "lon": 12.095881,
           "status": "out_of_stock"
@@ -1860,6 +2117,7 @@
         {
           "store": "EURONICS ORVIETO SCALO",
           "city": "Orvieto Scalo",
+          "address": "Via A. Costanzi, 59/a (Centro Comm Porta d'Orvieto), 05018 Orvieto Scalo",
           "lat": 42.71611,
           "lon": 12.14323,
           "status": "out_of_stock"
@@ -1867,6 +2125,7 @@
         {
           "store": "EURONICS MARSCIANO",
           "city": "Marsciano",
+          "address": "Via. Flli Briziarelli,11 (Parco Comm.Cross Conad), 06055 Marsciano",
           "lat": 42.905217247528476,
           "lon": 12.346751086269865,
           "status": "out_of_stock"
@@ -1874,6 +2133,7 @@
         {
           "store": "EURONICS TREVI CENTRO COMM.LE PIAZZAUMBRA",
           "city": "Trevi",
+          "address": "S.S.Flaminia Km147 (Centro Comm. Piazzaumbra), 06039 Trevi",
           "lat": 42.89112,
           "lon": 12.73083,
           "status": "out_of_stock"
@@ -1881,6 +2141,7 @@
         {
           "store": "EURONICS LE RUGHE",
           "city": "FORMELLO",
+          "address": "Via Casal dei Pini 33b - loc.tà Le Rughe, 00060 FORMELLO",
           "lat": 42.067322,
           "lon": 12.372919,
           "status": "out_of_stock"
@@ -1888,6 +2149,7 @@
         {
           "store": "EURONICS MONTEROTONDO",
           "city": "Monterotondo",
+          "address": "V.le Bruno Buozzi 35/37 (Centro Comm. Monterotondo), 00015 Monterotondo",
           "lat": 42.049771,
           "lon": 12.623838,
           "status": "out_of_stock"
@@ -1895,6 +2157,7 @@
         {
           "store": "EURONICS CAPENA",
           "city": "Capena",
+          "address": "Via Tiberina, Km. 16,400 (Centro Comm. L'Arca), 00060 Capena",
           "lat": 42.02975,
           "lon": 12.48241,
           "status": "out_of_stock"
@@ -1902,6 +2165,7 @@
         {
           "store": "EURONICS BRACCIANO",
           "city": "Bracciano",
+          "address": "Via delle Palme (Centro Comm. Bracciano), 00062 Bracciano",
           "lat": 42.09983,
           "lon": 12.154261,
           "status": "out_of_stock"
@@ -1909,6 +2173,7 @@
         {
           "store": "EURONICS ACQUAPENDENTE",
           "city": "Acquapendente",
+          "address": "Via Cassia, 47, 01021 Acquapendente",
           "lat": 42.743943,
           "lon": 11.863058,
           "status": "out_of_stock"
@@ -1916,6 +2181,7 @@
         {
           "store": "EURONICS OJETTI",
           "city": "Roma",
+          "address": "Via Ugo Ojetti,508, 00137 Roma",
           "lat": 41.94912,
           "lon": 12.556402,
           "status": "out_of_stock"
@@ -1923,6 +2189,7 @@
         {
           "store": "EURONICS SALARIA",
           "city": "Roma",
+          "address": "Via Salaria, 665, 00138 Roma",
           "lat": 41.942117,
           "lon": 12.507446,
           "status": "out_of_stock"
@@ -1930,6 +2197,7 @@
         {
           "store": "EURONICS PONTE MILVIO",
           "city": "Roma",
+          "address": "Via Riano, 15, 00191 Roma",
           "lat": 41.938477,
           "lon": 12.469466,
           "status": "out_of_stock"
@@ -1937,6 +2205,7 @@
         {
           "store": "EURONICS GUIDONIA",
           "city": "Guidonia",
+          "address": "Via Tiburtina km 20,500 - (Centro Comm. Tiburtino), 00012 Guidonia",
           "lat": 41.954285,
           "lon": 12.695523,
           "status": "out_of_stock"
@@ -1944,6 +2213,7 @@
         {
           "store": "EURONICS CASAL DEL MARMO",
           "city": "Roma",
+          "address": "Via Arola, 29 - Altezza G.R.A (Casal del Marmo), 00166 Roma",
           "lat": 41.93008,
           "lon": 12.38143,
           "status": "out_of_stock"
@@ -1951,6 +2221,7 @@
         {
           "store": "EURONICS ROSSINI",
           "city": "Roma",
+          "address": "V.le Rossini, 11/13, 00198 Roma",
           "lat": 41.920624,
           "lon": 12.491611,
           "status": "out_of_stock"
@@ -1958,6 +2229,7 @@
         {
           "store": "EURONICS PONTE SAN GIOVANNI",
           "city": "Ponte San Giovanni",
+          "address": "Via della Valtiera, 5, 06135 Ponte San Giovanni",
           "lat": 43.08556,
           "lon": 12.44661,
           "status": "out_of_stock"
@@ -1965,6 +2237,7 @@
         {
           "store": "EURONICS FLAMINIO",
           "city": "Roma",
+          "address": "Via Luisa di Savoia, 12, 00196 Roma",
           "lat": 41.911219,
           "lon": 12.473782,
           "status": "out_of_stock"
@@ -1972,6 +2245,7 @@
         {
           "store": "EURONICS PERUGIA",
           "city": "Perugia",
+          "address": "Via Settevalli,333/f, 06132 Perugia",
           "lat": 43.08141,
           "lon": 12.36363,
           "status": "out_of_stock"
@@ -1979,6 +2253,7 @@
         {
           "store": "EURONICS IPPOCRATE",
           "city": "Roma",
+          "address": "V.le Ippocrate, 23/43, 00161 Roma",
           "lat": 41.908866,
           "lon": 12.520452,
           "status": "out_of_stock"
@@ -1986,6 +2261,7 @@
         {
           "store": "EURONICS TERMINI",
           "city": "Roma",
+          "address": "Piazza dei Cinquecento, 00185 Roma",
           "lat": 41.90146,
           "lon": 12.49909,
           "status": "out_of_stock"
@@ -1993,6 +2269,7 @@
         {
           "store": "EURONICS VALLE AURELIA",
           "city": "Roma",
+          "address": "Via di Valle Aurelia, 30 (Centro Comm. Aura), 00167 Roma",
           "lat": 41.902444,
           "lon": 12.438611,
           "status": "out_of_stock"
@@ -2000,6 +2277,7 @@
         {
           "store": "EURONICS CORCIANO CENTRO COMM.LE QUASAR",
           "city": "Corciano",
+          "address": "Via Aldo capitini (Centro Comm. Quasar), 06073 Corciano",
           "lat": 43.100509,
           "lon": 12.309404,
           "status": "out_of_stock"
@@ -2007,6 +2285,7 @@
         {
           "store": "EURONICS HAPPIO",
           "city": "ROMA",
+          "address": "Via Appia Nuova 448 (Centro Comm. Happio), 00179 ROMA",
           "lat": 41.87457,
           "lon": 12.522513,
           "status": "out_of_stock"
@@ -2014,6 +2293,7 @@
         {
           "store": "Tufano Roma Srl",
           "city": "Roma",
+          "address": "Via Casilina, 1011 (Centro Comm. Casilino), 00169 Roma",
           "lat": 41.869096,
           "lon": 12.585278,
           "status": "out_of_stock"
@@ -2021,6 +2301,7 @@
         {
           "store": "EURONICS PORTUENSE",
           "city": "Roma",
+          "address": "Via Portuense, 320, 00153 Roma",
           "lat": 41.863832,
           "lon": 12.455434,
           "status": "out_of_stock"
@@ -2028,6 +2309,7 @@
         {
           "store": "EURONICS TORRE SPACCATA",
           "city": "Roma",
+          "address": "Via di Torre Spaccata, 110, 00173 Roma",
           "lat": 41.85761,
           "lon": 12.58606,
           "status": "out_of_stock"
@@ -2035,6 +2317,7 @@
         {
           "store": "EURONICS L'AQUILA",
           "city": "L'Aquila",
+          "address": "Via Saragat, 56 (Centro Comm. Globo Center), 67100 L'Aquila",
           "lat": 42.349591,
           "lon": 13.357209,
           "status": "out_of_stock"
@@ -2042,6 +2325,7 @@
         {
           "store": "EURONICS FINOCCHIO",
           "city": "Roma",
+          "address": "Via Casilina, 2075/2077, 00132 Roma",
           "lat": 41.86404,
           "lon": 12.692749,
           "status": "available"
@@ -2049,6 +2333,7 @@
         {
           "store": "Tufano Italia Srl",
           "city": "Civitavecchia",
+          "address": "Via Aurelia Nord, Km. 76 (C.C.La Scaglia), 00053 Civitavecchia",
           "lat": 42.124981,
           "lon": 11.770866,
           "status": "out_of_stock"
@@ -2056,6 +2341,7 @@
         {
           "store": "EURONICS ANAGNINA",
           "city": "Roma",
+          "address": "Via Torre di Mezzavia n. 61 (Centro Comm. Anagnina), 00173 Roma",
           "lat": 41.834525,
           "lon": 12.592906,
           "status": "out_of_stock"
@@ -2063,6 +2349,7 @@
         {
           "store": "ROMA LAURENTINA",
           "city": "ROMA",
+          "address": "Via Laurentina, 865 (Centro Comm. Maximo), 00143 ROMA",
           "lat": 41.809048,
           "lon": 12.4851,
           "status": "out_of_stock"
@@ -2070,6 +2357,7 @@
         {
           "store": "EURONICS OSTIA",
           "city": "Ostia",
+          "address": "V.le Paolo Orlando,9, 00122 Ostia",
           "lat": 41.73161,
           "lon": 12.28417,
           "status": "out_of_stock"
@@ -2077,6 +2365,7 @@
         {
           "store": "EURONICS CITY CASTEL DEL PIANO",
           "city": "Castel del Piano",
+          "address": "Via del Gallaccino, 21/A, 58033 Castel del Piano",
           "lat": 42.893546,
           "lon": 11.526693,
           "status": "out_of_stock"
@@ -2084,6 +2373,7 @@
         {
           "store": "EURONICS POMEZIA",
           "city": "Pomezia",
+          "address": "Via Naro, 2/4, 00071 Pomezia",
           "lat": 41.682993,
           "lon": 12.506062,
           "status": "out_of_stock"
@@ -2091,6 +2381,7 @@
         {
           "store": "EURONICS SINALUNGA",
           "city": "Sinalunga",
+          "address": "Via di Casal Piano (Centro Comm. I Gelsi), 53048 Sinalunga",
           "lat": 43.215998,
           "lon": 11.756315,
           "status": "out_of_stock"
@@ -2098,6 +2389,7 @@
         {
           "store": "TUFANO APRILIA SRL",
           "city": "Aprilia",
+          "address": "Via Zuara, 13, 04011 Aprilia",
           "lat": 41.580457,
           "lon": 12.648169,
           "status": "out_of_stock"
@@ -2105,6 +2397,7 @@
         {
           "store": "EURONICS ORBETELLO",
           "city": "Orbetello",
+          "address": "Via Aurelia, Km. 145, 58015 Orbetello",
           "lat": 42.464269,
           "lon": 11.241881,
           "status": "available"
@@ -2112,6 +2405,7 @@
         {
           "store": "EURONICS CITTA' DI CASTELLO",
           "city": "Citta' di Castello",
+          "address": "Via P. Della Francesca, 17 (Centro Comm. Cross), 06012 Citta' di Castello",
           "lat": 43.470336,
           "lon": 12.231844,
           "status": "out_of_stock"
@@ -2119,6 +2413,7 @@
         {
           "store": "EURONICS AREZZO SAN ZENO",
           "city": "Arezzo",
+          "address": "Strada D, N.1 - San Zeno, 52100 Arezzo",
           "lat": 43.425606,
           "lon": 11.82894,
           "status": "out_of_stock"
@@ -2126,6 +2421,7 @@
         {
           "store": "EURONICS - FROSINONE",
           "city": "Frosinone",
+          "address": "Via Armando Vona, 20 (Centro Comm. Le Sorgenti), 03100 Frosinone",
           "lat": 41.621134,
           "lon": 13.284531,
           "status": "out_of_stock"
@@ -2133,6 +2429,7 @@
         {
           "store": "EURONICS AREZZO VIALE MECENATE",
           "city": "Arezzo",
+          "address": "Viale Mecenate, 2, 52100 Arezzo",
           "lat": 43.454465,
           "lon": 11.881026,
           "status": "out_of_stock"
@@ -2140,6 +2437,7 @@
         {
           "store": "EURONICS GROSSETO C.C. MAREMA'",
           "city": "Grosseto",
+          "address": "Via Cile Loc.tà Commendone (Centro Comm. Maremà), 58100 Grosseto",
           "lat": 42.790111,
           "lon": 11.115764,
           "status": "out_of_stock"
@@ -2147,6 +2445,7 @@
         {
           "store": "EURONICS AREZZO CENTRO COMM.LE SETTEPONTI",
           "city": "Arezzo",
+          "address": "Viale Amendola (Centro Comm. Setteponti), 52100 Arezzo",
           "lat": 43.47486,
           "lon": 11.86153,
           "status": "out_of_stock"
@@ -2154,6 +2453,7 @@
         {
           "store": "Tufano Latina Srl",
           "city": "Latina",
+          "address": "Via del Lido Centro Comm. Morbella, 04100 Latina",
           "lat": 41.451882,
           "lon": 12.888994,
           "status": "out_of_stock"
@@ -2161,6 +2461,7 @@
         {
           "store": "EURONICS SANSEPOLCRO",
           "city": "Sansepolcro",
+          "address": "Strada Senese Aretina, 201, 52037 Sansepolcro",
           "lat": 43.560311,
           "lon": 12.115359,
           "status": "out_of_stock"
@@ -2168,6 +2469,7 @@
         {
           "store": "EURONICS SIENA",
           "city": "Siena",
+          "address": "Via Massetana Romana,62, 53100 Siena",
           "lat": 43.29935,
           "lon": 11.32961,
           "status": "out_of_stock"
@@ -2175,6 +2477,7 @@
         {
           "store": "EURONICS MONTESILVANO",
           "city": "Montesilvano",
+          "address": "Via Vestina, 257/F, 65015 Montesilvano",
           "lat": 42.500131,
           "lon": 14.132551,
           "status": "out_of_stock"
@@ -2182,6 +2485,7 @@
         {
           "store": "EURONICS SAN GIOVANNI TEATINO",
           "city": "San Giovanni Teatino",
+          "address": "Via Po, 1 ang. Via Caravaggio, 66020 San Giovanni Teatino",
           "lat": 42.419398,
           "lon": 14.174384,
           "status": "out_of_stock"
@@ -2189,6 +2493,7 @@
         {
           "store": "EURONICS MONTEVARCHI",
           "city": "Montevarchi",
+          "address": "V.le Cadorna,42, 52025 Montevarchi",
           "lat": 43.53366,
           "lon": 11.56127,
           "status": "out_of_stock"
@@ -2196,6 +2501,7 @@
         {
           "store": "EURONICS OSIMO",
           "city": "Osimo",
+          "address": "Via della Sbrozzola, 28 (Centro Comm. Cargopier), 60027 Osimo",
           "lat": 43.512418,
           "lon": 13.527957,
           "status": "out_of_stock"
@@ -2203,6 +2509,7 @@
         {
           "store": "EURONICS BIBBIENA",
           "city": "Bibbiena",
+          "address": "Località Palazzetto (Centro Comm. Il Casentino), 52011 Bibbiena",
           "lat": 43.70204,
           "lon": 11.806912,
           "status": "out_of_stock"
@@ -2210,6 +2517,7 @@
         {
           "store": "EURONICS COLLE VAL D'ELSA",
           "city": "Colle Val d'Elsa",
+          "address": "Loc.tà Belvedere, 106, 53034 Colle Val d'Elsa",
           "lat": 43.405962,
           "lon": 11.165734,
           "status": "out_of_stock"
@@ -2217,6 +2525,7 @@
         {
           "store": "EURONICS FOLLONICA",
           "city": "Follonica",
+          "address": "Strada Provinciale,152, 58022 Follonica",
           "lat": 42.935635,
           "lon": 10.779571,
           "status": "out_of_stock"
@@ -2224,6 +2533,7 @@
         {
           "store": "EURONICS POGGIBONSI",
           "city": "Poggibonsi",
+          "address": "Via Pisana, 151, 53036 Poggibonsi",
           "lat": 43.476037,
           "lon": 11.136399,
           "status": "out_of_stock"
@@ -2231,6 +2541,7 @@
         {
           "store": "Tufano Consumer Srl",
           "city": "Cassino",
+          "address": "Via Casilina sud km 141,376 (C.C.Panorama), 03043 Cassino",
           "lat": 41.48529,
           "lon": 13.85664,
           "status": "out_of_stock"
@@ -2238,6 +2549,7 @@
         {
           "store": "EURONICS LANCIANO",
           "city": "Treglio",
+          "address": "Contrada Severini, 66030 Treglio",
           "lat": 42.24642,
           "lon": 14.4175,
           "status": "out_of_stock"
@@ -2245,6 +2557,7 @@
         {
           "store": "EURONICS PIOMBINO",
           "city": "Piombino",
+          "address": "Via Gori ang. Via Costa,1, 57025 Piombino",
           "lat": 42.924558,
           "lon": 10.529146,
           "status": "out_of_stock"
@@ -2252,6 +2565,7 @@
         {
           "store": "EURONICS FIRENZE CENTRO COMM.LE GAVINANA",
           "city": "Firenze",
+          "address": "V.le Giannotti (Centro Comm. Coop Gavinana), 50126 Firenze",
           "lat": 43.7567718,
           "lon": 11.2896088,
           "status": "out_of_stock"
@@ -2259,6 +2573,7 @@
         {
           "store": "EURONICS FIRENZE V.LE DEI MILLE",
           "city": "Firenze",
+          "address": "V.le dei Mille, 140, 50131 Firenze",
           "lat": 43.785278,
           "lon": 11.270775,
           "status": "out_of_stock"
@@ -2266,6 +2581,7 @@
         {
           "store": "EURONICS FIRENZE VIA DI NOVOLI",
           "city": "Firenze",
+          "address": "Via di Novoli, 22, 50127 Firenze",
           "lat": 43.792388,
           "lon": 11.222727,
           "status": "out_of_stock"
@@ -2273,6 +2589,7 @@
         {
           "store": "EURONICS LASTRA A SIGNA",
           "city": "Lastra a Signa",
+          "address": "Via Santa Maria del Castagnolo (Centro Coop.fi), 50055 Lastra a Signa",
           "lat": 43.768045,
           "lon": 11.120004,
           "status": "out_of_stock"
@@ -2280,6 +2597,7 @@
         {
           "store": "EURONICS SESTO FIORENTINO",
           "city": "Sesto Fiorentino",
+          "address": "Via Petrosa, 19 (Centro Sesto), 50019 Sesto Fiorentino",
           "lat": 43.822785,
           "lon": 11.207173,
           "status": "out_of_stock"
@@ -2287,6 +2605,7 @@
         {
           "store": "EURONICS CAMPI BISENZIO",
           "city": "Campi Bisenzio",
+          "address": "Via del Campo, 4, 50013 Campi Bisenzio",
           "lat": 43.81093,
           "lon": 11.14354,
           "status": "out_of_stock"
@@ -2294,6 +2613,7 @@
         {
           "store": "EURONICS PORTOFERRAIO",
           "city": "Portoferraio",
+          "address": "Via degli Alti Forni,45, 57037 Portoferraio",
           "lat": 42.79623,
           "lon": 10.27921,
           "status": "out_of_stock"
@@ -2301,6 +2621,7 @@
         {
           "store": "EURONICS CECINA CENTRO COMM.LE CORTE ACQUERTA",
           "city": "Cecina",
+          "address": "P.co Comm.le Corte Acquerta S.Pietro in Palazzi, 57023 Cecina",
           "lat": 43.329646,
           "lon": 10.522978,
           "status": "out_of_stock"
@@ -2308,6 +2629,7 @@
         {
           "store": "EURONICS PRATO",
           "city": "Prato",
+          "address": "Via delle Pleiadi,87 (c/o Parco Prato Coop), 59100 Prato",
           "lat": 43.87677,
           "lon": 11.0663,
           "status": "out_of_stock"
@@ -2315,6 +2637,7 @@
         {
           "store": "EURONICS FORLI'",
           "city": "Forlì",
+          "address": "Via Argentina Altobelli, 22, 47122 Forlì",
           "lat": 44.2476897790415,
           "lon": 12.088547868277999,
           "status": "out_of_stock"
@@ -2322,6 +2645,7 @@
         {
           "store": "EURONICS PONTEDERA",
           "city": "Pontedera",
+          "address": "Via Tosco Romagnola,21, 56025 Pontedera",
           "lat": 43.66668,
           "lon": 10.61256,
           "status": "out_of_stock"
@@ -2329,6 +2653,7 @@
         {
           "store": "EURONICS MONTECATINI TERME",
           "city": "Massa e Cozzile",
+          "address": "Via Biscolla, 48 (Centro Comm. Montecatini), 51010 Massa e Cozzile",
           "lat": 43.861535,
           "lon": 10.764193,
           "status": "out_of_stock"
@@ -2336,6 +2661,7 @@
         {
           "store": "EURONICS CAMPOBASSO",
           "city": "Campobasso",
+          "address": "Via Colle delle Api, 44 (C.C.Centro del Molise), 86100 Campobasso",
           "lat": 41.560254,
           "lon": 14.676651,
           "status": "out_of_stock"
@@ -2343,6 +2669,7 @@
         {
           "store": "Tufano Telecomunicazioni Srl",
           "city": "Vitulazio",
+          "address": "Via Appia Km 194,400 (Centro Comm. Il Decumano), 81041 Vitulazio",
           "lat": 41.12049,
           "lon": 14.20044,
           "status": "out_of_stock"
@@ -2350,6 +2677,7 @@
         {
           "store": "EURONICS NAVACCHIO",
           "city": "Navacchio",
+          "address": "Via Fosso Vecchio,457 (Centro Comm. I Borghi) - Cascina, 56023 Navacchio",
           "lat": 43.674,
           "lon": 10.47359,
           "status": "out_of_stock"
@@ -2357,6 +2685,7 @@
         {
           "store": "EURONICS LIVORNO PARCO LEVANTE",
           "city": "Livorno",
+          "address": "Via Giovanni Gelati int. 10 (Parco Comm. Levante), 57128 Livorno",
           "lat": 43.529526,
           "lon": 10.331347,
           "status": "out_of_stock"
@@ -2364,6 +2693,7 @@
         {
           "store": "EURONICS LIVORNO C.C. FONTI DEL CORALLO",
           "city": "Livorno",
+          "address": "Via Gino Graziani, 6 (C.Comm. Fonti del Corallo), 57121 Livorno",
           "lat": 43.550723,
           "lon": 10.339782,
           "status": "out_of_stock"
@@ -2371,6 +2701,7 @@
         {
           "store": "EURONICS TERMOLI",
           "city": "Termoli",
+          "address": "Via dei Pini, 3, 86039 Termoli",
           "lat": 41.982449,
           "lon": 15.003988,
           "status": "out_of_stock"
@@ -2378,6 +2709,7 @@
         {
           "store": "Tufano Net Srl",
           "city": "Casapulla",
+          "address": "Via Nazionale Appia,5(Centro Comm.Apollo), 81020 Casapulla",
           "lat": 41.07398,
           "lon": 14.29092,
           "status": "out_of_stock"
@@ -2385,6 +2717,7 @@
         {
           "store": "EURONICS LUCCA",
           "city": "Lucca",
+          "address": "Via Carlo del Prete, 8, 55100 Lucca",
           "lat": 43.848333,
           "lon": 10.50461,
           "status": "out_of_stock"
@@ -2392,6 +2725,7 @@
         {
           "store": "EURONICS PISA",
           "city": "San Giuliano Terme",
+          "address": "S.S. Aurelia Km 338 - Loc.tà Madonna dell'Acqua, 56017 San Giuliano Terme",
           "lat": 43.741028,
           "lon": 10.372,
           "status": "out_of_stock"
@@ -2399,6 +2733,7 @@
         {
           "store": "TUFANO MULTIMEDIA S.R.L.",
           "city": "Marcianise",
+          "address": "S.S. Sannitica 87 Loc.tà Aurno (Parco Comm. Campania), 81025 Marcianise",
           "lat": 41.03326,
           "lon": 14.30196,
           "status": "out_of_stock"
@@ -2406,6 +2741,7 @@
         {
           "store": "Tufano World Srl",
           "city": "Giugliano",
+          "address": "Via S. Francesco a Patria (Centro Comm. Auchan), 80014 Giugliano",
           "lat": 40.9289,
           "lon": 14.15543,
           "status": "out_of_stock"
@@ -2413,6 +2749,7 @@
         {
           "store": "Tufano Quarto Srl",
           "city": "Quarto",
+          "address": "Via Masullo (centro Comm.Quarto Nuovo), 80010 Quarto",
           "lat": 40.8776,
           "lon": 14.11129,
           "status": "out_of_stock"
@@ -2420,6 +2757,7 @@
         {
           "store": "Tufano Mugnano Srl",
           "city": "Mugnano",
+          "address": "Via Pietro Nenni (Galleria Auchan), 80018 Mugnano",
           "lat": 40.910717,
           "lon": 14.222474,
           "status": "out_of_stock"
@@ -2427,6 +2765,7 @@
         {
           "store": "Tufano Teresa Srl",
           "city": "Casoria",
+          "address": "S.S. Sannitica 87, Km. 7 (Centro Comm. Tufano), 80026 Casoria",
           "lat": 40.91034,
           "lon": 14.286888,
           "status": "out_of_stock"
@@ -2434,6 +2773,7 @@
         {
           "store": "Tufano Fuorigrotta Srl",
           "city": "Napoli",
+          "address": "Via Cinthia ang. Via Marco Aurelio, 80126 Napoli",
           "lat": 40.836191,
           "lon": 14.190405,
           "status": "out_of_stock"
@@ -2441,6 +2781,7 @@
         {
           "store": "Tufano Group Srl",
           "city": "Afragola",
+          "address": "Via Marziasepe, 1 (C.C.Le Porte di Napoli), 80021 Afragola",
           "lat": 40.934265,
           "lon": 14.353101,
           "status": "out_of_stock"
@@ -2448,6 +2789,7 @@
         {
           "store": "Tecno World Srl",
           "city": "Casoria",
+          "address": "Via S. Salvatore (Centro Comm. Casoria Park ), 80026 Casoria",
           "lat": 40.898623,
           "lon": 14.311439,
           "status": "out_of_stock"
@@ -2455,6 +2797,7 @@
         {
           "store": "Tufano Entertainment",
           "city": "Napoli",
+          "address": "Galleria Umberto I, 53, 80132 Napoli",
           "lat": 40.838402,
           "lon": 14.249275,
           "status": "out_of_stock"
@@ -2462,6 +2805,7 @@
         {
           "store": "EURONICS VIAREGGIO",
           "city": "Viareggio",
+          "address": "Via Pisana (P.co Comm. Burlamacca), 55049 Viareggio",
           "lat": 43.865787,
           "lon": 10.258756,
           "status": "out_of_stock"
@@ -2469,6 +2813,7 @@
         {
           "store": "Mdl Srl",
           "city": "Volla",
+          "address": "Via Famiglietti (Galleria Comm. SediciCasa), 80040 Volla",
           "lat": 40.874863,
           "lon": 14.346592,
           "status": "out_of_stock"
@@ -2476,6 +2821,7 @@
         {
           "store": "Tufano Tema Srl",
           "city": "Napoli",
+          "address": "V.le Argine,380 (Centro Comm. Auchan), 80147 Napoli",
           "lat": 40.85544,
           "lon": 14.32197,
           "status": "out_of_stock"
@@ -2483,6 +2829,7 @@
         {
           "store": "Tufano Vulcano Srl",
           "city": "Nola",
+          "address": "Loc.tà Boscofangone (Centro Comm. Vulcano Buono), 80035 Nola",
           "lat": 40.951348,
           "lon": 14.48656,
           "status": "out_of_stock"
@@ -2490,6 +2837,7 @@
         {
           "store": "EURONICS BOLOGNA CENTRO COMM. VIALARGA",
           "city": "Bologna",
+          "address": "Via Larga, 10 (Centro Comm. Via Larga), 40138 Bologna",
           "lat": 44.497483,
           "lon": 11.393342,
           "status": "out_of_stock"
@@ -2497,6 +2845,7 @@
         {
           "store": "Tufano Technologies Srl",
           "city": "Portici",
+          "address": "C.so Garibaldi,247, 80055 Portici",
           "lat": 40.821554,
           "lon": 14.325281,
           "status": "out_of_stock"
@@ -2504,6 +2853,7 @@
         {
           "store": "TUFANO BENEVENTO SRL",
           "city": "Benevento",
+          "address": "Via dei Longobardi, 24 (Centro Comm. I Sanniti), 82100 Benevento",
           "lat": 41.141683,
           "lon": 14.780568,
           "status": "out_of_stock"
@@ -2511,6 +2861,7 @@
         {
           "store": "EURONICS CITY - ELETTRODREAMS",
           "city": "Pavullo nel Frignano",
+          "address": "Via Bellei, 22, 41026 Pavullo nel Frignano",
           "lat": 44.34098,
           "lon": 10.83183,
           "status": "out_of_stock"
@@ -2518,6 +2869,7 @@
         {
           "store": "EURONICS PIEVE FOSCIANA",
           "city": "Pieve Fosciana",
+          "address": "Via Nazionale,26, 55036 Pieve Fosciana",
           "lat": 44.127101,
           "lon": 10.410847,
           "status": "out_of_stock"
@@ -2525,6 +2877,7 @@
         {
           "store": "Tufano Napoli Srl",
           "city": "Torre Annunziata",
+          "address": "Via comunale Traversa Andolfi snc, 80058 Torre Annunziata",
           "lat": 40.755209,
           "lon": 14.470018,
           "status": "out_of_stock"
@@ -2532,6 +2885,7 @@
         {
           "store": "EURONICS SAN SEVERO",
           "city": "San Severo",
+          "address": "Via del Soccorso, 372/374, 71016 San Severo",
           "lat": 41.673306,
           "lon": 15.395449,
           "status": "out_of_stock"
@@ -2539,6 +2893,7 @@
         {
           "store": "EURONICS MASSA",
           "city": "Massa",
+          "address": "Via Marina Vecchia, 222, 54100 Massa",
           "lat": 44.027441,
           "lon": 10.127698,
           "status": "out_of_stock"
@@ -2546,6 +2901,7 @@
         {
           "store": "Tufano Electronics Srl",
           "city": "Mercogliano",
+          "address": "Via Nazionale Torrette, 185, 83013 Mercogliano",
           "lat": 40.907274,
           "lon": 14.755618,
           "status": "out_of_stock"
@@ -2553,6 +2909,7 @@
         {
           "store": "EURONICS LUCERA",
           "city": "Lucera",
+          "address": "S.S. per Troia (Centro Comm. Eurospar), 71036 Lucera",
           "lat": 41.50542,
           "lon": 15.33397,
           "status": "out_of_stock"
@@ -2560,6 +2917,7 @@
         {
           "store": "Tufano Nocera Srl",
           "city": "Nocera Inferiore",
+          "address": "Via Napoli, 126, 84014 Nocera Inferiore",
           "lat": 40.74698,
           "lon": 14.631413,
           "status": "out_of_stock"
@@ -2567,6 +2925,7 @@
         {
           "store": "EURONICS MODENA",
           "city": "Modena",
+          "address": "Strada Morane, 500 (Centro Comm. La Rotonda), 41126 Modena",
           "lat": 44.621028,
           "lon": 10.92755,
           "status": "available"
@@ -2574,6 +2933,7 @@
         {
           "store": "EURONICS SARZANA",
           "city": "Sarzana",
+          "address": "Via Variante Cisa, 57, 19038 Sarzana",
           "lat": 44.117294,
           "lon": 9.945098,
           "status": "out_of_stock"
@@ -2581,6 +2941,7 @@
         {
           "store": "EURONICS POINT - SCOLARI",
           "city": "Casina",
+          "address": "Via Camatta, 14, 42034 Casina",
           "lat": 44.508604,
           "lon": 10.497504,
           "status": "out_of_stock"
@@ -2588,6 +2949,7 @@
         {
           "store": "EURONICS FOGGIA VILLAGGIO ARTIGIANI",
           "city": "Foggia",
+          "address": "V.le degli Artigiani, 20/22, 71121 Foggia",
           "lat": 41.47061,
           "lon": 15.55556,
           "status": "out_of_stock"
@@ -2595,6 +2957,7 @@
         {
           "store": "EURONICS FOGGIA CENTRO COMM.LE MONGOLFIERA",
           "city": "Foggia",
+          "address": "V.le degli Aviatori (C.C. Mongolfiera), 71122 Foggia",
           "lat": 41.4403,
           "lon": 15.54497,
           "status": "out_of_stock"
@@ -2602,6 +2965,7 @@
         {
           "store": "TUFANO SALERNO 2 SRL",
           "city": "Salerno",
+          "address": "Via Roberto Wenner, 27, 84127 Salerno",
           "lat": 40.636665,
           "lon": 14.83796,
           "status": "out_of_stock"
@@ -2609,6 +2973,7 @@
         {
           "store": "EURONICS REGGIO EMILIA",
           "city": "Reggio Emilia",
+          "address": "Via Regina Elena,15/E, 42124 Reggio Emilia",
           "lat": 44.70587693604892,
           "lon": 10.627270000569162,
           "status": "available"
@@ -2616,6 +2981,7 @@
         {
           "store": "Tufano Salerno Srl",
           "city": "Pontecagnano",
+          "address": "Via Pacinotti snc (Centro Comm.Maximall), 84098 Pontecagnano",
           "lat": 40.6352,
           "lon": 14.908608,
           "status": "out_of_stock"
@@ -2623,6 +2989,7 @@
         {
           "store": "EURONICS MONTE SANT'ANGELO",
           "city": "Monte Sant' Angelo",
+          "address": "C.da Pace Zona Macchia (Centro Comm. Del Gargano, 71037 Monte Sant' Angelo",
           "lat": 41.73494,
           "lon": 15.96133,
           "status": "out_of_stock"
@@ -2630,6 +2997,7 @@
         {
           "store": "EURONICS MANFREDONIA",
           "city": "Manfredonia",
+          "address": "Via Cala del Fico, 71043 Manfredonia",
           "lat": 41.63732,
           "lon": 15.92853,
           "status": "out_of_stock"
@@ -2637,6 +3005,7 @@
         {
           "store": "EURONICS OLBIA",
           "city": "Olbia",
+          "address": "Via Degli Astronauti (rotonda fronte aeroporto), 07026 Olbia",
           "lat": 40.90814636455469,
           "lon": 9.51656144043038,
           "status": "out_of_stock"
@@ -2644,6 +3013,7 @@
         {
           "store": "EURONICS CERIGNOLA",
           "city": "Cerignola",
+          "address": "Via USA,81/83, 71042 Cerignola",
           "lat": 41.27092,
           "lon": 15.87847,
           "status": "out_of_stock"
@@ -2651,6 +3021,7 @@
         {
           "store": "EURONICS PARMA",
           "city": "Parma",
+          "address": "Via Napoleone Colajanni snc, 43126 Parma",
           "lat": 44.81091,
           "lon": 10.293462,
           "status": "available"
@@ -2658,6 +3029,7 @@
         {
           "store": "EURONICS SAN SALVATORE COGORNO",
           "city": "San Salvatore di Cogorno",
+          "address": "Via Umberto Vittorio Podestà, 1, 16030 San Salvatore di Cogorno",
           "lat": 44.332536,
           "lon": 9.351378,
           "status": "available"
@@ -2665,6 +3037,7 @@
         {
           "store": "EURONICS - BRUNO MIRA",
           "city": "Gambarare di Mira",
+          "address": "S.S. Romea km 66, 30034 Gambarare di Mira",
           "lat": 45.421888,
           "lon": 12.171139,
           "status": "out_of_stock"
@@ -2672,6 +3045,7 @@
         {
           "store": "EURONICS - BRUNO PADOVA",
           "city": "Padova",
+          "address": "Via San Marco ang. Via Quintino Sella, 35129 Padova",
           "lat": 45.417621,
           "lon": 11.925549,
           "status": "out_of_stock"
@@ -2679,6 +3053,7 @@
         {
           "store": "EURONICS - BRUNO MANTOVA",
           "city": "Mantova",
+          "address": "Via Verona, 83, 46100 Mantova",
           "lat": 45.18001928802242,
           "lon": 10.788239967062928,
           "status": "out_of_stock"
@@ -2686,6 +3061,7 @@
         {
           "store": "EURONICS POINT - MAS",
           "city": "Ca' Savio",
+          "address": "Via Treportina, 32/A c/o Centro Comm. Punta Gialla, 30010 Ca' Savio",
           "lat": 45.454448,
           "lon": 12.457394,
           "status": "out_of_stock"
@@ -2693,6 +3069,7 @@
         {
           "store": "EURONICS POINT - MEGGIORINI",
           "city": "Isola della Scala",
+          "address": "Via Roma,13, 37063 Isola della Scala",
           "lat": 45.270585,
           "lon": 11.007337,
           "status": "out_of_stock"
@@ -2700,6 +3077,7 @@
         {
           "store": "EURONICS BARLETTA",
           "city": "Barletta",
+          "address": "Via Trani, 61, 76121 Barletta",
           "lat": 41.30892,
           "lon": 16.31221,
           "status": "out_of_stock"
@@ -2707,6 +3085,7 @@
         {
           "store": "EURONICS - BRUNO VERONA",
           "city": "San Martino Buon Albergo",
+          "address": "Via Fenil Novo, 25, 37036 San Martino Buon Albergo",
           "lat": 45.415658,
           "lon": 11.088054,
           "status": "out_of_stock"
@@ -2714,6 +3093,7 @@
         {
           "store": "EURONICS - BRUNO VICENZA",
           "city": "Vicenza",
+          "address": "V.le Serenissima (adiacente Centro Comm. Palladio), 36100 Vicenza",
           "lat": 45.52886,
           "lon": 11.592911,
           "status": "out_of_stock"
@@ -2721,6 +3101,7 @@
         {
           "store": "EURONICS POTENZA",
           "city": "Potenza",
+          "address": "Via della Tecnica,8, 85100 Potenza",
           "lat": 40.62501,
           "lon": 15.79746,
           "status": "available"
@@ -2728,6 +3109,7 @@
         {
           "store": "EURONICS TRANI",
           "city": "Trani",
+          "address": "Via Austria snc, 75125 Trani",
           "lat": 41.273029,
           "lon": 16.4035,
           "status": "out_of_stock"
@@ -2735,6 +3117,7 @@
         {
           "store": "EURONICS CITY - CAMPAGNARO",
           "city": "Resana",
+          "address": "Via Castellana, 32, 31023 Resana",
           "lat": 45.63578,
           "lon": 11.95497,
           "status": "out_of_stock"
@@ -2742,6 +3125,7 @@
         {
           "store": "EURONICS - BRUNO Treviso",
           "city": "Treviso",
+          "address": "Via Noalese, 72, 31100 Treviso",
           "lat": 45.65597752772545,
           "lon": 12.206954169107089,
           "status": "out_of_stock"
@@ -2749,6 +3133,7 @@
         {
           "store": "EURONICS CORATO",
           "city": "Corato",
+          "address": "Strada provinciale 231, Km 35.2, 70033 Corato",
           "lat": 41.157602,
           "lon": 16.397367,
           "status": "out_of_stock"
@@ -2756,6 +3141,7 @@
         {
           "store": "EURONICS - ZURLO",
           "city": "Cittadella",
+          "address": "Via del Commercio,2, 35013 Cittadella",
           "lat": 45.66253,
           "lon": 11.80496,
           "status": "out_of_stock"
@@ -2763,6 +3149,7 @@
         {
           "store": "EURONICS GENOVA",
           "city": "Genova",
+          "address": "Via Romairone, 10 (Centro Comm. L'Aquilone), 16163 Genova",
           "lat": 44.471306,
           "lon": 8.9005136,
           "status": "available"
@@ -2770,6 +3157,7 @@
         {
           "store": "EURONICS CITY - GE.CO.",
           "city": "San Michele al Tagliamento",
+          "address": "Via Attilio Venudo, 10, 30028 San Michele al Tagliamento",
           "lat": 45.769126,
           "lon": 12.994338,
           "status": "out_of_stock"
@@ -2777,6 +3165,7 @@
         {
           "store": "EURONICS MOLFETTA",
           "city": "Molfetta",
+          "address": "Via delle Oliere e Saponiere Meridionali, 5, 70056 Molfetta",
           "lat": 41.169351,
           "lon": 16.597595,
           "status": "available"
@@ -2784,6 +3173,7 @@
         {
           "store": "EURONICS GAVARDO",
           "city": "Gavardo",
+          "address": "Via Gianbattista Bruni Conter, 2, 25085 Gavardo",
           "lat": 45.576686,
           "lon": 10.444375,
           "status": "available"
@@ -2791,6 +3181,7 @@
         {
           "store": "EURONICS SAVONA",
           "city": "Savona",
+          "address": "Via Stalingrado (Centro Polif.le Le Officine), 17100 Savona",
           "lat": 44.30014,
           "lon": 8.4621,
           "status": "available"
@@ -2798,6 +3189,7 @@
         {
           "store": "EURONICS SASSARI",
           "city": "Sassari",
+          "address": "V.le Porto Torres (Centro Comm. Porte di Sassari), 07100 Sassari",
           "lat": 40.739053,
           "lon": 8.535788,
           "status": "out_of_stock"
@@ -2805,6 +3197,7 @@
         {
           "store": "EURONICS ALTAMURA",
           "city": "Altamura",
+          "address": "Piazza Stazione,8, 70022 Altamura",
           "lat": 40.8375,
           "lon": 16.55154,
           "status": "available"
@@ -2812,6 +3205,7 @@
         {
           "store": "EURONICS POINT - HI-FI CESARI",
           "city": "San Colombano al Lambro",
+          "address": "Via Steffenini, 44, 20078 San Colombano al Lambro",
           "lat": 45.18367,
           "lon": 9.48259,
           "status": "out_of_stock"
@@ -2819,6 +3213,7 @@
         {
           "store": "EURONICS RONCADELLE",
           "city": "Roncadelle",
+          "address": "presso  Centro Comm.le ELNÒS SHOPPING - Via Luigi Einaudi, 25030 Roncadelle",
           "lat": 45.533387,
           "lon": 10.166618,
           "status": "available"
@@ -2826,6 +3221,7 @@
         {
           "store": "EURONICS POINT - CELESIA",
           "city": "Loano",
+          "address": "Via Garibaldi, 144/146 I, 17025 Loano",
           "lat": 44.125349,
           "lon": 8.257849,
           "status": "out_of_stock"
@@ -2833,6 +3229,7 @@
         {
           "store": "EURONICS CITY - SILCA",
           "city": "Comezzano-Cizzago",
+          "address": "Via Giuseppe Zanardelli, 16, 25030 Comezzano-Cizzago",
           "lat": 45.470793,
           "lon": 9.951343,
           "status": "out_of_stock"
@@ -2840,6 +3237,7 @@
         {
           "store": "EURONICS CONCESIO",
           "city": "Concesio",
+          "address": "Via delle Camerate (Parco Comm. Auchan), 25062 Concesio",
           "lat": 45.58872,
           "lon": 10.227438,
           "status": "available"
@@ -2847,6 +3245,7 @@
         {
           "store": "EURONICS BARI PARCO MAX",
           "city": "Bari",
+          "address": "Tang.Bari uscita n.6 (Bari Max Shopping Village), 70123 Bari",
           "lat": 41.11502,
           "lon": 16.80876,
           "status": "available"
@@ -2854,6 +3253,7 @@
         {
           "store": "EURONICS CREMA",
           "city": "Crema",
+          "address": "Via G. La Pira,12 (Centro Comm. Gran Rondò), 26013 Crema",
           "lat": 45.359280935156384,
           "lon": 9.667159958629268,
           "status": "available"
@@ -2861,6 +3261,7 @@
         {
           "store": "EURONICS BARI SANTA CATERINA",
           "city": "Bari",
+          "address": "Via Martiri delle Foibe,1 - Loc. S.ta Caterina, 70100 Bari",
           "lat": 41.0969130564396,
           "lon": 16.836432447386603,
           "status": "available"
@@ -2868,6 +3269,7 @@
         {
           "store": "BRUNO PIEVE FISSIRAGA",
           "city": "Pieve Fissiraga",
+          "address": "Via delle Nazioni Unite 1 (Centro Comm. Gallerie Bennet Pieve), 26854 Pieve Fissiraga",
           "lat": 45.275789,
           "lon": 9.455478,
           "status": "out_of_stock"
@@ -2875,6 +3277,7 @@
         {
           "store": "EURONICS CITY - ELETTROCASA",
           "city": "Basaluzzo",
+          "address": "Via Novi, 70/A, 15060 Basaluzzo",
           "lat": 44.769696,
           "lon": 8.726615,
           "status": "out_of_stock"
@@ -2882,6 +3285,7 @@
         {
           "store": "EURONICS MATERA",
           "city": "Matera",
+          "address": "Via delle Arti, 24, 75100 Matera",
           "lat": 40.672642,
           "lon": 16.573276,
           "status": "available"
@@ -2889,6 +3293,7 @@
         {
           "store": "EURONICS TORTONA",
           "city": "Tortona",
+          "address": "Strada Provinciale per Viguzzolo, 2 (Citta' Comm. Oasi), 15057 Tortona",
           "lat": 44.907338,
           "lon": 8.881523,
           "status": "available"
@@ -2896,6 +3301,7 @@
         {
           "store": "EURONICS - BRUNO UDINE",
           "city": "Udine",
+          "address": "Via Tricesimo, 149 (Parco Comm. Terminal Nord), 33100 Udine",
           "lat": 46.093022,
           "lon": 13.234963,
           "status": "out_of_stock"
@@ -2903,6 +3309,7 @@
         {
           "store": "EURONICS ARMA DI TAGGIA",
           "city": "Arma di Taggia",
+          "address": "Via del Piano (Parco Comm.Taggia), 18018 Arma di Taggia",
           "lat": 43.84605,
           "lon": 7.856532,
           "status": "available"
@@ -2910,6 +3317,7 @@
         {
           "store": "EURONICS POINT - PLANET",
           "city": "MARTINENGO",
+          "address": "Via Trieste, 9, 24057 MARTINENGO",
           "lat": 45.569453,
           "lon": 9.76208,
           "status": "out_of_stock"
@@ -2917,6 +3325,7 @@
         {
           "store": "EURONICS POINT - CAPELLI",
           "city": "Borgo Chiese",
+          "address": "Via Roma, 51, 38083 Borgo Chiese",
           "lat": 45.889362,
           "lon": 10.600279,
           "status": "out_of_stock"
@@ -2924,6 +3333,7 @@
         {
           "store": "EURONICS ALESSANDRIA",
           "city": "Alessandria",
+          "address": "Via Marengo, 64, 15121 Alessandria",
           "lat": 44.911025,
           "lon": 8.627038,
           "status": "available"
@@ -2931,6 +3341,7 @@
         {
           "store": "EURONICS DALMINE",
           "city": "Dalmine",
+          "address": "Via Roggia Serio Grande, 14, 24044 Dalmine",
           "lat": 45.653892,
           "lon": 9.620445,
           "status": "available"
@@ -2938,6 +3349,7 @@
         {
           "store": "EURONICS POINT - LOCATELLI",
           "city": "BERGAMO",
+          "address": "Via P.Ruggeri da Stabello, 17, 24125 BERGAMO",
           "lat": 45.71492,
           "lon": 9.665969,
           "status": "out_of_stock"
@@ -2945,6 +3357,7 @@
         {
           "store": "EURONICS CITY - MISTRI",
           "city": "Fiorano al Serio",
+          "address": "Via Roma, 1, 24020 Fiorano al Serio",
           "lat": 45.79756,
           "lon": 9.839414,
           "status": "out_of_stock"
@@ -2952,6 +3365,7 @@
         {
           "store": "EURONICS DIMO VIGEVANO",
           "city": "Vigevano",
+          "address": "V.le Industria, 27029 Vigevano",
           "lat": 45.30837817853088,
           "lon": 8.878363279767415,
           "status": "available"
@@ -2959,6 +3373,7 @@
         {
           "store": "EURONICS CASTELLANA",
           "city": "Castellana Grotte",
+          "address": "Via per Putignano,92 (C.C. Grotte), 70013 Castellana Grotte",
           "lat": 40.87737,
           "lon": 17.15893,
           "status": "out_of_stock"
@@ -2966,6 +3381,7 @@
         {
           "store": "EURONICS POINT - ELETTROSOC GILMOZZI",
           "city": "Tesero",
+          "address": "Via Socce, 2, 38038 Tesero",
           "lat": 46.288821,
           "lon": 11.507002,
           "status": "out_of_stock"
@@ -2973,6 +3389,7 @@
         {
           "store": "EURONICS - BRUNO MILANO",
           "city": "Milano",
+          "address": "Merlata Bloom - Via Gottlieb Wilhelm Daimler, 20156 Milano",
           "lat": 45.5138124773076,
           "lon": 9.1058395807155,
           "status": "out_of_stock"
@@ -2980,6 +3397,7 @@
         {
           "store": "EURONICS MONDOVI'",
           "city": "Mondovi'",
+          "address": "P.zza Mondovicino, 42 (Centro Comm. Mondovicino), 12084 Mondovi'",
           "lat": 44.42029,
           "lon": 7.855151,
           "status": "available"
@@ -2987,6 +3405,7 @@
         {
           "store": "EURONICS MONOPOLI",
           "city": "Monopoli",
+          "address": "Viale Aldo Moro,53, 70043 Monopoli",
           "lat": 40.96379,
           "lon": 17.27681,
           "status": "out_of_stock"
@@ -2994,6 +3413,7 @@
         {
           "store": "EURONICS OSNAGO",
           "city": "Osnago",
+          "address": "Via Statale, 20/b, 23875 Osnago",
           "lat": 45.682055213276236,
           "lon": 9.399235150347337,
           "status": "available"
@@ -3001,6 +3421,7 @@
         {
           "store": "EURONICS ASTI",
           "city": "Asti",
+          "address": "C.so Alessandria, 272, 14100 Asti",
           "lat": 44.906325713941506,
           "lon": 8.228184896259531,
           "status": "available"
@@ -3008,6 +3429,7 @@
         {
           "store": "EURONICS ALBA",
           "city": "Alba",
+          "address": "C.so Asti, 24 (Centro Comm. Alba Center), 12051 Alba",
           "lat": 44.71733693577373,
           "lon": 8.035181595466296,
           "status": "available"
@@ -3015,6 +3437,7 @@
         {
           "store": "EURONICS CASALE MONFERRATO",
           "city": "Casale Monferrato",
+          "address": "V.le Cavalli D'Olivola, 6, 15033 Casale Monferrato",
           "lat": 45.132625,
           "lon": 8.45095,
           "status": "available"
@@ -3022,6 +3445,7 @@
         {
           "store": "EURONICS CITY - PUNTO LUCE",
           "city": "Cles",
+          "address": "Via Trento, 89/2/3, 38023 Cles",
           "lat": 46.35713,
           "lon": 11.03739,
           "status": "out_of_stock"
@@ -3029,6 +3453,7 @@
         {
           "store": "EURONICS - BRUNO LECCO",
           "city": "Lecco",
+          "address": "L.go Caleotto, 10 (Centro Comm. Meridiana), 23900 Lecco",
           "lat": 45.854304,
           "lon": 9.397864,
           "status": "out_of_stock"
@@ -3036,6 +3461,7 @@
         {
           "store": "EURONICS MARTINA FRANCA",
           "city": "Martina Franca",
+          "address": "Via Guglielmi, 9/Bis, 74015 Martina Franca",
           "lat": 40.7012,
           "lon": 17.329946,
           "status": "out_of_stock"
@@ -3043,6 +3469,7 @@
         {
           "store": "EURONICS CUNEO PARCO COMM.LE AUCHAN",
           "city": "Cuneo - Borgo San Giuseppe",
+          "address": "Parco Comm. Auchan - Via Margarita, 8, 12100 Cuneo - Borgo San Giuseppe",
           "lat": 44.391505,
           "lon": 7.58214,
           "status": "available"
@@ -3050,6 +3477,7 @@
         {
           "store": "EURONICS NOVARA",
           "city": "Novara",
+          "address": "Via Gnifetti, 70, 28100 Novara",
           "lat": 45.449285,
           "lon": 8.609786,
           "status": "available"
@@ -3057,6 +3485,7 @@
         {
           "store": "EURONICS CUNEO VIA CASCINA COLOMBARO",
           "city": "Cuneo",
+          "address": "Via Cascina Colombaro,26, 12100 Cuneo",
           "lat": 44.374814,
           "lon": 7.520619,
           "status": "available"
@@ -3064,6 +3493,7 @@
         {
           "store": "EURONICS VERCELLI",
           "city": "Vercelli",
+          "address": "Tang.Ovest Camp. Sud (Parco Comm. Carrefour), 13100 Vercelli",
           "lat": 45.322872,
           "lon": 8.391572,
           "status": "available"
@@ -3071,6 +3501,7 @@
         {
           "store": "EURONICS POINT - FEVAL",
           "city": "Piateda",
+          "address": "Via Roma, 71, 23020 Piateda",
           "lat": 46.159812,
           "lon": 9.94076,
           "status": "out_of_stock"
@@ -3078,6 +3509,7 @@
         {
           "store": "EURONICS TARANTO",
           "city": "Taranto",
+          "address": "Via per Montemesola Km 10 (Centro Com. Ipercoop), 74100 Taranto",
           "lat": 40.52218,
           "lon": 17.3017,
           "status": "out_of_stock"
@@ -3085,6 +3517,7 @@
         {
           "store": "EURONICS COMO VIA CECILIO",
           "city": "Como",
+          "address": "Via Cecilio, 4, 22100 Como",
           "lat": 45.78524799953944,
           "lon": 9.069483403193184,
           "status": "available"
@@ -3092,6 +3525,7 @@
         {
           "store": "EURONICS TRADATE",
           "city": "Tradate",
+          "address": "Centradate Retail Park, 21049 Tradate",
           "lat": 45.698939070738014,
           "lon": 8.910659940596211,
           "status": "available"
@@ -3099,6 +3533,7 @@
         {
           "store": "EURONICS POINT - ALVA",
           "city": "Tradate",
+          "address": "Via Montegrappa, 66, 21040 Tradate",
           "lat": 45.72162,
           "lon": 8.89436,
           "status": "out_of_stock"
@@ -3106,6 +3541,7 @@
         {
           "store": "EURONICS TARANTO 2",
           "city": "Taranto",
+          "address": "Via S.Giorgio Jonico c/o Centro Comm. Auchan, 74121 Taranto",
           "lat": 40.460407,
           "lon": 17.300198,
           "status": "out_of_stock"
@@ -3113,6 +3549,7 @@
         {
           "store": "EURONICS CAGLIARI",
           "city": "Elmas",
+          "address": "Via San Giorgio, 3, 09067 Elmas",
           "lat": 39.27364547668269,
           "lon": 9.054160969918273,
           "status": "out_of_stock"
@@ -3120,6 +3557,7 @@
         {
           "store": "EURONICS CITY - ELETTROCENTRO OLEGGIO",
           "city": "Oleggio",
+          "address": "S.S. 32 ang. Via Carmine, 33/A, 28047 Oleggio",
           "lat": 45.598256,
           "lon": 8.644737,
           "status": "out_of_stock"
@@ -3127,6 +3565,7 @@
         {
           "store": "EURONICS POINT - MEDIACITY",
           "city": "Crescentino",
+          "address": "C.so Roma, 26, 13044 Crescentino",
           "lat": 45.19319,
           "lon": 8.103205,
           "status": "out_of_stock"
@@ -3134,6 +3573,7 @@
         {
           "store": "EURONICS CARMAGNOLA",
           "city": "Carmagnola",
+          "address": "Via Sommariva, 19/1 (Parco Comm. Il Conte di Carmagnola), 10022 Carmagnola",
           "lat": 44.84601354713774,
           "lon": 7.732179477479434,
           "status": "available"
@@ -3141,6 +3581,7 @@
         {
           "store": "EURONICS POINT - FEVAL LENNO",
           "city": "Tremezzina",
+          "address": "Via Statale 1749, 22016 Tremezzina",
           "lat": 45.969578,
           "lon": 9.191888,
           "status": "out_of_stock"
@@ -3148,6 +3589,7 @@
         {
           "store": "EURONICS FRANCAVILLA FONTANA",
           "city": "Francavilla Fontana",
+          "address": "Via per Grottaglie km 0,800, 72021 Francavilla Fontana",
           "lat": 40.532085,
           "lon": 17.562281,
           "status": "out_of_stock"
@@ -3155,6 +3597,7 @@
         {
           "store": "EURONICS TORINO VIA NIZZA",
           "city": "Torino",
+          "address": "Via Nizza, 30/E, 10125 Torino",
           "lat": 45.054938,
           "lon": 7.676036,
           "status": "available"
@@ -3162,6 +3605,7 @@
         {
           "store": "EURONICS NICHELINO",
           "city": "Nichelino",
+          "address": "Via dei Cacciatori (Shopping Park I VIALI), 10042 Nichelino",
           "lat": 45.00555177196781,
           "lon": 7.6225086863798515,
           "status": "available"
@@ -3169,6 +3613,7 @@
         {
           "store": "EURONICS TORINO",
           "city": "Torino",
+          "address": "Corso Romania, 460 (Centro Comm. Porte di Torino), 10156 Torino",
           "lat": 45.117865,
           "lon": 7.712193,
           "status": "available"
@@ -3176,6 +3621,7 @@
         {
           "store": "EURONICS SETTIMO Cielo retali Park",
           "city": "Settimo Torinese",
+          "address": "Via P. Mascagni (Settimo Cielo Retail Park, 10036 Settimo Torinese",
           "lat": 45.14039960794534,
           "lon": 7.732837822789321,
           "status": "available"
@@ -3183,6 +3629,7 @@
         {
           "store": "EURONICS GOZZANO",
           "city": "Gozzano",
+          "address": "Via Don Minzoni, 5, 28024 Gozzano",
           "lat": 45.735669,
           "lon": 8.439187,
           "status": "available"
@@ -3190,6 +3637,7 @@
         {
           "store": "EURONICS RIVALTA DI TORINO",
           "city": "Rivalta di Torino",
+          "address": "Via Torino,22/O (Centro Comm. Rivalta) Fraz. Pasta, 10040 Rivalta di Torino",
           "lat": 45.00879140579794,
           "lon": 7.5522922696642425,
           "status": "available"
@@ -3197,6 +3645,7 @@
         {
           "store": "EURONICS TORINO Area 12 Shopping Center",
           "city": "Torino",
+          "address": "Strada Altessano,141 stadio Juventus Area 12 Shopping Center, 10151 Torino",
           "lat": 45.1089,
           "lon": 7.6444,
           "status": "available"
@@ -3204,6 +3653,7 @@
         {
           "store": "EURONICS - BRUNO CARINI",
           "city": "Carini",
+          "address": "Strada Statale 113, al Km. 281.2 (Centro Comm. ArcipelaGo), 90044 Carini",
           "lat": 38.164257126551455,
           "lon": 13.212650096720592,
           "status": "out_of_stock"
@@ -3211,6 +3661,7 @@
         {
           "store": "EURONICS VENARIA REALE",
           "city": "Venaria Reale",
+          "address": "C.so Garibaldi, 235 (Centro Comm. Venaria), 10078 Venaria Reale",
           "lat": 45.114438,
           "lon": 7.646131,
           "status": "available"
@@ -3218,6 +3669,7 @@
         {
           "store": "EURONICS - BRUNO PALERMO",
           "city": "Palermo",
+          "address": "Via Pietro Nenni, 6127 - Via Ugo La Malfa, 90146 Palermo",
           "lat": 38.15551,
           "lon": 13.31914,
           "status": "out_of_stock"
@@ -3225,6 +3677,7 @@
         {
           "store": "EURONICS BIELLA",
           "city": "Biella",
+          "address": "V.le L. Tenco 3a (Centro Comm. Gli Orsi), 13900 Biella",
           "lat": 45.54727,
           "lon": 8.07667,
           "status": "available"
@@ -3232,6 +3685,7 @@
         {
           "store": "EURONICS LUINO",
           "city": "Luino",
+          "address": "Via delle Dogane, 21016 Luino",
           "lat": 45.996179,
           "lon": 8.743212,
           "status": "available"
@@ -3239,6 +3693,7 @@
         {
           "store": "EURONICS POINT - BOLONGARO",
           "city": "Stresa",
+          "address": "Via Molinari 1 ang.via Roma,3, 28838 Stresa",
           "lat": 45.88245,
           "lon": 8.53764,
           "status": "out_of_stock"
@@ -3246,6 +3701,7 @@
         {
           "store": "EURONICS MESAGNE",
           "city": "Mesagne",
+          "address": "S.S.7 Km. 10 (Centro Comm. Conad), 72023 Mesagne",
           "lat": 40.561481,
           "lon": 17.809138,
           "status": "out_of_stock"
@@ -3253,6 +3709,7 @@
         {
           "store": "EURONICS POINT - OTTONELLO",
           "city": "Pinerolo",
+          "address": "Via Moirano, 2, 10064 Pinerolo",
           "lat": 44.882968,
           "lon": 7.336007,
           "status": "out_of_stock"
@@ -3260,6 +3717,7 @@
         {
           "store": "EURONICS CITY - MAROTTA",
           "city": "Rivoli",
+          "address": "Corso Susa, 305/307 (c/o Spazio Conad), 10098 Rivoli",
           "lat": 45.08245,
           "lon": 7.49953,
           "status": "out_of_stock"
@@ -3267,6 +3725,7 @@
         {
           "store": "EURONICS VERBANIA",
           "city": "Verbania",
+          "address": "V.le Azari, 94, 28922 Verbania",
           "lat": 45.929296,
           "lon": 8.5547232,
           "status": "available"
@@ -3274,6 +3733,7 @@
         {
           "store": "EURONICS IVREA",
           "city": "Banchette",
+          "address": "Via Uscello 3 int A (Parco Comm. del Canavese), 10010 Banchette",
           "lat": 45.446601061305515,
           "lon": 7.853697260291098,
           "status": "available"
@@ -3281,6 +3741,7 @@
         {
           "store": "EURONICS - BRUNO VILLABATE",
           "city": "Villabate",
+          "address": "Via Alcide De Gasperi (Centro Comm. Picasso), 90039 Villabate",
           "lat": 38.084091,
           "lon": 13.449958,
           "status": "out_of_stock"
@@ -3288,6 +3749,7 @@
         {
           "store": "EURONICS - BRUNO TRAPANI",
           "city": "Trapani",
+          "address": "Via Libica (accanto a Conad e Pittarello), 91100 Trapani",
           "lat": 38.001228785935545,
           "lon": 12.535530330668202,
           "status": "out_of_stock"
@@ -3295,6 +3757,7 @@
         {
           "store": "Tufano Elettrodomestici Srl",
           "city": "Maida",
+          "address": "Loc.tà Comuni Condomini (Centro Comm. Due Mari), 88025 Maida",
           "lat": 38.90088,
           "lon": 16.35075,
           "status": "out_of_stock"
@@ -3302,6 +3765,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA CAPO D'ORLANDO",
           "city": "Capo D'Orlando",
+          "address": "C.da Malvicino,2, 98071 Capo D'Orlando",
           "lat": 38.1216,
           "lon": 14.7213,
           "status": "out_of_stock"
@@ -3309,6 +3773,7 @@
         {
           "store": "EURONICS - BRUNO VIBO VALENTIA",
           "city": "Vibo Valentia",
+          "address": "S.S. 18 Zona Aeroporto (Centro Comm.Vibo Center), 89900 Vibo Valentia",
           "lat": 38.64704,
           "lon": 16.05234,
           "status": "out_of_stock"
@@ -3316,6 +3781,7 @@
         {
           "store": "EURONICS CITY - CODIMA",
           "city": "Domodossola",
+          "address": "Via Cavaliere di V.Veneto, 29, 28845 Domodossola",
           "lat": 46.11925,
           "lon": 8.29582,
           "status": "out_of_stock"
@@ -3323,6 +3789,7 @@
         {
           "store": "EURONICS LECCE",
           "city": "Lecce",
+          "address": "Viale Grassi ang. Via San Pietro in Lama snc, 73100 Lecce",
           "lat": 40.34385,
           "lon": 18.15585,
           "status": "available"
@@ -3330,6 +3797,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA BARCELLONA P.G. 2",
           "city": "Barcellona Pozzo di Gotto",
+          "address": "Via Filicudi, 3, 98051 Barcellona Pozzo di Gotto",
           "lat": 38.150597,
           "lon": 15.189535,
           "status": "out_of_stock"
@@ -3337,6 +3805,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA BARCELLONA P.G.",
           "city": "Barcellona Pozzo di Gotto",
+          "address": "Via Kennedy, 304, 98051 Barcellona Pozzo di Gotto",
           "lat": 38.152928,
           "lon": 15.227844,
           "status": "out_of_stock"
@@ -3344,6 +3813,7 @@
         {
           "store": "EURONICS - BRUNO CASTELVETRANO",
           "city": "Castelvetrano",
+          "address": "Via Caduti di Nassiriya C.Strasatto(C.C.BeliCitta'), 91022 Castelvetrano",
           "lat": 37.670226,
           "lon": 12.817074,
           "status": "out_of_stock"
@@ -3351,6 +3821,7 @@
         {
           "store": "EURONICS - BRUNO GIOIA TAURO",
           "city": "Gioia Tauro",
+          "address": "Via Nazionale, 111 (Parco Comm. Annunziata), 89013 Gioia Tauro",
           "lat": 38.40889,
           "lon": 15.91674,
           "status": "out_of_stock"
@@ -3358,6 +3829,7 @@
         {
           "store": "EURONICS LA VIA LATTEA MESSINA N. FABRIZI",
           "city": "Messina",
+          "address": "Via Nicola Fabrizi, 41, 98123 Messina",
           "lat": 38.185189,
           "lon": 15.557043,
           "status": "out_of_stock"
@@ -3365,6 +3837,7 @@
         {
           "store": "EURONICS -  LA VIA LATTEA VILLA SAN GIOVANNI",
           "city": "Villa San Giovanni",
+          "address": "Via Zanotti Bianco (Centro Comm. Perla dello Stretto), 89018 Villa San Giovanni",
           "lat": 38.213652,
           "lon": 15.636926,
           "status": "out_of_stock"
@@ -3372,6 +3845,7 @@
         {
           "store": "EURONICS AOSTA",
           "city": "Saint Christophe",
+          "address": "Loc.tà Les Iles, 22, 11020 Saint Christophe",
           "lat": 45.739662,
           "lon": 7.362184,
           "status": "available"
@@ -3379,6 +3853,7 @@
         {
           "store": "EURONICS MATINO",
           "city": "Matino",
+          "address": "S.P. Casarano-Parabita (Centro Polif.Le Vele), 73046 Matino",
           "lat": 40.036715,
           "lon": 18.155199,
           "status": "available"
@@ -3386,6 +3861,7 @@
         {
           "store": "EURONICS MESSINA CENTRO COMM.LE LA VIA LATTEA",
           "city": "Messina",
+          "address": "Via Adolfo Celi, 117 (Centro Comm. La Via Lattea), 98125 Messina",
           "lat": 38.15421,
           "lon": 15.53116,
           "status": "out_of_stock"
@@ -3393,6 +3869,7 @@
         {
           "store": "EURONICS - BRUNO MESSINA",
           "city": "Messina",
+          "address": "S.S. 114, Km. 6,2 - (Centro Comm. Tremestieri), 98128 Messina",
           "lat": 38.13689,
           "lon": 15.52246,
           "status": "out_of_stock"
@@ -3400,6 +3877,7 @@
         {
           "store": "EURONICS MAGLIE",
           "city": "Maglie",
+          "address": "Via F.lli Piccinno,14, 73024 Maglie",
           "lat": 40.129595,
           "lon": 18.295172,
           "status": "out_of_stock"
@@ -3407,6 +3885,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA REGGIO CALABRIA",
           "city": "Reggio Calabria",
+          "address": "Viale Calabria, 310 (Parco Comm.le Le Ninfee), 89132 Reggio Calabria",
           "lat": 38.089065,
           "lon": 15.641246,
           "status": "out_of_stock"
@@ -3414,6 +3893,7 @@
         {
           "store": "Electro Leader Srl",
           "city": "Presicce",
+          "address": "Via degli Angeli c/o Centro Comm. Gli Angeli, 73054 Presicce",
           "lat": 39.891147,
           "lon": 18.2671,
           "status": "out_of_stock"
@@ -3421,6 +3901,7 @@
         {
           "store": "Electroleader S.R.L.",
           "city": "Tricase",
+          "address": "Via Aldo Moro, 1, 73039 Tricase",
           "lat": 39.92649,
           "lon": 18.35878,
           "status": "out_of_stock"
@@ -3428,6 +3909,7 @@
         {
           "store": "EURONICS - BRUNO SIDERNO",
           "city": "Siderno",
+          "address": "s.s.106 Km 106,400 (Centro Comm.Le Gru), 89048 Siderno",
           "lat": 38.2881,
           "lon": 16.3151,
           "status": "out_of_stock"
@@ -3435,6 +3917,7 @@
         {
           "store": "EURONICS - BRUNO ENNA",
           "city": "Enna Bassa",
+          "address": "V.le Unita' d'Italia - C.da S. Lucia, 94100 Enna Bassa",
           "lat": 37.56033,
           "lon": 14.29377,
           "status": "out_of_stock"
@@ -3442,6 +3925,7 @@
         {
           "store": "EURONICS - BRUNO CALTANISSETTA",
           "city": "Caltanissetta",
+          "address": "Via Due Fontane - (Centro Comm. Due Fontane), 93100 Caltanissetta",
           "lat": 37.48209,
           "lon": 14.02457,
           "status": "out_of_stock"
@@ -3449,6 +3933,7 @@
         {
           "store": "EURONICS - BRUNO AGRIGENTO CITTÀ DEL TEMPLI",
           "city": "Agrigento",
+          "address": "Via Fosse Ardeatine - Fraz. Villaseta, 92100 Agrigento",
           "lat": 37.297544,
           "lon": 13.552988,
           "status": "out_of_stock"
@@ -3456,6 +3941,7 @@
         {
           "store": "EURONICS - BRUNO AGRIGENTO",
           "city": "Agrigento",
+          "address": "Via Cannatello - Villaggio Mosè, 92100 Agrigento",
           "lat": 37.267306,
           "lon": 13.620597,
           "status": "out_of_stock"
@@ -3463,6 +3949,7 @@
         {
           "store": "EURONICS - BRUNO LE ZAGARE",
           "city": "San Giovanni La Punta",
+          "address": "Via Montello,1 C.da Bottazzi (P.co Com.Le Zagare), 95037 San Giovanni La Punta",
           "lat": 37.57956,
           "lon": 15.09592,
           "status": "out_of_stock"
@@ -3470,6 +3957,7 @@
         {
           "store": "EURONICS - BRUNO KATANÈ",
           "city": "Gravina",
+          "address": "Via Salvatore Quasimodo (Centro Comm.Katane'), 95030 Gravina",
           "lat": 37.55071,
           "lon": 15.06403,
           "status": "out_of_stock"
@@ -3477,6 +3965,7 @@
         {
           "store": "EURONICS - BRUNO MISTERBIANCO",
           "city": "Misterbianco",
+          "address": "V.le del Commercio - C.da Mezzocampo, 95045 Misterbianco",
           "lat": 37.50998263729814,
           "lon": 15.023175725541348,
           "status": "out_of_stock"
@@ -3484,6 +3973,7 @@
         {
           "store": "EURONICS - LA VIA LATTEA CATANIA CENTRO ULISSE",
           "city": "Catania",
+          "address": "Viale Ulisse, 10 (Centro Ulisse), 95126 Catania",
           "lat": 37.531721,
           "lon": 15.105787,
           "status": "out_of_stock"
@@ -3491,6 +3981,7 @@
         {
           "store": "EURONICS - BRUNO CATANIA CENTRO",
           "city": "Catania",
+          "address": "Via Luigi Rizzo, 32, 95131 Catania",
           "lat": 37.50872,
           "lon": 15.089903,
           "status": "out_of_stock"
@@ -3498,6 +3989,7 @@
         {
           "store": "EURONICS - BRUNO CENTRO SICILIA",
           "city": "Misterbianco",
+          "address": "C.da Cubba-Tenutella (Centro Sicilia), 95045 Misterbianco",
           "lat": 37.480174,
           "lon": 15.011314,
           "status": "out_of_stock"
@@ -3505,6 +3997,7 @@
         {
           "store": "EURONICS - BRUNO LICATA",
           "city": "Licata",
+          "address": "Via Campobello, 159 (Centro Comm. San Giorgio), 92027 Licata",
           "lat": 37.112197,
           "lon": 13.92989,
           "status": "out_of_stock"
@@ -3512,6 +4005,7 @@
         {
           "store": "EURONICS - BRUNO CALTAGIRONE",
           "city": "Caltagirone",
+          "address": "V.le Europa, 6-6/A, 95041 Caltagirone",
           "lat": 37.21693,
           "lon": 14.51936,
           "status": "out_of_stock"
@@ -3519,6 +4013,7 @@
         {
           "store": "EURONICS - BRUNO MELILLI",
           "city": "Melilli",
+          "address": "V.le Garrone, C.da Spalla (Parco Comm. Belvedere), 96010 Melilli",
           "lat": 37.11167,
           "lon": 15.22731,
           "status": "out_of_stock"
@@ -3526,6 +4021,7 @@
         {
           "store": "EURONICS - BRUNO RAGUSA",
           "city": "Ragusa",
+          "address": "Viale delle Americhe (Centro Comm. Ibleo), 97100 Ragusa",
           "lat": 36.93142,
           "lon": 14.68651,
           "status": "out_of_stock"
@@ -3533,6 +4029,7 @@
         {
           "store": "EURONICS - BRUNO MODICA",
           "city": "Modica",
+          "address": "P.le Bruno Domenico  - Polo Comm., 97015 Modica",
           "lat": 36.83839665263969,
           "lon": 14.779667184638104,
           "status": "out_of_stock"
@@ -3540,12 +4037,13 @@
         {
           "store": "EURONICS - BRUNO AVOLA",
           "city": "Avola",
+          "address": "Contrada Risicone Circonv.Avola Noto, 96012 Avola",
           "lat": 36.9021,
           "lon": 15.1186,
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-18T07:11:21+00:00"
+      "checked_at": "2026-07-18T11:19:00+00:00"
     }
   ]
 }
