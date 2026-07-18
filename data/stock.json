@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T14:42:04+00:00",
+  "updated_at": "2026-07-18T18:08:44+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-18T14:42:01+00:00"
+      "checked_at": "2026-07-18T18:08:40+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-18T14:42:01+00:00"
+      "checked_at": "2026-07-18T18:08:40+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -737,7 +737,7 @@
           "address": "Via dei Pini, 3, 86039 Termoli",
           "lat": 41.982449,
           "lon": 15.003988,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "Tufano Net Srl",
@@ -2076,7 +2076,7 @@
           "status": "available"
         }
       ],
-      "checked_at": "2026-07-18T14:42:03+00:00"
+      "checked_at": "2026-07-18T18:08:43+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-18T14:42:04+00:00"
+      "checked_at": "2026-07-18T18:08:44+00:00"
     }
   ]
 }
