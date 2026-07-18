@@ -75,11 +75,11 @@ PRODUCTS = [
         # fill/refresh these statuses; for online-only retailers, omit
         # "stores" and only the product-level status is shown.
         "stores": [
-            {"store": "Demo Store Milano Centrale", "city": "Milano", "lat": 45.4642, "lon": 9.1900, "status": "available"},
-            {"store": "Demo Store Torino Lingotto", "city": "Torino", "lat": 45.0703, "lon": 7.6869, "status": "available"},
-            {"store": "Demo Store Roma Tiburtina", "city": "Roma", "lat": 41.9028, "lon": 12.4964, "status": "out_of_stock"},
-            {"store": "Demo Store Bologna Fiera", "city": "Bologna", "lat": 44.4949, "lon": 11.3426, "status": "available"},
-            {"store": "Demo Store Trento Nord", "city": "Trento", "lat": 46.0748, "lon": 11.1217, "status": "out_of_stock"},
+            {"store": "Demo Store Milano Centrale", "city": "Milano", "address": "Via Demo 1, 20100 Milano", "lat": 45.4642, "lon": 9.1900, "status": "available"},
+            {"store": "Demo Store Torino Lingotto", "city": "Torino", "address": "Via Demo 2, 10100 Torino", "lat": 45.0703, "lon": 7.6869, "status": "available"},
+            {"store": "Demo Store Roma Tiburtina", "city": "Roma", "address": "Via Demo 3, 00100 Roma", "lat": 41.9028, "lon": 12.4964, "status": "out_of_stock"},
+            {"store": "Demo Store Bologna Fiera", "city": "Bologna", "address": "Via Demo 4, 40100 Bologna", "lat": 44.4949, "lon": 11.3426, "status": "available"},
+            {"store": "Demo Store Trento Nord", "city": "Trento", "address": "Via Demo 5, 38100 Trento", "lat": 46.0748, "lon": 11.1217, "status": "out_of_stock"},
         ],
     },
     {
@@ -91,11 +91,11 @@ PRODUCTS = [
         "checker": "demo_json",
         "checker_args": {"simulate": "out_of_stock"},
         "stores": [
-            {"store": "Demo Store Napoli Centro", "city": "Napoli", "lat": 40.8518, "lon": 14.2681, "status": "out_of_stock"},
-            {"store": "Demo Store Firenze Novoli", "city": "Firenze", "lat": 43.7696, "lon": 11.2558, "status": "out_of_stock"},
-            {"store": "Demo Store Palermo Forum", "city": "Palermo", "lat": 38.1157, "lon": 13.3615, "status": "unknown"},
-            {"store": "Demo Store Bari Santa Caterina", "city": "Bari", "lat": 41.1171, "lon": 16.8719, "status": "out_of_stock"},
-            {"store": "Demo Store Verona Adigeo", "city": "Verona", "lat": 45.4384, "lon": 10.9916, "status": "available"},
+            {"store": "Demo Store Napoli Centro", "city": "Napoli", "address": "Via Demo 6, 80100 Napoli", "lat": 40.8518, "lon": 14.2681, "status": "out_of_stock"},
+            {"store": "Demo Store Firenze Novoli", "city": "Firenze", "address": "Via Demo 7, 50100 Firenze", "lat": 43.7696, "lon": 11.2558, "status": "out_of_stock"},
+            {"store": "Demo Store Palermo Forum", "city": "Palermo", "address": "Via Demo 8, 90100 Palermo", "lat": 38.1157, "lon": 13.3615, "status": "unknown"},
+            {"store": "Demo Store Bari Santa Caterina", "city": "Bari", "address": "Via Demo 9, 70100 Bari", "lat": 41.1171, "lon": 16.8719, "status": "out_of_stock"},
+            {"store": "Demo Store Verona Adigeo", "city": "Verona", "address": "Via Demo 10, 37100 Verona", "lat": 45.4384, "lon": 10.9916, "status": "available"},
         ],
     },
 
@@ -237,9 +237,13 @@ def euronics_stores(product: dict) -> list:
         if not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)):
             continue
         in_stock = (s.get("inventory") or {}).get("value")
+        city = s.get("city") or ""
+        postal = s.get("postalCode") or ""
+        address = s.get("address1") or ""
         stores.append({
             "store": s.get("name") or "Euronics",
-            "city": s.get("city") or "",
+            "city": city,
+            "address": f"{address}, {postal} {city}".strip(", "),
             "lat": lat,
             "lon": lon,
             "status": "available" if in_stock else "out_of_stock",
