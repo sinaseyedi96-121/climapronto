@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ClimaPronto — Condizionatori disponibili in tempo reale</title>
 <meta name="description" content="Monitoriamo la disponibilità dei climatizzatori portatili nei negozi italiani ogni 10 minuti. Ricevi un'email appena tornano disponibili.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' rx='8' fill='%232E9DBB'/%3E%3Cg stroke='%23fff' stroke-width='1.6' stroke-linecap='round'%3E%3Cline x1='14' y1='6' x2='14' y2='22'/%3E%3Cline x1='6' y1='14' x2='22' y2='14'/%3E%3Cline x1='8.5' y1='8.5' x2='19.5' y2='19.5'/%3E%3Cline x1='19.5' y1='8.5' x2='8.5' y2='19.5'/%3E%3C/g%3E%3Ccircle cx='14' cy='14' r='3' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -17,11 +18,11 @@
     --panel:#FFFFFF;
     --glacial:#2E9DBB;
     --glacial-deep:#19606F;
-    --ok:#1E9E6E;
+    --ok:#106B49;
     --ok-bg:#E2F4EC;
-    --hot:#E4553F;
+    --hot:#A8391F;
     --hot-bg:#FBEAE6;
-    --unknown:#8CA0AB;
+    --unknown:#4E6470;
     --unknown-bg:#EDF1F3;
     --slate:#5E7480;
     --line:#DCE6EA;
@@ -48,16 +49,18 @@
     padding:18px 0;
   }
   .logo{
+    display:flex;align-items:center;gap:9px;
     font-family:'Archivo',sans-serif;font-weight:800;font-size:1.25rem;
     letter-spacing:-0.02em;text-decoration:none;color:var(--ink);
   }
   .logo span{color:var(--glacial)}
+  .logo-mark{flex-shrink:0}
   .header-cta{
     font-size:.85rem;font-weight:600;text-decoration:none;
     color:var(--glacial-deep);border:1.5px solid var(--glacial);
     padding:8px 16px;border-radius:99px;transition:background .15s,color .15s;
   }
-  .header-cta:hover{background:var(--glacial);color:#fff}
+  .header-cta:hover{background:var(--glacial-deep);border-color:var(--glacial-deep);color:#fff}
   .header-cta:focus-visible{outline:3px solid var(--glacial);outline-offset:2px}
 
   /* ---------- hero ---------- */
@@ -72,24 +75,32 @@
     animation:pulse 2s infinite;
   }
   @keyframes pulse{
-    0%{box-shadow:0 0 0 0 rgba(30,158,110,.5)}
-    70%{box-shadow:0 0 0 8px rgba(30,158,110,0)}
-    100%{box-shadow:0 0 0 0 rgba(30,158,110,0)}
+    0%{box-shadow:0 0 0 0 rgba(16,107,73,.5)}
+    70%{box-shadow:0 0 0 8px rgba(16,107,73,0)}
+    100%{box-shadow:0 0 0 0 rgba(16,107,73,0)}
   }
+  @keyframes rise-in{from{transform:translateY(14px)}to{transform:translateY(0)}}
   @media (prefers-reduced-motion:reduce){
     .live-dot{animation:none}
     html{scroll-behavior:auto}
+    .eyebrow,h1,.hero p,.hero-actions,.process-step{animation:none}
   }
+  .eyebrow{animation:rise-in .7s cubic-bezier(.16,1,.3,1) both}
   h1{
     font-family:'Archivo',sans-serif;font-weight:800;
     font-size:clamp(2rem,5.5vw,3.2rem);line-height:1.08;letter-spacing:-0.03em;
     max-width:640px;
+    animation:rise-in .7s cubic-bezier(.16,1,.3,1) .06s both;
   }
   h1 em{font-style:normal;color:var(--glacial)}
   .hero p{
     margin-top:18px;max-width:540px;color:var(--slate);font-size:1.05rem;
+    animation:rise-in .7s cubic-bezier(.16,1,.3,1) .12s both;
   }
-  .hero-actions{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+  .hero-actions{
+    margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;
+    animation:rise-in .7s cubic-bezier(.16,1,.3,1) .18s both;
+  }
   .btn{
     display:inline-block;font-weight:600;font-size:.95rem;text-decoration:none;
     padding:13px 26px;border-radius:99px;transition:transform .12s,box-shadow .12s;
@@ -118,11 +129,15 @@
     margin-right:6px;vertical-align:-1px;border:2px solid #fff;
     box-shadow:0 0 0 1px rgba(16,34,46,.15);
   }
-  .leaflet-popup-content{font-family:'Inter',sans-serif;font-size:.85rem;line-height:1.5;margin:14px 16px}
-  .leaflet-popup-content strong{font-size:.92rem}
+  .leaflet-tooltip.store-tip{
+    font-family:'Inter',sans-serif;font-size:.82rem;line-height:1.5;
+    padding:10px 12px;max-width:240px;white-space:normal;
+    border:1px solid var(--line);box-shadow:0 2px 12px rgba(16,34,46,.12);
+  }
+  .leaflet-tooltip.store-tip strong{font-size:.9rem}
   .popup-status{
     font-family:'JetBrains Mono',monospace;font-size:.68rem;font-weight:600;
-    padding:3px 9px;border-radius:99px;letter-spacing:.04em;display:inline-block;margin-top:4px;
+    padding:3px 9px;border-radius:99px;letter-spacing:.04em;display:inline-block;margin-top:2px;
   }
   @media (max-width:640px){#map{height:340px}}
 
@@ -169,17 +184,27 @@
     font-family:'Archivo',sans-serif;font-weight:700;font-size:1.5rem;
     letter-spacing:-0.02em;margin-bottom:24px;
   }
-  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-  .step{
-    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
-    padding:22px;
+  .process{
+    list-style:none;position:relative;
+    display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px;
   }
-  .step-label{
-    font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:600;
-    color:var(--glacial-deep);text-transform:uppercase;letter-spacing:.1em;
+  .process::before{
+    content:"";position:absolute;top:19px;left:calc(100%/6);right:calc(100%/6);
+    height:1px;background:var(--line);z-index:0;
   }
-  .step h3{font-size:1rem;font-weight:600;margin:10px 0 6px}
-  .step p{font-size:.88rem;color:var(--slate)}
+  .process-step{position:relative;z-index:1;animation:rise-in .6s cubic-bezier(.16,1,.3,1) both}
+  .process-step:nth-child(1){animation-delay:.05s}
+  .process-step:nth-child(2){animation-delay:.15s}
+  .process-step:nth-child(3){animation-delay:.25s}
+  .process-num{
+    display:flex;align-items:center;justify-content:center;
+    width:38px;height:38px;border-radius:50%;flex-shrink:0;
+    background:var(--bg);border:1.5px solid var(--glacial);color:var(--glacial-deep);
+    font-family:'Archivo',sans-serif;font-weight:800;font-size:1rem;
+    margin-bottom:16px;
+  }
+  .process-step h3{font-size:1.05rem;font-weight:600;margin-bottom:6px}
+  .process-step p{font-size:.88rem;color:var(--slate)}
 
   /* ---------- alert form ---------- */
   .alert-section{padding:8px 0 72px}
@@ -189,16 +214,7 @@
   }
   .alert-card h2{color:#fff;margin-bottom:6px}
   .alert-card > p{color:#AFC4CE;font-size:.95rem;max-width:520px;margin-bottom:24px}
-  form{display:grid;gap:14px;max-width:520px}
-  label{font-size:.82rem;font-weight:600;color:#D6E4EA}
-  input[type=email],select{
-    width:100%;padding:12px 14px;border-radius:8px;border:1px solid #33505E;
-    background:#1A3341;color:#fff;font-family:inherit;font-size:.95rem;
-  }
-  input[type=email]:focus,select:focus{outline:2px solid var(--glacial);border-color:var(--glacial)}
-  input::placeholder{color:#7E97A3}
-  .form-note{font-size:.75rem;color:#7E97A3}
-  .hidden{display:none}
+  .alert-card .btn-primary{background:var(--glacial-deep);color:#fff}
 
   footer{
     border-top:1px solid var(--line);padding:28px 0 40px;
@@ -207,7 +223,10 @@
   footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
   @media (max-width:640px){
-    .steps{grid-template-columns:1fr}
+    .process{grid-template-columns:1fr;gap:28px}
+    .process::before{top:0;bottom:0;left:19px;right:auto;width:1px;height:auto}
+    .process-step{display:flex;gap:16px}
+    .process-num{margin-bottom:0}
     .hero{padding:40px 0 28px}
     .board-row{grid-template-columns:1fr;gap:10px}
   }
@@ -217,8 +236,20 @@
 
 <header>
   <div class="wrap header-in">
-    <a class="logo" href="#">Clima<span>Pronto</span></a>
-    <a class="header-cta" href="#avvisi">Attiva un avviso</a>
+    <a class="logo" href="/">
+      <svg class="logo-mark" width="26" height="26" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="28" height="28" rx="8" fill="#2E9DBB"/>
+        <g stroke="#fff" stroke-width="1.6" stroke-linecap="round">
+          <line x1="14" y1="6" x2="14" y2="22"/>
+          <line x1="6" y1="14" x2="22" y2="14"/>
+          <line x1="8.5" y1="8.5" x2="19.5" y2="19.5"/>
+          <line x1="19.5" y1="8.5" x2="8.5" y2="19.5"/>
+        </g>
+        <circle cx="14" cy="14" r="3" fill="#fff"/>
+      </svg>
+      Clima<span>Pronto</span>
+    </a>
+    <a class="header-cta" href="/avvisi.html">Attiva un avviso</a>
   </div>
 </header>
 
@@ -227,7 +258,7 @@
   <h1>Il condizionatore che cerchi è esaurito ovunque. <em>Noi sappiamo quando torna.</em></h1>
   <p>Controlliamo la disponibilità dei climatizzatori portatili più richiesti nei negozi online italiani, giorno e notte. Appena un modello torna disponibile, ti arriva un'email. Niente app, niente registrazione.</p>
   <div class="hero-actions">
-    <a class="btn btn-primary" href="#avvisi">Avvisami quando torna</a>
+    <a class="btn btn-primary" href="/avvisi.html">Avvisami quando torna</a>
     <a class="btn btn-ghost" href="#mappa">Vedi la mappa dei negozi</a>
   </div>
 </section>
@@ -236,9 +267,9 @@
   <div class="map-frame">
     <div id="map" role="region" aria-label="Mappa dei negozi monitorati in Italia"></div>
     <div class="map-legend">
-      <span><span class="legend-dot" style="background:#1E9E6E"></span>Disponibile</span>
-      <span><span class="legend-dot" style="background:#E4553F"></span>Esaurito</span>
-      <span><span class="legend-dot" style="background:#8CA0AB"></span>In verifica</span>
+      <span><span class="legend-dot" style="background:#106B49"></span>Disponibile</span>
+      <span><span class="legend-dot" style="background:#A8391F"></span>Esaurito</span>
+      <span><span class="legend-dot" style="background:#4E6470"></span>In verifica</span>
       <span style="margin-left:auto">Dati dai siti dei rivenditori · verifica prima di recarti in negozio</span>
     </div>
   </div>
@@ -258,42 +289,36 @@
 
 <section class="how wrap">
   <h2>Come funziona</h2>
-  <div class="steps">
-    <div class="step">
-      <div class="step-label">Controllo</div>
-      <h3>Ogni 10 minuti</h3>
-      <p>Il nostro sistema verifica lo stock dei principali rivenditori italiani di elettrodomestici, in automatico.</p>
-    </div>
-    <div class="step">
-      <div class="step-label">Rilevamento</div>
-      <h3>Torna disponibile</h3>
-      <p>Quando un modello esaurito ricompare a magazzino, lo rileviamo entro pochi minuti dal ripristino.</p>
-    </div>
-    <div class="step">
-      <div class="step-label">Avviso</div>
-      <h3>Email immediata</h3>
-      <p>Ricevi un'email con il link diretto al prodotto, così puoi comprarlo prima che finisca di nuovo.</p>
-    </div>
-  </div>
+  <ol class="process">
+    <li class="process-step">
+      <span class="process-num">1</span>
+      <div>
+        <h3>Controllo ogni 10 minuti</h3>
+        <p>Il nostro sistema verifica lo stock dei principali rivenditori italiani di elettrodomestici, in automatico.</p>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="process-num">2</span>
+      <div>
+        <h3>Torna disponibile</h3>
+        <p>Quando un modello esaurito ricompare a magazzino, lo rileviamo entro pochi minuti dal ripristino.</p>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="process-num">3</span>
+      <div>
+        <h3>Email immediata</h3>
+        <p>Ricevi un'email con il link diretto al prodotto, così puoi comprarlo prima che finisca di nuovo.</p>
+      </div>
+    </li>
+  </ol>
 </section>
 
 <section class="alert-section wrap" id="avvisi">
   <div class="alert-card">
     <h2>Attiva il tuo avviso</h2>
-    <p>Un pagamento unico di 4,90 € per prodotto. Ti scriviamo solo quando torna disponibile — nessun abbonamento, nessun rinnovo automatico.</p>
-    <form id="avvisi-form">
-      <div>
-        <label for="prodotto">Quale prodotto ti interessa?</label>
-        <select id="prodotto" name="prodotto" required>
-          <option value="" disabled selected>Scegli un prodotto…</option>
-          <option value="qualsiasi">Qualsiasi climatizzatore portatile</option>
-          <!-- More options are filled automatically from the live data -->
-        </select>
-      </div>
-      <button class="btn btn-primary" type="submit" id="pay-btn">Attiva avviso — 4,90 €</button>
-      <p class="form-note" id="form-error" style="color:#F3A08F"></p>
-      <p class="form-note">Pagamento sicuro tramite Stripe. Ti chiederemo l'email al momento del pagamento.</p>
-    </form>
+    <p>Da 2,90 €. Ti scriviamo via email ogni volta che il prodotto scelto torna disponibile in un negozio — con nome e indirizzo del negozio. Nessun abbonamento, nessun rinnovo automatico.</p>
+    <a class="btn btn-primary" href="/avvisi.html">Vedi i piani e attiva →</a>
   </div>
 </section>
 
@@ -318,15 +343,21 @@ const STATUS_LABEL = {
   unknown:     "IN VERIFICA"
 };
 const STATUS_COLOR = {
-  available:   "#1E9E6E",
-  out_of_stock:"#E4553F",
-  unknown:     "#8CA0AB"
+  available:   "#106B49",
+  out_of_stock:"#A8391F",
+  unknown:     "#4E6470"
 };
 const STATUS_BG = {
   available:   "#E2F4EC",
   out_of_stock:"#FBEAE6",
   unknown:     "#EDF1F3"
 };
+
+function escapeHtml(str){
+  return String(str ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  }[c]));
+}
 
 /* ---------- map (Leaflet + free CARTO/OSM tiles, no API key) ---------- */
 const map = L.map("map", {scrollWheelZoom: false}).setView([42.3, 12.4], 6);
@@ -352,12 +383,15 @@ function renderMap(data){
       if(typeof s.lat !== "number" || typeof s.lon !== "number") return;
       const key = s.lat.toFixed(4) + "," + s.lon.toFixed(4);
       if(!byLocation.has(key)){
-        byLocation.set(key, {lat: s.lat, lon: s.lon, store: s.store, city: s.city, entries: []});
+        byLocation.set(key, {lat: s.lat, lon: s.lon, store: s.store, city: s.city, address: s.address, entries: []});
       }
       byLocation.get(key).entries.push({product: p, status: s.status || p.status || "unknown"});
     });
   });
 
+  // Hover-only info: which AC types are here and the store's real address —
+  // deliberately no link to online purchase, since this reflects in-store
+  // pickup stock at THIS location, not the retailer's online shop stock.
   byLocation.forEach(loc => {
     const statuses = loc.entries.map(e => e.status);
     const st = statuses.includes("available") ? "available"
@@ -370,12 +404,14 @@ function renderMap(data){
       fillOpacity: 0.95
     });
     const rows = loc.entries.map(e => `
-      <div style="margin-top:8px">
-        ${e.product.name}<br>
+      <div style="margin-top:6px">
+        ${escapeHtml(e.product.name)}
         <span class="popup-status" style="background:${STATUS_BG[e.status]};color:${STATUS_COLOR[e.status]}">${STATUS_LABEL[e.status] || e.status}</span>
-        ${e.product.url ? ` · <a href="${e.product.url}" target="_blank" rel="noopener">vai al prodotto ↗</a>` : ""}
       </div>`).join("");
-    marker.bindPopup(`<strong>${loc.store}</strong><br>${loc.city}${rows}`);
+    marker.bindTooltip(
+      `<strong>${escapeHtml(loc.store)}</strong><br>${escapeHtml(loc.address || loc.city)}${rows}`,
+      {direction: "top", offset: [0, -8], opacity: 0.98, className: "store-tip"}
+    );
     marker.addTo(markersLayer);
   });
 }
@@ -383,7 +419,6 @@ function renderMap(data){
 async function loadBoard(){
   const rows = document.getElementById("board-rows");
   const upd  = document.getElementById("last-update");
-  const sel  = document.getElementById("prodotto");
   try{
     const res  = await fetch(DATA_URL + "?t=" + Date.now()); // bust GitHub raw cache
     if(!res.ok) throw new Error(res.status);
@@ -405,20 +440,14 @@ async function loadBoard(){
     data.products.forEach(p => {
       const li = document.createElement("li");
       li.className = "board-row";
-      const link = p.url ? `<a href="${p.url}" target="_blank" rel="noopener">vai al prodotto ↗</a>` : "";
+      const link = p.url ? `<a href="${escapeHtml(p.url)}" target="_blank" rel="noopener">vai al prodotto ↗</a>` : "";
       li.innerHTML = `
         <div>
-          <div class="prod-name">${p.name}</div>
-          <div class="prod-meta">${p.retailer}${p.price ? " · " + p.price : ""}${link ? " · " + link : ""}</div>
+          <div class="prod-name">${escapeHtml(p.name)}</div>
+          <div class="prod-meta">${escapeHtml(p.retailer)}${p.price ? " · " + escapeHtml(p.price) : ""}${link ? " · " + link : ""}</div>
         </div>
         <span class="status ${p.status}">${STATUS_LABEL[p.status] || p.status}</span>`;
       rows.appendChild(li);
-
-      // keep the form's product list in sync with monitored products
-      const opt = document.createElement("option");
-      opt.value = p.id;
-      opt.textContent = p.name + " (" + p.retailer + ")";
-      sel.appendChild(opt);
     });
   }catch(e){
     // Live data unreachable (e.g. repo not created yet): show demo data
@@ -468,37 +497,6 @@ const FALLBACK_DATA = {
 };
 loadBoard();
 setInterval(loadBoard, 5 * 60 * 1000); // refresh the page data every 5 minutes
-
-/* ---------- payment: create a Stripe Checkout session and redirect ---------- */
-document.getElementById("avvisi-form").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const select = document.getElementById("prodotto");
-  const btn = document.getElementById("pay-btn");
-  const errorEl = document.getElementById("form-error");
-  const productId = select.value;
-  if (!productId) return;
-  const productName = select.options[select.selectedIndex]?.textContent || productId;
-
-  btn.disabled = true;
-  const originalLabel = btn.textContent;
-  btn.textContent = "Un attimo…";
-  errorEl.textContent = "";
-
-  try {
-    const res = await fetch("/api/create-checkout-session", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ productId, productName }),
-    });
-    const data = await res.json();
-    if (!res.ok || !data.url) throw new Error(data.error || "Errore sconosciuto");
-    window.location = data.url; // off to Stripe's hosted checkout page
-  } catch (err) {
-    errorEl.textContent = "Qualcosa è andato storto. Riprova tra qualche istante.";
-    btn.disabled = false;
-    btn.textContent = originalLabel;
-  }
-});
 </script>
 
 </body>
