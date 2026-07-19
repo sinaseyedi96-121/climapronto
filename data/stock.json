@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T11:21:01+00:00",
+  "updated_at": "2026-07-19T14:43:34+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-19T11:20:58+00:00"
+      "checked_at": "2026-07-19T14:43:30+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-19T11:20:58+00:00"
+      "checked_at": "2026-07-19T14:43:30+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1705,7 +1705,7 @@
           "address": "Via Pietro Nenni, 6127 - Via Ugo La Malfa, 90146 Palermo",
           "lat": 38.15551,
           "lon": 13.31914,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS BIELLA",
@@ -1905,7 +1905,7 @@
           "address": "S.S. 114, Km. 6,2 - (Centro Comm. Tremestieri), 98128 Messina",
           "lat": 38.13689,
           "lon": 15.52246,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MAGLIE",
@@ -1961,7 +1961,7 @@
           "address": "Via Due Fontane - (Centro Comm. Due Fontane), 93100 Caltanissetta",
           "lat": 37.48209,
           "lon": 14.02457,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO AGRIGENTO CITTÀ DEL TEMPLI",
@@ -1993,7 +1993,7 @@
           "address": "Via Salvatore Quasimodo (Centro Comm.Katane'), 95030 Gravina",
           "lat": 37.55071,
           "lon": 15.06403,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO MISTERBIANCO",
@@ -2073,10 +2073,10 @@
           "address": "Contrada Risicone Circonv.Avola Noto, 96012 Avola",
           "lat": 36.9021,
           "lon": 15.1186,
-          "status": "available"
+          "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-19T11:20:59+00:00"
+      "checked_at": "2026-07-19T14:43:32+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-19T11:21:01+00:00"
+      "checked_at": "2026-07-19T14:43:34+00:00"
     }
   ]
 }
