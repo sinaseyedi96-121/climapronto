@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T18:10:02+00:00",
+  "updated_at": "2026-07-19T21:33:05+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-19T18:09:57+00:00"
+      "checked_at": "2026-07-19T21:33:01+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-19T18:09:57+00:00"
+      "checked_at": "2026-07-19T21:33:01+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -2076,7 +2076,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-19T18:10:00+00:00"
+      "checked_at": "2026-07-19T21:33:04+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-19T18:10:02+00:00"
+      "checked_at": "2026-07-19T21:33:05+00:00"
     }
   ]
 }
