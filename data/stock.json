@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T21:10:55+00:00",
+  "updated_at": "2026-07-19T06:49:00+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-18T21:10:50+00:00"
+      "checked_at": "2026-07-19T06:48:55+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-18T21:10:50+00:00"
+      "checked_at": "2026-07-19T06:48:55+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1073,7 +1073,7 @@
           "address": "S.S. Romea km 66, 30034 Gambarare di Mira",
           "lat": 45.421888,
           "lon": 12.171139,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO PADOVA",
@@ -1081,7 +1081,7 @@
           "address": "Via San Marco ang. Via Quintino Sella, 35129 Padova",
           "lat": 45.417621,
           "lon": 11.925549,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO MANTOVA",
@@ -1089,7 +1089,7 @@
           "address": "Via Verona, 83, 46100 Mantova",
           "lat": 45.18001928802242,
           "lon": 10.788239967062928,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS POINT - MAS",
@@ -1121,7 +1121,7 @@
           "address": "Via Fenil Novo, 25, 37036 San Martino Buon Albergo",
           "lat": 45.415658,
           "lon": 11.088054,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO VICENZA",
@@ -1129,7 +1129,7 @@
           "address": "V.le Serenissima (adiacente Centro Comm. Palladio), 36100 Vicenza",
           "lat": 45.52886,
           "lon": 11.592911,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS POTENZA",
@@ -1161,7 +1161,7 @@
           "address": "Via Noalese, 72, 31100 Treviso",
           "lat": 45.65597752772545,
           "lon": 12.206954169107089,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CORATO",
@@ -1337,7 +1337,7 @@
           "address": "Via Tricesimo, 149 (Parco Comm. Terminal Nord), 33100 Udine",
           "lat": 46.093022,
           "lon": 13.234963,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS ARMA DI TAGGIA",
@@ -1425,7 +1425,7 @@
           "address": "Merlata Bloom - Via Gottlieb Wilhelm Daimler, 20156 Milano",
           "lat": 45.5138124773076,
           "lon": 9.1058395807155,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MONDOVI'",
@@ -1657,7 +1657,7 @@
           "address": "Via P. Mascagni (Settimo Cielo Retail Park, 10036 Settimo Torinese",
           "lat": 45.14039960794534,
           "lon": 7.732837822789321,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS GOZZANO",
@@ -1681,7 +1681,7 @@
           "address": "Strada Altessano,141 stadio Juventus Area 12 Shopping Center, 10151 Torino",
           "lat": 45.1089,
           "lon": 7.6444,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO CARINI",
@@ -2076,7 +2076,7 @@
           "status": "available"
         }
       ],
-      "checked_at": "2026-07-18T21:10:53+00:00"
+      "checked_at": "2026-07-19T06:48:58+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-18T21:10:55+00:00"
+      "checked_at": "2026-07-19T06:49:00+00:00"
     }
   ]
 }
