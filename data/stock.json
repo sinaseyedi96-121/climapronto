@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T18:55:55+00:00",
+  "updated_at": "2026-07-20T20:20:37+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-20T18:55:54+00:00"
+      "checked_at": "2026-07-20T20:20:33+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-20T18:55:54+00:00"
+      "checked_at": "2026-07-20T20:20:33+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -265,7 +265,7 @@
           "address": "Via della Valtiera, 5, 06135 Ponte San Giovanni",
           "lat": 43.08556,
           "lon": 12.44661,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS FLAMINIO",
@@ -1441,7 +1441,7 @@
           "address": "Viale Aldo Moro,53, 70043 Monopoli",
           "lat": 40.96379,
           "lon": 17.27681,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS OSNAGO",
@@ -1657,7 +1657,7 @@
           "address": "Via P. Mascagni (Settimo Cielo Retail Park, 10036 Settimo Torinese",
           "lat": 45.14039960794534,
           "lon": 7.732837822789321,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS GOZZANO",
@@ -2076,7 +2076,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T18:55:54+00:00"
+      "checked_at": "2026-07-20T20:20:35+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3248,7 +3248,7 @@
           "address": "Tang.Bari uscita n.6 (Bari Max Shopping Village), 70123 Bari",
           "lat": 41.11502,
           "lon": 16.80876,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CREMA",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T18:55:55+00:00"
+      "checked_at": "2026-07-20T20:20:37+00:00"
     }
   ]
 }
