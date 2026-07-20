@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T13:25:30+00:00",
+  "updated_at": "2026-07-20T15:28:06+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-20T13:25:26+00:00"
+      "checked_at": "2026-07-20T15:28:01+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-20T13:25:26+00:00"
+      "checked_at": "2026-07-20T15:28:01+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -993,7 +993,7 @@
           "address": "V.le degli Aviatori (C.C. Mongolfiera), 71122 Foggia",
           "lat": 41.4403,
           "lon": 15.54497,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "TUFANO SALERNO 2 SRL",
@@ -1201,7 +1201,7 @@
           "address": "Via delle Oliere e Saponiere Meridionali, 5, 70056 Molfetta",
           "lat": 41.169351,
           "lon": 16.597595,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS GAVARDO",
@@ -1657,7 +1657,7 @@
           "address": "Via P. Mascagni (Settimo Cielo Retail Park, 10036 Settimo Torinese",
           "lat": 45.14039960794534,
           "lon": 7.732837822789321,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS GOZZANO",
@@ -2076,7 +2076,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T13:25:28+00:00"
+      "checked_at": "2026-07-20T15:28:03+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T13:25:30+00:00"
+      "checked_at": "2026-07-20T15:28:06+00:00"
     }
   ]
 }
