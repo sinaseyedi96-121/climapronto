@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T11:24:11+00:00",
+  "updated_at": "2026-07-20T13:25:30+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-20T11:24:07+00:00"
+      "checked_at": "2026-07-20T13:25:26+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-20T11:24:07+00:00"
+      "checked_at": "2026-07-20T13:25:26+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1025,7 +1025,7 @@
           "address": "C.da Pace Zona Macchia (Centro Comm. Del Gargano, 71037 Monte Sant' Angelo",
           "lat": 41.73494,
           "lon": 15.96133,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MANFREDONIA",
@@ -1145,7 +1145,7 @@
           "address": "Via Austria snc, 75125 Trani",
           "lat": 41.273029,
           "lon": 16.4035,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CITY - CAMPAGNARO",
@@ -1545,7 +1545,7 @@
           "address": "Via per Montemesola Km 10 (Centro Com. Ipercoop), 74100 Taranto",
           "lat": 40.52218,
           "lon": 17.3017,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS COMO VIA CECILIO",
@@ -1889,7 +1889,7 @@
           "address": "S.P. Casarano-Parabita (Centro Polif.Le Vele), 73046 Matino",
           "lat": 40.036715,
           "lon": 18.155199,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MESSINA CENTRO COMM.LE LA VIA LATTEA",
@@ -2025,7 +2025,7 @@
           "address": "C.da Cubba-Tenutella (Centro Sicilia), 95045 Misterbianco",
           "lat": 37.480174,
           "lon": 15.011314,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO LICATA",
@@ -2076,7 +2076,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T11:24:09+00:00"
+      "checked_at": "2026-07-20T13:25:28+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T11:24:11+00:00"
+      "checked_at": "2026-07-20T13:25:30+00:00"
     }
   ]
 }
