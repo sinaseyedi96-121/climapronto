@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T08:29:02+00:00",
+  "updated_at": "2026-07-20T11:24:11+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-20T08:28:57+00:00"
+      "checked_at": "2026-07-20T11:24:07+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-20T08:28:57+00:00"
+      "checked_at": "2026-07-20T11:24:07+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -265,7 +265,7 @@
           "address": "Via della Valtiera, 5, 06135 Ponte San Giovanni",
           "lat": 43.08556,
           "lon": 12.44661,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS FLAMINIO",
@@ -585,7 +585,7 @@
           "address": "Contrada Severini, 66030 Treglio",
           "lat": 42.24642,
           "lon": 14.4175,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS PIOMBINO",
@@ -1025,7 +1025,7 @@
           "address": "C.da Pace Zona Macchia (Centro Comm. Del Gargano, 71037 Monte Sant' Angelo",
           "lat": 41.73494,
           "lon": 15.96133,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MANFREDONIA",
@@ -1145,7 +1145,7 @@
           "address": "Via Austria snc, 75125 Trani",
           "lat": 41.273029,
           "lon": 16.4035,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CITY - CAMPAGNARO",
@@ -1297,7 +1297,7 @@
           "address": "Via Martiri delle Foibe,1 - Loc. S.ta Caterina, 70100 Bari",
           "lat": 41.0969130564396,
           "lon": 16.836432447386603,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "BRUNO PIEVE FISSIRAGA",
@@ -1937,7 +1937,7 @@
           "address": "Via Aldo Moro, 1, 73039 Tricase",
           "lat": 39.92649,
           "lon": 18.35878,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO SIDERNO",
@@ -2001,7 +2001,7 @@
           "address": "V.le del Commercio - C.da Mezzocampo, 95045 Misterbianco",
           "lat": 37.50998263729814,
           "lon": 15.023175725541348,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - LA VIA LATTEA CATANIA CENTRO ULISSE",
@@ -2076,7 +2076,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T08:28:59+00:00"
+      "checked_at": "2026-07-20T11:24:09+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-20T08:29:02+00:00"
+      "checked_at": "2026-07-20T11:24:11+00:00"
     }
   ]
 }
