@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T21:33:05+00:00",
+  "updated_at": "2026-07-20T08:29:02+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-19T21:33:01+00:00"
+      "checked_at": "2026-07-20T08:28:57+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-19T21:33:01+00:00"
+      "checked_at": "2026-07-20T08:28:57+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -993,7 +993,7 @@
           "address": "V.le degli Aviatori (C.C. Mongolfiera), 71122 Foggia",
           "lat": 41.4403,
           "lon": 15.54497,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "TUFANO SALERNO 2 SRL",
@@ -2076,7 +2076,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-19T21:33:04+00:00"
+      "checked_at": "2026-07-20T08:28:59+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4043,7 +4043,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-19T21:33:05+00:00"
+      "checked_at": "2026-07-20T08:29:02+00:00"
     }
   ]
 }
