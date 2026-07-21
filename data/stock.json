@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T06:26:17+00:00",
+  "updated_at": "2026-07-21T09:09:22+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-21T06:26:13+00:00"
+      "checked_at": "2026-07-21T09:09:18+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-21T06:26:13+00:00"
+      "checked_at": "2026-07-21T09:09:18+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1193,7 +1193,7 @@
           "address": "Via delle Oliere e Saponiere Meridionali, 5, 70056 Molfetta",
           "lat": 41.169351,
           "lon": 16.597595,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS GAVARDO",
@@ -2068,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T06:26:15+00:00"
+      "checked_at": "2026-07-21T09:09:20+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2856,7 +2856,7 @@
           "address": "Via Bellei, 22, 41026 Pavullo nel Frignano",
           "lat": 44.34098,
           "lon": 10.83183,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS PIEVE FOSCIANA",
@@ -2936,7 +2936,7 @@
           "address": "Via Camatta, 14, 42034 Casina",
           "lat": 44.508604,
           "lon": 10.497504,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS FOGGIA VILLAGGIO ARTIGIANI",
@@ -3048,7 +3048,7 @@
           "address": "Via Treportina, 32/A c/o Centro Comm. Punta Gialla, 30010 Ca' Savio",
           "lat": 45.454448,
           "lon": 12.457394,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - MEGGIORINI",
@@ -3056,7 +3056,7 @@
           "address": "Via Roma,13, 37063 Isola della Scala",
           "lat": 45.270585,
           "lon": 11.007337,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS BARLETTA",
@@ -3104,7 +3104,7 @@
           "address": "Via Castellana, 32, 31023 Resana",
           "lat": 45.63578,
           "lon": 11.95497,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO Treviso",
@@ -3128,7 +3128,7 @@
           "address": "Via del Commercio,2, 35013 Cittadella",
           "lat": 45.66253,
           "lon": 11.80496,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS GENOVA",
@@ -3144,7 +3144,7 @@
           "address": "Via Attilio Venudo, 10, 30028 San Michele al Tagliamento",
           "lat": 45.769126,
           "lon": 12.994338,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MOLFETTA",
@@ -3192,7 +3192,7 @@
           "address": "Via Steffenini, 44, 20078 San Colombano al Lambro",
           "lat": 45.18367,
           "lon": 9.48259,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS RONCADELLE",
@@ -3208,7 +3208,7 @@
           "address": "Via Garibaldi, 144/146 I, 17025 Loano",
           "lat": 44.125349,
           "lon": 8.257849,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CITY - SILCA",
@@ -3216,7 +3216,7 @@
           "address": "Via Giuseppe Zanardelli, 16, 25030 Comezzano-Cizzago",
           "lat": 45.470793,
           "lon": 9.951343,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CONCESIO",
@@ -3264,7 +3264,7 @@
           "address": "Via Novi, 70/A, 15060 Basaluzzo",
           "lat": 44.769696,
           "lon": 8.726615,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MATERA",
@@ -3304,7 +3304,7 @@
           "address": "Via Trieste, 9, 24057 MARTINENGO",
           "lat": 45.569453,
           "lon": 9.76208,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - CAPELLI",
@@ -3336,7 +3336,7 @@
           "address": "Via P.Ruggeri da Stabello, 17, 24125 BERGAMO",
           "lat": 45.71492,
           "lon": 9.665969,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CITY - MISTRI",
@@ -3344,7 +3344,7 @@
           "address": "Via Roma, 1, 24020 Fiorano al Serio",
           "lat": 45.79756,
           "lon": 9.839414,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS DIMO VIGEVANO",
@@ -3368,7 +3368,7 @@
           "address": "Via Socce, 2, 38038 Tesero",
           "lat": 46.288821,
           "lon": 11.507002,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO MILANO",
@@ -3432,7 +3432,7 @@
           "address": "Via Trento, 89/2/3, 38023 Cles",
           "lat": 46.35713,
           "lon": 11.03739,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO LECCO",
@@ -3488,7 +3488,7 @@
           "address": "Via Roma, 71, 23020 Piateda",
           "lat": 46.159812,
           "lon": 9.94076,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS TARANTO",
@@ -3520,7 +3520,7 @@
           "address": "Via Montegrappa, 66, 21040 Tradate",
           "lat": 45.72162,
           "lon": 8.89436,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS TARANTO 2",
@@ -3544,7 +3544,7 @@
           "address": "S.S. 32 ang. Via Carmine, 33/A, 28047 Oleggio",
           "lat": 45.598256,
           "lon": 8.644737,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - MEDIACITY",
@@ -3552,7 +3552,7 @@
           "address": "C.so Roma, 26, 13044 Crescentino",
           "lat": 45.19319,
           "lon": 8.103205,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CARMAGNOLA",
@@ -3568,7 +3568,7 @@
           "address": "Via Statale 1749, 22016 Tremezzina",
           "lat": 45.969578,
           "lon": 9.191888,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS FRANCAVILLA FONTANA",
@@ -3680,7 +3680,7 @@
           "address": "Via Molinari 1 ang.via Roma,3, 28838 Stresa",
           "lat": 45.88245,
           "lon": 8.53764,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MESAGNE",
@@ -3696,7 +3696,7 @@
           "address": "Via Moirano, 2, 10064 Pinerolo",
           "lat": 44.882968,
           "lon": 7.336007,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CITY - MAROTTA",
@@ -3704,7 +3704,7 @@
           "address": "Corso Susa, 305/307 (c/o Spazio Conad), 10098 Rivoli",
           "lat": 45.08245,
           "lon": 7.49953,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS VERBANIA",
@@ -3768,7 +3768,7 @@
           "address": "Via Cavaliere di V.Veneto, 29, 28845 Domodossola",
           "lat": 46.11925,
           "lon": 8.29582,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS LECCE",
@@ -4027,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T06:26:17+00:00"
+      "checked_at": "2026-07-21T09:09:22+00:00"
     }
   ]
 }
