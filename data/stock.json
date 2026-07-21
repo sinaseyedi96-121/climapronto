@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T19:59:32+00:00",
+  "updated_at": "2026-07-21T21:20:15+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-21T19:59:31+00:00"
+      "checked_at": "2026-07-21T21:20:10+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-21T19:59:31+00:00"
+      "checked_at": "2026-07-21T21:20:10+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1993,7 +1993,7 @@
           "address": "V.le del Commercio - C.da Mezzocampo, 95045 Misterbianco",
           "lat": 37.50998263729814,
           "lon": 15.023175725541348,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - LA VIA LATTEA CATANIA CENTRO ULISSE",
@@ -2068,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T19:59:32+00:00"
+      "checked_at": "2026-07-21T21:20:13+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3096,7 +3096,7 @@
           "address": "Via Austria snc, 75125 Trani",
           "lat": 41.273029,
           "lon": 16.4035,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CITY - CAMPAGNARO",
@@ -3840,7 +3840,7 @@
           "address": "S.P. Casarano-Parabita (Centro Polif.Le Vele), 73046 Matino",
           "lat": 40.036715,
           "lon": 18.155199,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MESSINA CENTRO COMM.LE LA VIA LATTEA",
@@ -4027,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T19:59:32+00:00"
+      "checked_at": "2026-07-21T21:20:15+00:00"
     }
   ]
 }
