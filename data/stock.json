@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T03:55:10+00:00",
+  "updated_at": "2026-07-21T06:26:17+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-21T03:55:09+00:00"
+      "checked_at": "2026-07-21T06:26:13+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-21T03:55:09+00:00"
+      "checked_at": "2026-07-21T06:26:13+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1028,14 +1028,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS MANFREDONIA",
-          "city": "Manfredonia",
-          "address": "Via Cala del Fico, 71043 Manfredonia",
-          "lat": 41.63732,
-          "lon": 15.92853,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS OLBIA",
           "city": "Olbia",
           "address": "Via Degli Astronauti (rotonda fronte aeroporto), 07026 Olbia",
@@ -2001,7 +1993,7 @@
           "address": "V.le del Commercio - C.da Mezzocampo, 95045 Misterbianco",
           "lat": 37.50998263729814,
           "lon": 15.023175725541348,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - LA VIA LATTEA CATANIA CENTRO ULISSE",
@@ -2076,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T03:55:10+00:00"
+      "checked_at": "2026-07-21T06:26:15+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2995,14 +2987,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS MANFREDONIA",
-          "city": "Manfredonia",
-          "address": "Via Cala del Fico, 71043 Manfredonia",
-          "lat": 41.63732,
-          "lon": 15.92853,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS OLBIA",
           "city": "Olbia",
           "address": "Via Degli Astronauti (rotonda fronte aeroporto), 07026 Olbia",
@@ -4043,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T03:55:10+00:00"
+      "checked_at": "2026-07-21T06:26:17+00:00"
     }
   ]
 }
