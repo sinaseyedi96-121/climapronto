@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T16:53:50+00:00",
+  "updated_at": "2026-07-21T18:14:45+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-21T16:53:49+00:00"
+      "checked_at": "2026-07-21T18:14:41+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-21T16:53:49+00:00"
+      "checked_at": "2026-07-21T18:14:41+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1289,7 +1289,7 @@
           "address": "Via Martiri delle Foibe,1 - Loc. S.ta Caterina, 70100 Bari",
           "lat": 41.0969130564396,
           "lon": 16.836432447386603,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "BRUNO PIEVE FISSIRAGA",
@@ -1617,7 +1617,7 @@
           "address": "Via per Grottaglie km 0,800, 72021 Francavilla Fontana",
           "lat": 40.532085,
           "lon": 17.562281,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS TORINO VIA NIZZA",
@@ -1905,7 +1905,7 @@
           "address": "Via F.lli Piccinno,14, 73024 Maglie",
           "lat": 40.129595,
           "lon": 18.295172,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - LA VIA LATTEA REGGIO CALABRIA",
@@ -1921,7 +1921,7 @@
           "address": "Via degli Angeli c/o Centro Comm. Gli Angeli, 73054 Presicce",
           "lat": 39.891147,
           "lon": 18.2671,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "Electroleader S.R.L.",
@@ -2068,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T16:53:50+00:00"
+      "checked_at": "2026-07-21T18:14:43+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3840,7 +3840,7 @@
           "address": "S.P. Casarano-Parabita (Centro Polif.Le Vele), 73046 Matino",
           "lat": 40.036715,
           "lon": 18.155199,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MESSINA CENTRO COMM.LE LA VIA LATTEA",
@@ -4027,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-21T16:53:50+00:00"
+      "checked_at": "2026-07-21T18:14:45+00:00"
     }
   ]
 }
