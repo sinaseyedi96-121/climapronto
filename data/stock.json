@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T21:36:40+00:00",
+  "updated_at": "2026-07-22T23:00:08+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-22T21:36:36+00:00"
+      "checked_at": "2026-07-22T23:00:04+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-22T21:36:36+00:00"
+      "checked_at": "2026-07-22T23:00:04+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -513,7 +513,7 @@
           "address": "Via Vestina, 257/F, 65015 Montesilvano",
           "lat": 42.500131,
           "lon": 14.132551,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS SAN GIOVANNI TEATINO",
@@ -1489,7 +1489,7 @@
           "address": "Via Guglielmi, 9/Bis, 74015 Martina Franca",
           "lat": 40.7012,
           "lon": 17.329946,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CUNEO PARCO COMM.LE AUCHAN",
@@ -1753,7 +1753,7 @@
           "address": "V.le Azari, 94, 28922 Verbania",
           "lat": 45.929296,
           "lon": 8.5547232,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS IVREA",
@@ -2068,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-22T21:36:38+00:00"
+      "checked_at": "2026-07-22T23:00:05+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4027,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-22T21:36:40+00:00"
+      "checked_at": "2026-07-22T23:00:08+00:00"
     }
   ]
 }
