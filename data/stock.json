@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T11:51:34+00:00",
+  "updated_at": "2026-07-22T13:46:39+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-22T11:51:32+00:00"
+      "checked_at": "2026-07-22T13:46:34+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-22T11:51:32+00:00"
+      "checked_at": "2026-07-22T13:46:34+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -265,7 +265,7 @@
           "address": "Via della Valtiera, 5, 06135 Ponte San Giovanni",
           "lat": 43.08556,
           "lon": 12.44661,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS FLAMINIO",
@@ -513,7 +513,7 @@
           "address": "Via Vestina, 257/F, 65015 Montesilvano",
           "lat": 42.500131,
           "lon": 14.132551,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS SAN GIOVANNI TEATINO",
@@ -961,7 +961,7 @@
           "address": "Strada Morane, 500 (Centro Comm. La Rotonda), 41126 Modena",
           "lat": 44.621028,
           "lon": 10.92755,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS SARZANA",
@@ -1009,7 +1009,7 @@
           "address": "Via Regina Elena,15/E, 42124 Reggio Emilia",
           "lat": 44.70587693604892,
           "lon": 10.627270000569162,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "Tufano Salerno Srl",
@@ -1049,7 +1049,7 @@
           "address": "Via Napoleone Colajanni snc, 43126 Parma",
           "lat": 44.81091,
           "lon": 10.293462,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS SAN SALVATORE COGORNO",
@@ -1057,7 +1057,7 @@
           "address": "Via Umberto Vittorio Podestà, 1, 16030 San Salvatore di Cogorno",
           "lat": 44.332536,
           "lon": 9.351378,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO MIRA",
@@ -1177,7 +1177,7 @@
           "address": "Via Romairone, 10 (Centro Comm. L'Aquilone), 16163 Genova",
           "lat": 44.471306,
           "lon": 8.9005136,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CITY - GE.CO.",
@@ -1201,7 +1201,7 @@
           "address": "Via Gianbattista Bruni Conter, 2, 25085 Gavardo",
           "lat": 45.576686,
           "lon": 10.444375,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS SAVONA",
@@ -1209,7 +1209,7 @@
           "address": "Via Stalingrado (Centro Polif.le Le Officine), 17100 Savona",
           "lat": 44.30014,
           "lon": 8.4621,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS SASSARI",
@@ -1241,7 +1241,7 @@
           "address": "presso  Centro Comm.le ELNÒS SHOPPING - Via Luigi Einaudi, 25030 Roncadelle",
           "lat": 45.533387,
           "lon": 10.166618,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - CELESIA",
@@ -1265,7 +1265,7 @@
           "address": "Via delle Camerate (Parco Comm. Auchan), 25062 Concesio",
           "lat": 45.58872,
           "lon": 10.227438,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS BARI PARCO MAX",
@@ -1281,7 +1281,7 @@
           "address": "Via G. La Pira,12 (Centro Comm. Gran Rondò), 26013 Crema",
           "lat": 45.359280935156384,
           "lon": 9.667159958629268,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS BARI SANTA CATERINA",
@@ -1321,7 +1321,7 @@
           "address": "Strada Provinciale per Viguzzolo, 2 (Citta' Comm. Oasi), 15057 Tortona",
           "lat": 44.907338,
           "lon": 8.881523,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO UDINE",
@@ -1337,7 +1337,7 @@
           "address": "Via del Piano (Parco Comm.Taggia), 18018 Arma di Taggia",
           "lat": 43.84605,
           "lon": 7.856532,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - PLANET",
@@ -1361,7 +1361,7 @@
           "address": "Via Marengo, 64, 15121 Alessandria",
           "lat": 44.911025,
           "lon": 8.627038,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS DALMINE",
@@ -1369,7 +1369,7 @@
           "address": "Via Roggia Serio Grande, 14, 24044 Dalmine",
           "lat": 45.653892,
           "lon": 9.620445,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - LOCATELLI",
@@ -1393,7 +1393,7 @@
           "address": "V.le Industria, 27029 Vigevano",
           "lat": 45.30837817853088,
           "lon": 8.878363279767415,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CASTELLANA",
@@ -1425,7 +1425,7 @@
           "address": "P.zza Mondovicino, 42 (Centro Comm. Mondovicino), 12084 Mondovi'",
           "lat": 44.42029,
           "lon": 7.855151,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MONOPOLI",
@@ -1441,7 +1441,7 @@
           "address": "Via Statale, 20/b, 23875 Osnago",
           "lat": 45.682055213276236,
           "lon": 9.399235150347337,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS ASTI",
@@ -1449,7 +1449,7 @@
           "address": "C.so Alessandria, 272, 14100 Asti",
           "lat": 44.906325713941506,
           "lon": 8.228184896259531,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS ALBA",
@@ -1457,7 +1457,7 @@
           "address": "C.so Asti, 24 (Centro Comm. Alba Center), 12051 Alba",
           "lat": 44.71733693577373,
           "lon": 8.035181595466296,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CASALE MONFERRATO",
@@ -1465,7 +1465,7 @@
           "address": "V.le Cavalli D'Olivola, 6, 15033 Casale Monferrato",
           "lat": 45.132625,
           "lon": 8.45095,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CITY - PUNTO LUCE",
@@ -1489,7 +1489,7 @@
           "address": "Via Guglielmi, 9/Bis, 74015 Martina Franca",
           "lat": 40.7012,
           "lon": 17.329946,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS CUNEO PARCO COMM.LE AUCHAN",
@@ -1497,7 +1497,7 @@
           "address": "Parco Comm. Auchan - Via Margarita, 8, 12100 Cuneo - Borgo San Giuseppe",
           "lat": 44.391505,
           "lon": 7.58214,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS NOVARA",
@@ -1505,7 +1505,7 @@
           "address": "Via Gnifetti, 70, 28100 Novara",
           "lat": 45.449285,
           "lon": 8.609786,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS CUNEO VIA CASCINA COLOMBARO",
@@ -1513,7 +1513,7 @@
           "address": "Via Cascina Colombaro,26, 12100 Cuneo",
           "lat": 44.374814,
           "lon": 7.520619,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS VERCELLI",
@@ -1521,7 +1521,7 @@
           "address": "Tang.Ovest Camp. Sud (Parco Comm. Carrefour), 13100 Vercelli",
           "lat": 45.322872,
           "lon": 8.391572,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - FEVAL",
@@ -1545,7 +1545,7 @@
           "address": "Via Cecilio, 4, 22100 Como",
           "lat": 45.78524799953944,
           "lon": 9.069483403193184,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS TRADATE",
@@ -1553,7 +1553,7 @@
           "address": "Centradate Retail Park, 21049 Tradate",
           "lat": 45.698939070738014,
           "lon": 8.910659940596211,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - ALVA",
@@ -1601,7 +1601,7 @@
           "address": "Via Sommariva, 19/1 (Parco Comm. Il Conte di Carmagnola), 10022 Carmagnola",
           "lat": 44.84601354713774,
           "lon": 7.732179477479434,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - FEVAL LENNO",
@@ -1625,7 +1625,7 @@
           "address": "Via Nizza, 30/E, 10125 Torino",
           "lat": 45.054938,
           "lon": 7.676036,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS NICHELINO",
@@ -1633,7 +1633,7 @@
           "address": "Via dei Cacciatori (Shopping Park I VIALI), 10042 Nichelino",
           "lat": 45.00555177196781,
           "lon": 7.6225086863798515,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS TORINO",
@@ -1641,7 +1641,7 @@
           "address": "Corso Romania, 460 (Centro Comm. Porte di Torino), 10156 Torino",
           "lat": 45.117865,
           "lon": 7.712193,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS SETTIMO Cielo retali Park",
@@ -1649,7 +1649,7 @@
           "address": "Via P. Mascagni (Settimo Cielo Retail Park, 10036 Settimo Torinese",
           "lat": 45.14039960794534,
           "lon": 7.732837822789321,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS GOZZANO",
@@ -1657,7 +1657,7 @@
           "address": "Via Don Minzoni, 5, 28024 Gozzano",
           "lat": 45.735669,
           "lon": 8.439187,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS RIVALTA DI TORINO",
@@ -1665,7 +1665,7 @@
           "address": "Via Torino,22/O (Centro Comm. Rivalta) Fraz. Pasta, 10040 Rivalta di Torino",
           "lat": 45.00879140579794,
           "lon": 7.5522922696642425,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS TORINO Area 12 Shopping Center",
@@ -1673,7 +1673,7 @@
           "address": "Strada Altessano,141 stadio Juventus Area 12 Shopping Center, 10151 Torino",
           "lat": 45.1089,
           "lon": 7.6444,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO CARINI",
@@ -1689,7 +1689,7 @@
           "address": "C.so Garibaldi, 235 (Centro Comm. Venaria), 10078 Venaria Reale",
           "lat": 45.114438,
           "lon": 7.646131,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO PALERMO",
@@ -1713,7 +1713,7 @@
           "address": "Via delle Dogane, 21016 Luino",
           "lat": 45.996179,
           "lon": 8.743212,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS POINT - BOLONGARO",
@@ -1753,7 +1753,7 @@
           "address": "V.le Azari, 94, 28922 Verbania",
           "lat": 45.929296,
           "lon": 8.5547232,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS IVREA",
@@ -1761,7 +1761,7 @@
           "address": "Via Uscello 3 int A (Parco Comm. del Canavese), 10010 Banchette",
           "lat": 45.446601061305515,
           "lon": 7.853697260291098,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO VILLABATE",
@@ -1873,7 +1873,7 @@
           "address": "Loc.tà Les Iles, 22, 11020 Saint Christophe",
           "lat": 45.739662,
           "lon": 7.362184,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MATINO",
@@ -2068,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-22T11:51:32+00:00"
+      "checked_at": "2026-07-22T13:46:36+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4027,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-22T11:51:34+00:00"
+      "checked_at": "2026-07-22T13:46:39+00:00"
     }
   ]
 }
