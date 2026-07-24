@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T03:19:46+00:00",
+  "updated_at": "2026-07-24T06:09:07+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-24T03:19:42+00:00"
+      "checked_at": "2026-07-24T06:09:03+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-24T03:19:42+00:00"
+      "checked_at": "2026-07-24T06:09:03+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -2068,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-24T03:19:44+00:00"
+      "checked_at": "2026-07-24T06:09:05+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3856,7 +3856,7 @@
           "address": "S.S. 114, Km. 6,2 - (Centro Comm. Tremestieri), 98128 Messina",
           "lat": 38.13689,
           "lon": 15.52246,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS MAGLIE",
@@ -3968,7 +3968,7 @@
           "address": "Via Luigi Rizzo, 32, 95131 Catania",
           "lat": 37.50872,
           "lon": 15.089903,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO CENTRO SICILIA",
@@ -3976,7 +3976,7 @@
           "address": "C.da Cubba-Tenutella (Centro Sicilia), 95045 Misterbianco",
           "lat": 37.480174,
           "lon": 15.011314,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO LICATA",
@@ -4027,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-24T03:19:46+00:00"
+      "checked_at": "2026-07-24T06:09:07+00:00"
     }
   ]
 }
