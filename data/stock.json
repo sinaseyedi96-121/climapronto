@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T16:40:22+00:00",
+  "updated_at": "2026-07-24T18:16:06+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-24T16:40:22+00:00"
+      "checked_at": "2026-07-24T18:16:02+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-24T16:40:22+00:00"
+      "checked_at": "2026-07-24T18:16:02+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1681,7 +1681,7 @@
           "address": "Strada Statale 113, al Km. 281.2 (Centro Comm. ArcipelaGo), 90044 Carini",
           "lat": 38.164257126551455,
           "lon": 13.212650096720592,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS VENARIA REALE",
@@ -1937,7 +1937,7 @@
           "address": "s.s.106 Km 106,400 (Centro Comm.Le Gru), 89048 Siderno",
           "lat": 38.2881,
           "lon": 16.3151,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO ENNA",
@@ -2068,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-24T16:40:22+00:00"
+      "checked_at": "2026-07-24T18:16:04+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4027,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-24T16:40:22+00:00"
+      "checked_at": "2026-07-24T18:16:06+00:00"
     }
   ]
 }
