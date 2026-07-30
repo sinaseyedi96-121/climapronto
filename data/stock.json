@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T15:30:25+00:00",
+  "updated_at": "2026-07-30T17:23:57+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-30T15:30:21+00:00"
+      "checked_at": "2026-07-30T17:23:52+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-30T15:30:21+00:00"
+      "checked_at": "2026-07-30T17:23:52+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -668,14 +668,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS FORLI'",
-          "city": "Forlì",
-          "address": "Via Argentina Altobelli, 22, 47122 Forlì",
-          "lat": 44.2476897790415,
-          "lon": 12.088547868277999,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS PONTEDERA",
           "city": "Pontedera",
           "address": "Via Tosco Romagnola,21, 56025 Pontedera",
@@ -2068,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-30T15:30:24+00:00"
+      "checked_at": "2026-07-30T17:23:55+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2627,14 +2619,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS FORLI'",
-          "city": "Forlì",
-          "address": "Via Argentina Altobelli, 22, 47122 Forlì",
-          "lat": 44.2476897790415,
-          "lon": 12.088547868277999,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS PONTEDERA",
           "city": "Pontedera",
           "address": "Via Tosco Romagnola,21, 56025 Pontedera",
@@ -4027,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-30T15:30:25+00:00"
+      "checked_at": "2026-07-30T17:23:57+00:00"
     }
   ]
 }
