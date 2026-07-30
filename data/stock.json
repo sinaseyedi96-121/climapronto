@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T18:54:51+00:00",
+  "updated_at": "2026-07-30T20:13:13+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-30T18:54:50+00:00"
+      "checked_at": "2026-07-30T20:13:09+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-30T18:54:50+00:00"
+      "checked_at": "2026-07-30T20:13:09+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -513,7 +513,7 @@
           "address": "Via Vestina, 257/F, 65015 Montesilvano",
           "lat": 42.500131,
           "lon": 14.132551,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS SAN GIOVANNI TEATINO",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-30T18:54:51+00:00"
+      "checked_at": "2026-07-30T20:13:11+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-30T18:54:51+00:00"
+      "checked_at": "2026-07-30T20:13:13+00:00"
     }
   ]
 }
