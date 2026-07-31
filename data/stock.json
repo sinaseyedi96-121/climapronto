@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T18:52:39+00:00",
+  "updated_at": "2026-07-31T20:18:02+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-07-31T18:52:38+00:00"
+      "checked_at": "2026-07-31T20:17:58+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-07-31T18:52:38+00:00"
+      "checked_at": "2026-07-31T20:17:58+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -521,7 +521,7 @@
           "address": "Via Po, 1 ang. Via Caravaggio, 66020 San Giovanni Teatino",
           "lat": 42.419398,
           "lon": 14.174384,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MONTEVARCHI",
@@ -985,7 +985,7 @@
           "address": "V.le degli Aviatori (C.C. Mongolfiera), 71122 Foggia",
           "lat": 41.4403,
           "lon": 15.54497,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "TUFANO SALERNO 2 SRL",
@@ -1281,7 +1281,7 @@
           "address": "Via Martiri delle Foibe,1 - Loc. S.ta Caterina, 70100 Bari",
           "lat": 41.0969130564396,
           "lon": 16.836432447386603,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "BRUNO PIEVE FISSIRAGA",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-31T18:52:39+00:00"
+      "checked_at": "2026-07-31T20:18:00+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-07-31T18:52:39+00:00"
+      "checked_at": "2026-07-31T20:18:02+00:00"
     }
   ]
 }
