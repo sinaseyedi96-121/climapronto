@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T09:21:07+00:00",
+  "updated_at": "2026-08-06T11:39:28+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-08-06T09:21:03+00:00"
+      "checked_at": "2026-08-06T11:39:25+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-08-06T09:21:03+00:00"
+      "checked_at": "2026-08-06T11:39:25+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1121,7 +1121,7 @@
           "address": "Via della Tecnica,8, 85100 Potenza",
           "lat": 40.62501,
           "lon": 15.79746,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS TRANI",
@@ -1697,7 +1697,7 @@
           "address": "V.le L. Tenco 3a (Centro Comm. Gli Orsi), 13900 Biella",
           "lat": 45.54727,
           "lon": 8.07667,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS LUINO",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-06T09:21:05+00:00"
+      "checked_at": "2026-08-06T11:39:26+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-06T09:21:07+00:00"
+      "checked_at": "2026-08-06T11:39:28+00:00"
     }
   ]
 }
