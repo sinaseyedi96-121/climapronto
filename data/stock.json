@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T09:34:47+00:00",
+  "updated_at": "2026-08-08T10:29:19+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-08-08T09:34:43+00:00"
+      "checked_at": "2026-08-08T10:29:14+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-08-08T09:34:43+00:00"
+      "checked_at": "2026-08-08T10:29:14+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1273,7 +1273,7 @@
           "address": "Via G. La Pira,12 (Centro Comm. Gran Rondò), 26013 Crema",
           "lat": 45.359280935156384,
           "lon": 9.667159958629268,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS BARI SANTA CATERINA",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-08T09:34:45+00:00"
+      "checked_at": "2026-08-08T10:29:16+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-08T09:34:47+00:00"
+      "checked_at": "2026-08-08T10:29:19+00:00"
     }
   ]
 }
