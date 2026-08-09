@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T06:52:15+00:00",
+  "updated_at": "2026-08-09T07:52:10+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-08-09T06:52:14+00:00"
+      "checked_at": "2026-08-09T07:52:09+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-08-09T06:52:14+00:00"
+      "checked_at": "2026-08-09T07:52:09+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-09T06:52:15+00:00"
+      "checked_at": "2026-08-09T07:52:10+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3952,7 +3952,7 @@
           "address": "Via Luigi Rizzo, 32, 95131 Catania",
           "lat": 37.50872,
           "lon": 15.089903,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO CENTRO SICILIA",
@@ -3960,7 +3960,7 @@
           "address": "C.da Cubba-Tenutella (Centro Sicilia), 95045 Misterbianco",
           "lat": 37.480174,
           "lon": 15.011314,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO LICATA",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-09T06:52:15+00:00"
+      "checked_at": "2026-08-09T07:52:10+00:00"
     }
   ]
 }
