@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T08:29:41+00:00",
+  "updated_at": "2026-08-11T09:33:24+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-08-11T08:29:36+00:00"
+      "checked_at": "2026-08-11T09:33:20+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-08-11T08:29:36+00:00"
+      "checked_at": "2026-08-11T09:33:20+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1913,7 +1913,7 @@
           "address": "Via degli Angeli c/o Centro Comm. Gli Angeli, 73054 Presicce",
           "lat": 39.891147,
           "lon": 18.2671,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "Electroleader S.R.L.",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-11T08:29:38+00:00"
+      "checked_at": "2026-08-11T09:33:22+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-08-11T08:29:41+00:00"
+      "checked_at": "2026-08-11T09:33:24+00:00"
     }
   ]
 }
