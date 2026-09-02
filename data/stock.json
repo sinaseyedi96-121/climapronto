@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T07:36:51+00:00",
+  "updated_at": "2026-09-02T12:31:34+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-09-02T07:36:50+00:00"
+      "checked_at": "2026-09-02T12:31:30+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-09-02T07:36:50+00:00"
+      "checked_at": "2026-09-02T12:31:30+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-02T07:36:50+00:00"
+      "checked_at": "2026-09-02T12:31:32+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3016,7 +3016,7 @@
           "address": "Via San Marco ang. Via Quintino Sella, 35129 Padova",
           "lat": 45.417621,
           "lon": 11.925549,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - BRUNO MANTOVA",
@@ -3256,7 +3256,7 @@
           "address": "Via delle Arti, 24, 75100 Matera",
           "lat": 40.672642,
           "lon": 16.573276,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS TORTONA",
@@ -3936,7 +3936,7 @@
           "address": "V.le del Commercio - C.da Mezzocampo, 95045 Misterbianco",
           "lat": 37.50998263729814,
           "lon": 15.023175725541348,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - LA VIA LATTEA CATANIA CENTRO ULISSE",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-02T07:36:51+00:00"
+      "checked_at": "2026-09-02T12:31:34+00:00"
     }
   ]
 }
