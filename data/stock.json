@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T00:16:52+00:00",
+  "updated_at": "2026-09-05T04:47:53+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-09-05T00:16:47+00:00"
+      "checked_at": "2026-09-05T04:47:39+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-09-05T00:16:47+00:00"
+      "checked_at": "2026-09-05T04:47:39+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -935,8 +935,8 @@
           "store": "EURONICS LUCERA",
           "city": "Lucera",
           "address": "Strada Statale 160, Via Troia, Km. 0/520 (C.C.Eurospar), 71036 Lucera",
-          "lat": 41.50542,
-          "lon": 15.33397,
+          "lat": 41.498102,
+          "lon": 15.332412,
           "status": "out_of_stock"
         },
         {
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-05T00:16:50+00:00"
+      "checked_at": "2026-09-05T04:47:49+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2886,8 +2886,8 @@
           "store": "EURONICS LUCERA",
           "city": "Lucera",
           "address": "Strada Statale 160, Via Troia, Km. 0/520 (C.C.Eurospar), 71036 Lucera",
-          "lat": 41.50542,
-          "lon": 15.33397,
+          "lat": 41.498102,
+          "lon": 15.332412,
           "status": "out_of_stock"
         },
         {
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-05T00:16:52+00:00"
+      "checked_at": "2026-09-05T04:47:53+00:00"
     }
   ]
 }
