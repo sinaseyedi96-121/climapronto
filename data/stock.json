@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T17:14:06+00:00",
+  "updated_at": "2026-09-06T19:23:41+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-09-06T17:14:02+00:00"
+      "checked_at": "2026-09-06T19:23:36+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-09-06T17:14:02+00:00"
+      "checked_at": "2026-09-06T19:23:36+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1921,7 +1921,7 @@
           "address": "Via Aldo Moro, 1, 73039 Tricase",
           "lat": 39.92649,
           "lon": 18.35878,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS - BRUNO SIDERNO",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-06T17:14:04+00:00"
+      "checked_at": "2026-09-06T19:23:38+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-06T17:14:06+00:00"
+      "checked_at": "2026-09-06T19:23:41+00:00"
     }
   ]
 }
