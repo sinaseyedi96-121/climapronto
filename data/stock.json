@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T01:31:07+00:00",
+  "updated_at": "2026-09-16T07:13:31+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-09-16T01:31:04+00:00"
+      "checked_at": "2026-09-16T07:13:21+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-09-16T01:31:04+00:00"
+      "checked_at": "2026-09-16T07:13:21+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1196,6 +1196,14 @@
           "status": "out_of_stock"
         },
         {
+          "store": "EURONICS VERBANIA",
+          "city": "Verbania",
+          "address": "V.le Azari, 94, 28922 Verbania",
+          "lat": 45.576686,
+          "lon": 10.444375,
+          "status": "out_of_stock"
+        },
+        {
           "store": "EURONICS SAVONA",
           "city": "Savona",
           "address": "Via Stalingrado (Centro Polif.le Le Officine), 17100 Savona",
@@ -1740,14 +1748,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS VERBANIA",
-          "city": "Verbania",
-          "address": "V.le Azari, 94, 28922 Verbania",
-          "lat": 45.929296,
-          "lon": 8.5547232,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS IVREA",
           "city": "Banchette",
           "address": "Via Uscello 3 int A (Parco Comm. del Canavese), 10010 Banchette",
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-16T01:31:04+00:00"
+      "checked_at": "2026-09-16T07:13:28+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3147,6 +3147,14 @@
           "status": "available"
         },
         {
+          "store": "EURONICS VERBANIA",
+          "city": "Verbania",
+          "address": "V.le Azari, 94, 28922 Verbania",
+          "lat": 45.576686,
+          "lon": 10.444375,
+          "status": "available"
+        },
+        {
           "store": "EURONICS SAVONA",
           "city": "Savona",
           "address": "Via Stalingrado (Centro Polif.le Le Officine), 17100 Savona",
@@ -3360,7 +3368,7 @@
           "address": "Merlata Bloom - Via Gottlieb Wilhelm Daimler, 20156 Milano",
           "lat": 45.5138124773076,
           "lon": 9.1058395807155,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS MONDOVI'",
@@ -3691,14 +3699,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS VERBANIA",
-          "city": "Verbania",
-          "address": "V.le Azari, 94, 28922 Verbania",
-          "lat": 45.929296,
-          "lon": 8.5547232,
-          "status": "available"
-        },
-        {
           "store": "EURONICS IVREA",
           "city": "Banchette",
           "address": "Via Uscello 3 int A (Parco Comm. del Canavese), 10010 Banchette",
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-16T01:31:07+00:00"
+      "checked_at": "2026-09-16T07:13:31+00:00"
     }
   ]
 }
