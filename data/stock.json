@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T03:16:37+00:00",
+  "updated_at": "2026-09-22T08:43:56+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-09-22T03:16:29+00:00"
+      "checked_at": "2026-09-22T08:43:51+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-09-22T03:16:29+00:00"
+      "checked_at": "2026-09-22T08:43:51+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -855,8 +855,8 @@
           "store": "Tufano Vulcano Srl",
           "city": "Nola",
           "address": "Loc.tà Boscofangone (Centro Comm. Vulcano Buono), 80035 Nola",
-          "lat": 40.951348,
-          "lon": 14.48656,
+          "lat": 40.951503,
+          "lon": 14.489052,
           "status": "out_of_stock"
         },
         {
@@ -2060,7 +2060,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-22T03:16:33+00:00"
+      "checked_at": "2026-09-22T08:43:54+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2806,8 +2806,8 @@
           "store": "Tufano Vulcano Srl",
           "city": "Nola",
           "address": "Loc.tà Boscofangone (Centro Comm. Vulcano Buono), 80035 Nola",
-          "lat": 40.951348,
-          "lon": 14.48656,
+          "lat": 40.951503,
+          "lon": 14.489052,
           "status": "out_of_stock"
         },
         {
@@ -4011,7 +4011,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-22T03:16:37+00:00"
+      "checked_at": "2026-09-22T08:43:56+00:00"
     }
   ]
 }
