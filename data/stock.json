@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T01:27:41+00:00",
+  "updated_at": "2026-09-29T07:22:24+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-09-29T01:27:40+00:00"
+      "checked_at": "2026-09-29T07:22:18+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-09-29T01:27:40+00:00"
+      "checked_at": "2026-09-29T07:22:18+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1748,6 +1748,14 @@
           "status": "out_of_stock"
         },
         {
+          "store": "EURONICS POINT - LEONE",
+          "city": "Rivarolo Canavese",
+          "address": "Corso Torino, 14, 10086 Rivarolo Canavese",
+          "lat": 45.33140204,
+          "lon": 7.7236114,
+          "status": "out_of_stock"
+        },
+        {
           "store": "EURONICS IVREA",
           "city": "Banchette",
           "address": "Via Uscello 3 int A (Parco Comm. del Canavese), 10010 Banchette",
@@ -2060,7 +2068,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-29T01:27:41+00:00"
+      "checked_at": "2026-09-29T07:22:20+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3699,6 +3707,14 @@
           "status": "available"
         },
         {
+          "store": "EURONICS POINT - LEONE",
+          "city": "Rivarolo Canavese",
+          "address": "Corso Torino, 14, 10086 Rivarolo Canavese",
+          "lat": 45.33140204,
+          "lon": 7.7236114,
+          "status": "out_of_stock"
+        },
+        {
           "store": "EURONICS IVREA",
           "city": "Banchette",
           "address": "Via Uscello 3 int A (Parco Comm. del Canavese), 10010 Banchette",
@@ -4011,7 +4027,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-09-29T01:27:41+00:00"
+      "checked_at": "2026-09-29T07:22:24+00:00"
     }
   ]
 }
