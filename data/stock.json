@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T00:44:03+00:00",
+  "updated_at": "2026-10-17T05:18:32+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-10-17T00:43:59+00:00"
+      "checked_at": "2026-10-17T05:18:26+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-10-17T00:43:59+00:00"
+      "checked_at": "2026-10-17T05:18:26+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -180,22 +180,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS MONTEROTONDO",
-          "city": "Monterotondo",
-          "address": "V.le Bruno Buozzi 35/37 (Centro Comm. Monterotondo), 00015 Monterotondo",
-          "lat": 42.049771,
-          "lon": 12.623838,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS CAPENA",
-          "city": "Capena",
-          "address": "Via Tiberina, Km. 16,400 (Centro Comm. L'Arca), 00060 Capena",
-          "lat": 42.02975,
-          "lon": 12.48241,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS BRACCIANO",
           "city": "Bracciano",
           "address": "Via delle Palme (Centro Comm. Bracciano), 00062 Bracciano",
@@ -212,51 +196,11 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS OJETTI",
-          "city": "Roma",
-          "address": "Via Ugo Ojetti,508, 00137 Roma",
-          "lat": 41.94912,
-          "lon": 12.556402,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS SALARIA",
-          "city": "Roma",
-          "address": "Via Salaria, 665, 00138 Roma",
-          "lat": 41.942117,
-          "lon": 12.507446,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS PONTE MILVIO",
-          "city": "Roma",
-          "address": "Via Riano, 15, 00191 Roma",
-          "lat": 41.938477,
-          "lon": 12.469466,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS GUIDONIA",
           "city": "Guidonia",
           "address": "Via Tiburtina km 20,500 - (Centro Comm. Tiburtino), 00012 Guidonia",
           "lat": 41.954285,
           "lon": 12.695523,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS CASAL DEL MARMO",
-          "city": "Roma",
-          "address": "Via Arola, 29 - Altezza G.R.A (Casal del Marmo), 00166 Roma",
-          "lat": 41.93008,
-          "lon": 12.38143,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS ROSSINI",
-          "city": "Roma",
-          "address": "V.le Rossini, 11/13, 00198 Roma",
-          "lat": 41.920624,
-          "lon": 12.491611,
           "status": "out_of_stock"
         },
         {
@@ -268,43 +212,11 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS FLAMINIO",
-          "city": "Roma",
-          "address": "Via Luisa di Savoia, 12, 00196 Roma",
-          "lat": 41.911219,
-          "lon": 12.473782,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS PERUGIA",
           "city": "Perugia",
           "address": "Via Settevalli,333/f, 06132 Perugia",
           "lat": 43.08141,
           "lon": 12.36363,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS IPPOCRATE",
-          "city": "Roma",
-          "address": "V.le Ippocrate, 23/43, 00161 Roma",
-          "lat": 41.908866,
-          "lon": 12.520452,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS TERMINI",
-          "city": "Roma",
-          "address": "Piazza dei Cinquecento, 00185 Roma",
-          "lat": 41.90146,
-          "lon": 12.49909,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS VALLE AURELIA",
-          "city": "Roma",
-          "address": "Via di Valle Aurelia, 30 (Centro Comm. Aura), 00167 Roma",
-          "lat": 41.902444,
-          "lon": 12.438611,
           "status": "out_of_stock"
         },
         {
@@ -316,27 +228,11 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS HAPPIO",
-          "city": "ROMA",
-          "address": "Via Appia Nuova 448 (Centro Comm. Happio), 00179 ROMA",
-          "lat": 41.87457,
-          "lon": 12.522513,
-          "status": "out_of_stock"
-        },
-        {
           "store": "Tufano Roma Srl",
           "city": "Roma",
           "address": "Via Casilina, 1011 (Centro Comm. Casilino), 00169 Roma",
           "lat": 41.869096,
           "lon": 12.585278,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS PORTUENSE",
-          "city": "Roma",
-          "address": "Via Portuense, 320, 00153 Roma",
-          "lat": 41.863832,
-          "lon": 12.455434,
           "status": "out_of_stock"
         },
         {
@@ -369,30 +265,6 @@
           "address": "Via Aurelia Nord, Km. 76 (C.C.La Scaglia), 00053 Civitavecchia",
           "lat": 42.124981,
           "lon": 11.770866,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS ANAGNINA",
-          "city": "Roma",
-          "address": "Via Torre di Mezzavia n. 61 (Centro Comm. Anagnina), 00173 Roma",
-          "lat": 41.834525,
-          "lon": 12.592906,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "ROMA LAURENTINA",
-          "city": "ROMA",
-          "address": "Via Laurentina, 865 (Centro Comm. Maximo), 00143 ROMA",
-          "lat": 41.809048,
-          "lon": 12.4851,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS OSTIA",
-          "city": "Ostia",
-          "address": "V.le Paolo Orlando,9, 00122 Ostia",
-          "lat": 41.73161,
-          "lon": 12.28417,
           "status": "out_of_stock"
         },
         {
@@ -2068,7 +1940,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-10-17T00:44:01+00:00"
+      "checked_at": "2026-10-17T05:18:29+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2139,22 +2011,6 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS MONTEROTONDO",
-          "city": "Monterotondo",
-          "address": "V.le Bruno Buozzi 35/37 (Centro Comm. Monterotondo), 00015 Monterotondo",
-          "lat": 42.049771,
-          "lon": 12.623838,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS CAPENA",
-          "city": "Capena",
-          "address": "Via Tiberina, Km. 16,400 (Centro Comm. L'Arca), 00060 Capena",
-          "lat": 42.02975,
-          "lon": 12.48241,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS BRACCIANO",
           "city": "Bracciano",
           "address": "Via delle Palme (Centro Comm. Bracciano), 00062 Bracciano",
@@ -2171,51 +2027,11 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS OJETTI",
-          "city": "Roma",
-          "address": "Via Ugo Ojetti,508, 00137 Roma",
-          "lat": 41.94912,
-          "lon": 12.556402,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS SALARIA",
-          "city": "Roma",
-          "address": "Via Salaria, 665, 00138 Roma",
-          "lat": 41.942117,
-          "lon": 12.507446,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS PONTE MILVIO",
-          "city": "Roma",
-          "address": "Via Riano, 15, 00191 Roma",
-          "lat": 41.938477,
-          "lon": 12.469466,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS GUIDONIA",
           "city": "Guidonia",
           "address": "Via Tiburtina km 20,500 - (Centro Comm. Tiburtino), 00012 Guidonia",
           "lat": 41.954285,
           "lon": 12.695523,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS CASAL DEL MARMO",
-          "city": "Roma",
-          "address": "Via Arola, 29 - Altezza G.R.A (Casal del Marmo), 00166 Roma",
-          "lat": 41.93008,
-          "lon": 12.38143,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS ROSSINI",
-          "city": "Roma",
-          "address": "V.le Rossini, 11/13, 00198 Roma",
-          "lat": 41.920624,
-          "lon": 12.491611,
           "status": "out_of_stock"
         },
         {
@@ -2227,43 +2043,11 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS FLAMINIO",
-          "city": "Roma",
-          "address": "Via Luisa di Savoia, 12, 00196 Roma",
-          "lat": 41.911219,
-          "lon": 12.473782,
-          "status": "out_of_stock"
-        },
-        {
           "store": "EURONICS PERUGIA",
           "city": "Perugia",
           "address": "Via Settevalli,333/f, 06132 Perugia",
           "lat": 43.08141,
           "lon": 12.36363,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS IPPOCRATE",
-          "city": "Roma",
-          "address": "V.le Ippocrate, 23/43, 00161 Roma",
-          "lat": 41.908866,
-          "lon": 12.520452,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS TERMINI",
-          "city": "Roma",
-          "address": "Piazza dei Cinquecento, 00185 Roma",
-          "lat": 41.90146,
-          "lon": 12.49909,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS VALLE AURELIA",
-          "city": "Roma",
-          "address": "Via di Valle Aurelia, 30 (Centro Comm. Aura), 00167 Roma",
-          "lat": 41.902444,
-          "lon": 12.438611,
           "status": "out_of_stock"
         },
         {
@@ -2275,27 +2059,11 @@
           "status": "out_of_stock"
         },
         {
-          "store": "EURONICS HAPPIO",
-          "city": "ROMA",
-          "address": "Via Appia Nuova 448 (Centro Comm. Happio), 00179 ROMA",
-          "lat": 41.87457,
-          "lon": 12.522513,
-          "status": "out_of_stock"
-        },
-        {
           "store": "Tufano Roma Srl",
           "city": "Roma",
           "address": "Via Casilina, 1011 (Centro Comm. Casilino), 00169 Roma",
           "lat": 41.869096,
           "lon": 12.585278,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS PORTUENSE",
-          "city": "Roma",
-          "address": "Via Portuense, 320, 00153 Roma",
-          "lat": 41.863832,
-          "lon": 12.455434,
           "status": "out_of_stock"
         },
         {
@@ -2328,30 +2096,6 @@
           "address": "Via Aurelia Nord, Km. 76 (C.C.La Scaglia), 00053 Civitavecchia",
           "lat": 42.124981,
           "lon": 11.770866,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS ANAGNINA",
-          "city": "Roma",
-          "address": "Via Torre di Mezzavia n. 61 (Centro Comm. Anagnina), 00173 Roma",
-          "lat": 41.834525,
-          "lon": 12.592906,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "ROMA LAURENTINA",
-          "city": "ROMA",
-          "address": "Via Laurentina, 865 (Centro Comm. Maximo), 00143 ROMA",
-          "lat": 41.809048,
-          "lon": 12.4851,
-          "status": "out_of_stock"
-        },
-        {
-          "store": "EURONICS OSTIA",
-          "city": "Ostia",
-          "address": "V.le Paolo Orlando,9, 00122 Ostia",
-          "lat": 41.73161,
-          "lon": 12.28417,
           "status": "out_of_stock"
         },
         {
@@ -4027,7 +3771,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-10-17T00:44:03+00:00"
+      "checked_at": "2026-10-17T05:18:32+00:00"
     }
   ]
 }
