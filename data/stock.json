@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T09:34:46+00:00",
+  "updated_at": "2026-10-17T13:27:04+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-10-17T09:34:41+00:00"
+      "checked_at": "2026-10-17T13:26:59+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-10-17T09:34:41+00:00"
+      "checked_at": "2026-10-17T13:26:59+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1361,7 +1361,7 @@
           "address": "Parco Comm. Auchan - Via Margarita, 8, 12100 Cuneo - Borgo San Giuseppe",
           "lat": 44.391505,
           "lon": 7.58214,
-          "status": "available"
+          "status": "out_of_stock"
         },
         {
           "store": "EURONICS NOVARA",
@@ -1940,7 +1940,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-10-17T09:34:44+00:00"
+      "checked_at": "2026-10-17T13:27:01+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3771,7 +3771,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-10-17T09:34:46+00:00"
+      "checked_at": "2026-10-17T13:27:04+00:00"
     }
   ]
 }
