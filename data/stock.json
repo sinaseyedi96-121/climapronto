@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T01:10:58+00:00",
+  "updated_at": "2026-10-29T07:27:42+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-10-29T01:10:54+00:00"
+      "checked_at": "2026-10-29T07:27:38+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-10-29T01:10:54+00:00"
+      "checked_at": "2026-10-29T07:27:38+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -140,7 +140,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Store Srl",
+          "store": "EURONICS - TUFANO VITERBO",
           "city": "Viterbo",
           "address": "Via Amedeo Cerasa, 01100 Viterbo",
           "lat": 42.426848,
@@ -228,7 +228,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Roma Srl",
+          "store": "EURONICS - TUFANO ROMA",
           "city": "Roma",
           "address": "Via Casilina, 1011 (Centro Comm. Casilino), 00169 Roma",
           "lat": 41.869096,
@@ -260,7 +260,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Italia Srl",
+          "store": "EURONICS - TUFANO CIVITAVECCHIA",
           "city": "Civitavecchia",
           "address": "Via Aurelia Nord, Km. 76 (C.C.La Scaglia), 00053 Civitavecchia",
           "lat": 42.124981,
@@ -292,7 +292,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "TUFANO APRILIA SRL",
+          "store": "EURONICS - TUFANO APRILIA",
           "city": "Aprilia",
           "address": "Via Zuara, 13, 04011 Aprilia",
           "lat": 41.580457,
@@ -356,7 +356,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Latina Srl",
+          "store": "EURONICS - TUFANO LATINA",
           "city": "Latina",
           "address": "Via del Lido Centro Comm. Morbella, 04100 Latina",
           "lat": 41.451882,
@@ -1652,7 +1652,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Elettrodomestici Srl",
+          "store": "EURONICS - TUFANO MAIDA",
           "city": "Maida",
           "address": "Loc.tà Comuni Condomini (Centro Comm. Due Mari), 88025 Maida",
           "lat": 38.90088,
@@ -1940,7 +1940,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-10-29T01:10:57+00:00"
+      "checked_at": "2026-10-29T07:27:39+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -1971,7 +1971,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Store Srl",
+          "store": "EURONICS - TUFANO VITERBO",
           "city": "Viterbo",
           "address": "Via Amedeo Cerasa, 01100 Viterbo",
           "lat": 42.426848,
@@ -2059,7 +2059,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Roma Srl",
+          "store": "EURONICS - TUFANO ROMA",
           "city": "Roma",
           "address": "Via Casilina, 1011 (Centro Comm. Casilino), 00169 Roma",
           "lat": 41.869096,
@@ -2091,7 +2091,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Italia Srl",
+          "store": "EURONICS - TUFANO CIVITAVECCHIA",
           "city": "Civitavecchia",
           "address": "Via Aurelia Nord, Km. 76 (C.C.La Scaglia), 00053 Civitavecchia",
           "lat": 42.124981,
@@ -2123,7 +2123,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "TUFANO APRILIA SRL",
+          "store": "EURONICS - TUFANO APRILIA",
           "city": "Aprilia",
           "address": "Via Zuara, 13, 04011 Aprilia",
           "lat": 41.580457,
@@ -2187,7 +2187,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Latina Srl",
+          "store": "EURONICS - TUFANO LATINA",
           "city": "Latina",
           "address": "Via del Lido Centro Comm. Morbella, 04100 Latina",
           "lat": 41.451882,
@@ -3483,7 +3483,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Elettrodomestici Srl",
+          "store": "EURONICS - TUFANO MAIDA",
           "city": "Maida",
           "address": "Loc.tà Comuni Condomini (Centro Comm. Due Mari), 88025 Maida",
           "lat": 38.90088,
@@ -3771,7 +3771,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-10-29T01:10:58+00:00"
+      "checked_at": "2026-10-29T07:27:42+00:00"
     }
   ]
 }
