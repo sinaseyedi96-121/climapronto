@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:09:29+00:00",
+  "updated_at": "2026-11-13T12:34:37+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-11-13T12:09:27+00:00"
+      "checked_at": "2026-11-13T12:34:33+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-11-13T12:09:27+00:00"
+      "checked_at": "2026-11-13T12:34:33+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -1940,7 +1940,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-11-13T12:09:28+00:00"
+      "checked_at": "2026-11-13T12:34:36+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -3696,7 +3696,7 @@
           "address": "V.le del Commercio - C.da Mezzocampo, 95045 Misterbianco",
           "lat": 37.50998263729814,
           "lon": 15.023175725541348,
-          "status": "out_of_stock"
+          "status": "available"
         },
         {
           "store": "EURONICS - LA VIA LATTEA CATANIA CENTRO ULISSE",
@@ -3771,7 +3771,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-11-13T12:09:29+00:00"
+      "checked_at": "2026-11-13T12:34:37+00:00"
     }
   ]
 }
