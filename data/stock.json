@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T05:06:51+00:00",
+  "updated_at": "2026-11-27T05:33:53+00:00",
   "products": [
     {
       "id": "demo-pinguino",
@@ -54,7 +54,7 @@
         }
       ],
       "status": "available",
-      "checked_at": "2026-11-27T05:06:47+00:00"
+      "checked_at": "2026-11-27T05:33:49+00:00"
     },
     {
       "id": "demo-comfee",
@@ -109,7 +109,7 @@
         }
       ],
       "status": "out_of_stock",
-      "checked_at": "2026-11-27T05:06:47+00:00"
+      "checked_at": "2026-11-27T05:33:49+00:00"
     },
     {
       "id": "euronics-argo-elite-plus",
@@ -444,7 +444,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Consumer Srl",
+          "store": "EURONICS - TUFANO CASSINO",
           "city": "Cassino",
           "address": "Via Casilina sud km 141,376 (C.C.Panorama), 03043 Cassino",
           "lat": 41.48529,
@@ -628,7 +628,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "TUFANO MULTIMEDIA S.R.L.",
+          "store": "EURONICS - TUFANO MARCIANISE",
           "city": "Marcianise",
           "address": "S.S. Sannitica 87 Loc.tà Aurno (Parco Comm. Campania), 81025 Marcianise",
           "lat": 41.03326,
@@ -644,7 +644,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Quarto Srl",
+          "store": "EURONICS - TUFANO QUARTO",
           "city": "Quarto",
           "address": "Via Masullo (centro Comm.Quarto Nuovo), 80010 Quarto",
           "lat": 40.8776,
@@ -724,7 +724,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Vulcano Srl",
+          "store": "EURONICS - TUFANO NOLA",
           "city": "Nola",
           "address": "Loc.tà Boscofangone (Centro Comm. Vulcano Buono), 80035 Nola",
           "lat": 40.951503,
@@ -748,7 +748,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "TUFANO BENEVENTO SRL",
+          "store": "EURONICS - TUFANO BENEVENTO",
           "city": "Benevento",
           "address": "Via dei Longobardi, 24 (Centro Comm. I Sanniti), 82100 Benevento",
           "lat": 41.141683,
@@ -772,7 +772,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Napoli Srl",
+          "store": "EURONICS - TUFANO TORRE ANNUNZIATA",
           "city": "Torre Annunziata",
           "address": "Via comunale Traversa Andolfi snc, 80058 Torre Annunziata",
           "lat": 40.755209,
@@ -796,7 +796,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Electronics Srl",
+          "store": "EURONICS - TUFANO MERCOGLIANO",
           "city": "Mercogliano",
           "address": "Via Nazionale Torrette, 185, 83013 Mercogliano",
           "lat": 40.907274,
@@ -812,7 +812,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Nocera Srl",
+          "store": "EURONICS - TUFANO NOCERA",
           "city": "Nocera Inferiore",
           "address": "Via Napoli, 126, 84014 Nocera Inferiore",
           "lat": 40.74698,
@@ -860,7 +860,7 @@
           "status": "available"
         },
         {
-          "store": "TUFANO SALERNO 2 SRL",
+          "store": "EURONICS - TUFANO SALERNO",
           "city": "Salerno",
           "address": "Via Roberto Wenner, 27, 84127 Salerno",
           "lat": 40.636665,
@@ -876,7 +876,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Salerno Srl",
+          "store": "EURONICS - TUFANO PONTECAGNANO",
           "city": "Pontecagnano",
           "address": "Via Pacinotti snc (Centro Comm.Maximall), 84098 Pontecagnano",
           "lat": 40.6352,
@@ -1948,7 +1948,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-11-27T05:06:50+00:00"
+      "checked_at": "2026-11-27T05:33:51+00:00"
     },
     {
       "id": "euronics-samsung-monosplit",
@@ -2283,7 +2283,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Consumer Srl",
+          "store": "EURONICS - TUFANO CASSINO",
           "city": "Cassino",
           "address": "Via Casilina sud km 141,376 (C.C.Panorama), 03043 Cassino",
           "lat": 41.48529,
@@ -2467,7 +2467,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "TUFANO MULTIMEDIA S.R.L.",
+          "store": "EURONICS - TUFANO MARCIANISE",
           "city": "Marcianise",
           "address": "S.S. Sannitica 87 Loc.tà Aurno (Parco Comm. Campania), 81025 Marcianise",
           "lat": 41.03326,
@@ -2483,7 +2483,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Quarto Srl",
+          "store": "EURONICS - TUFANO QUARTO",
           "city": "Quarto",
           "address": "Via Masullo (centro Comm.Quarto Nuovo), 80010 Quarto",
           "lat": 40.8776,
@@ -2563,7 +2563,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Vulcano Srl",
+          "store": "EURONICS - TUFANO NOLA",
           "city": "Nola",
           "address": "Loc.tà Boscofangone (Centro Comm. Vulcano Buono), 80035 Nola",
           "lat": 40.951503,
@@ -2587,7 +2587,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "TUFANO BENEVENTO SRL",
+          "store": "EURONICS - TUFANO BENEVENTO",
           "city": "Benevento",
           "address": "Via dei Longobardi, 24 (Centro Comm. I Sanniti), 82100 Benevento",
           "lat": 41.141683,
@@ -2611,7 +2611,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Napoli Srl",
+          "store": "EURONICS - TUFANO TORRE ANNUNZIATA",
           "city": "Torre Annunziata",
           "address": "Via comunale Traversa Andolfi snc, 80058 Torre Annunziata",
           "lat": 40.755209,
@@ -2635,7 +2635,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Electronics Srl",
+          "store": "EURONICS - TUFANO MERCOGLIANO",
           "city": "Mercogliano",
           "address": "Via Nazionale Torrette, 185, 83013 Mercogliano",
           "lat": 40.907274,
@@ -2651,7 +2651,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Nocera Srl",
+          "store": "EURONICS - TUFANO NOCERA",
           "city": "Nocera Inferiore",
           "address": "Via Napoli, 126, 84014 Nocera Inferiore",
           "lat": 40.74698,
@@ -2699,7 +2699,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "TUFANO SALERNO 2 SRL",
+          "store": "EURONICS - TUFANO SALERNO",
           "city": "Salerno",
           "address": "Via Roberto Wenner, 27, 84127 Salerno",
           "lat": 40.636665,
@@ -2715,7 +2715,7 @@
           "status": "out_of_stock"
         },
         {
-          "store": "Tufano Salerno Srl",
+          "store": "EURONICS - TUFANO PONTECAGNANO",
           "city": "Pontecagnano",
           "address": "Via Pacinotti snc (Centro Comm.Maximall), 84098 Pontecagnano",
           "lat": 40.6352,
@@ -3787,7 +3787,7 @@
           "status": "out_of_stock"
         }
       ],
-      "checked_at": "2026-11-27T05:06:51+00:00"
+      "checked_at": "2026-11-27T05:33:53+00:00"
     }
   ]
 }
